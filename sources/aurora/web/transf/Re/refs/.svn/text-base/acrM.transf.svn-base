@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:dataFormXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/academic/model/Re/refs/acrM.model"/>
+	<sm:content>
+		<sm:WBlock widgetClass="mField" tagName="p">
+			<sm:WBlock widgetClass="mField_ti" tagName="dfn">
+				<sm:forField codes="acr">
+					<sm:fieldValueString/>
+				</sm:forField>
+			</sm:WBlock>
+			<sm:forField codes="desc">
+				<sm:WText value="￼; :￼"/>
+				<sm:WText value=" "/>
+				<sm:fieldValueString/>
+			</sm:forField>
+		</sm:WBlock>
+	</sm:content>
+</sm:dataFormXhtmlTransf>

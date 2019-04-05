@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:openUiWidget xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" code="scMediaMgr">
+	<sm:widgetPublishFiles sc:refUri="/aurora/web/widg/media/scMediaMgr.doss"/>
+	<sm:fillTemplateBuffers>
+		<sm:standardLibrary codeLib="PaLib"/>
+		<sm:standardLibrary codeLib="DynUiMgr"/>
+		<!--<comment xmlns="scenari.eu:comment:1.0" type="thread"><comment creationTime="1381477133727" updateTime="1391073359370">Ajout init JS de scMediaMgr à la page.
+L'option forcedOriginalWidthpermet de garder une taille fixe lors du passage entre la vidéo original et ses alternatives. Utile si on veut que la vidéo ait toujours la même taille
+L'option HTML5FullScreen à true par défaut précise si on utilise l'api HTML5 pour le plein écran ou le mode pleine fenêtre</comment></comment>-->
+		<sm:postXslFragment keyXsl="xhtml">&lt;xsl:overlay match="body"&gt;
+	&lt;xsl:value-of select="execute(java:append($vBufJs, 'scMediaMgr.init(&amp;quot;des:.mediaPlayer&amp;quot;);'))"/&gt;
+&lt;/xsl:overlay&gt;</sm:postXslFragment>
+		<!--<comment xmlns="scenari.eu:comment:1.0" type="thread"><comment creationTime="1381424865289">Suppression de l'élément temporaire mediaAttributes portant les attributs du média et transfert sur le média.</comment></comment>-->
+		<sm:postXslFragment keyXsl="xhtml">&lt;xsl:overlay match="div[contains(@class,'mediaPlayer')]"&gt;
+	&lt;xsl:copy-of select="mediaAttributes/@*"/&gt;
+&lt;/xsl:overlay&gt;
+&lt;xsl:template match="mediaAttributes"/&gt;</sm:postXslFragment>
+		<sm:linkScript path="scMediaMgr.js" pathFrom="localPublishFiles" sortKey="B"/>
+	</sm:fillTemplateBuffers>
+	<sm:content/>
+</sm:openUiWidget>

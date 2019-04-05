@@ -1,0 +1,52 @@
+8
+
+dir
+3237
+http://scenari-platform.org/svn/opale/tags/sc41-v3.5.0.14/model/sources/aurora/web/cnd/bin
+http://scenari-platform.org/svn/opale
+
+
+
+2014-09-22T14:23:39.587308Z
+2875
+sam
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+899cd45d-9604-0410-9353-cb762ee69498
+
+isDeco.cond
+file
+
+
+
+
+2015-09-01T13:58:20.000000Z
+dfd9b0cabf32546c69773bc45dbac1fa
+2014-09-22T14:23:39.587308Z
+2875
+sam
+
+isInLabel.cond
+file
+
+
+
+
+2015-09-01T13:58:20.000000Z
+4e3c5af6492b01924bf761348d7e4dec
+2014-05-13T23:09:32.135279Z
+2723
+sam
+

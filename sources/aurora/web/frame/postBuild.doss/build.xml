@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="main">
+	<taskdef resource="net/sf/antcontrib/antcontrib.properties" />
+	<property name="dest.content.folderPath" value="${vFolderDest}/co" />
+	<property name="dest.widget.folderPath" value="${vFolderDest}/wdgt" />
+	<target name="main">
+
+		<!-- Supprime la lib MathJax si celle-si n'est pas utilisé par aucune page. -->
+		<fileset id="mathjaxHtmlFiles" dir="${dest.content.folderPath}">
+			<patternset includes="*.html *.xhtml"/>
+			<contains text="mathjaxMgr.init();" />
+		</fileset>
+		<if>
+			<resourcecount when="equal" count="0" refid="mathjaxHtmlFiles" />
+			<then>
+				<delete includeemptydirs="true">
+					<fileset dir="${dest.widget.folderPath}/mathjax" includes="**/*" excludes="mathjaxMgr.js"/>
+				</delete>
+			</then>
+		</if>
+
+	</target>
+</project>

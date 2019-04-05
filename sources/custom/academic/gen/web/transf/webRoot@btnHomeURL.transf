@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:compositionXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/academic/model/root/webRoot.model"/>
+	<sm:axis code="btnHome"/>
+	<sm:content format="xhtml">
+		<sm:choose>
+			<sm:when xpath="op:webRootM/sp:homeURL!=''">
+				<sm:WFreeBlock>
+					<a class="homeBtn" xmlns="http://www.w3.org/1999/xhtml">
+						<addAttribute name="href">
+							<sm:dynamicString>
+								<sm:freeSelect xpath="op:webRootM/sp:homeURL"/>
+							</sm:dynamicString>
+						</addAttribute>
+						<span>
+							<sm:WImg src="img/btn/home.png" overSrc="img/btn/homeOver.png" srcFrom="skin" alt="￼;Accueil￼" class="btnImg"/>
+							<sm:WFreeBlock>
+								<span class="btnLbl">Accueil</span>
+							</sm:WFreeBlock>
+						</span>
+					</a>
+				</sm:WFreeBlock>
+				<!--<sm:WLink xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:label>
+		<sm:WImg src="img/btn/home.png" overSrc="img/btn/homeOver.png" srcFrom="skin" alt="￼;Accueil￼" class="btnImg"/>
+		<sm:WFreeBlock>
+			<span xmlns="http://www.w3.org/1999/xhtml" class="btnLbl">
+				<sm:dynamicString>
+					<sm:freeSelect xpath="op:webRootM/sp:homeURL"/>
+				</sm:dynamicString>
+			</span>
+		</sm:WFreeBlock>
+	</sm:label>
+	<sm:link>
+		<sm:behavior/>
+		<sm:externalUrl>
+			<sm:fixedString value="op:webRootM/sp:homeURL"/>
+		</sm:externalUrl>
+	</sm:link>
+</sm:WLink>,-->
+				<!--<sm:Widget xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" sc:refUri="/PairForm/academic/gen/web/homeBtnExternalLink.uiwidget" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core"/>-->
+			</sm:when>
+			<sm:otherwise>
+				<sm:WLink widgetClass="homeBtn">
+					<sm:label>
+						<sm:callModel>
+							<sm:current axis="lblBtnHome"/>
+						</sm:callModel>
+					</sm:label>
+					<sm:labelTitle>
+						<sm:title>
+							<sm:fixedTitle value="￼;Accueil Scenari￼"/>
+						</sm:title>
+					</sm:labelTitle>
+					<sm:link>
+						<sm:callModel>
+							<sm:root axis="rootModel" navCtx="newRoot"/>
+						</sm:callModel>
+					</sm:link>
+				</sm:WLink>
+			</sm:otherwise>
+		</sm:choose>
+	</sm:content>
+</sm:compositionXhtmlTransf>

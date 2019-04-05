@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:openUiWidget xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" code="pBk">
+	<sm:content>
+		<scBlock xmlns="http://www.w3.org/1999/xhtml">
+			<sm:addSrcPath/>
+			<addAttribute name="class">
+				<sm:callZone key="zClass"/> pBk</addAttribute>
+			<hx>
+				<addAttribute name="class">
+					<sm:callZone key="zClass"/>_ti pBk_ti</addAttribute>
+				<span>
+					<i class="type">
+						<sm:callZone key="zType"/>
+					</i>
+					<span class="hidden"> : </span>
+					<ifText>
+						<span class="title">
+							<sm:callZone key="zTi"/>
+						</span>
+					</ifText>
+				</span>
+			</hx>
+			<div>
+				<addAttribute name="class">
+					<sm:callZone key="zClass"/>_co pBk_co</addAttribute>
+				<sm:callZone key="zCo"/>
+			</div>
+		</scBlock>
+	</sm:content>
+</sm:openUiWidget>

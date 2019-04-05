@@ -1,0 +1,53 @@
+8
+
+dir
+3237
+http://scenari-platform.org/svn/opale/tags/sc41-v3.5.0.14/model/sources/l10n/nl-NL/dict
+http://scenari-platform.org/svn/opale
+
+
+
+2010-12-09T15:25:41.334483Z
+2058
+stp
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+899cd45d-9604-0410-9353-cb762ee69498
+
+author.txt
+file
+
+
+
+
+2015-09-01T13:58:37.000000Z
+eefe1278bacef1eaa4064c25046d99a7
+2010-12-09T15:25:41.334483Z
+2058
+stp
+
+nl-NL-dictionnary-3.0.1-20101124.xpi
+file
+
+
+
+
+2015-09-01T13:58:37.000000Z
+5d4add7d5ab93cbecf4b5d9e71fc095c
+2010-12-09T15:25:41.334483Z
+2058
+stp
+has-props
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:dataFormXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/academic/model/metaData/audioM.model"/>
+	<sm:axis code="transcript"/>
+	<sm:content>
+		<sm:forGroup codes="alt">
+			<sm:forField codes="transcript">
+				<sm:fieldValueOtherType/>
+			</sm:forField>
+		</sm:forGroup>
+	</sm:content>
+</sm:dataFormXhtmlTransf>

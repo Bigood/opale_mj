@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/scorm/transf/root
+END
+webRoot@rootCam.transf
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/scorm/transf/root/webRoot@rootCam.transf
+END
+webRoot@initScormMgr.transf
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/scorm/transf/root/webRoot@initScormMgr.transf
+END
+webroot@quit.transf
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/scorm/transf/root/webroot@quit.transf
+END
+webRoot@genSpecific.transf
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/scorm/transf/root/webRoot@genSpecific.transf
+END
+webRoot@initScormMgr.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/scorm/transf/root/webRoot@initScormMgr.xsl
+END

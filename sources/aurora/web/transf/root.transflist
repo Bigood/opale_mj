@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:transformerList xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:transformer sc:refUri="/aurora/web/transf/root/webRoot.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/root/webRoot@author.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/root/webRoot@date.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/root/webRoot@genSpecific.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/root/webRoot@homeInfo.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/root/webRoot@index.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/root/webRoot@initOutMgr.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/root/webRoot@initSearchMgr.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/root/webRoot@keywords.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/root/webRoot@legal.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/root/webRoot@root.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/root/webRoot@rootFilter.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/root/webRoot@tools.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/root/webRootM.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/root/webRootM@author.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/root/webRootM@date.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/root/webRootM@homeInfo.transf"/>
+</sm:transformerList>

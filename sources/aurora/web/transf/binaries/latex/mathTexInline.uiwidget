@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:freeUiWidget xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" code="mathTexInline">
+	<sm:widgetBsFragment contentFormat="xhtml">&lt;source type="xpath-dynamique"&gt;concat('&amp;lt;mathjax/&gt;\(', escapeXmlText(string($vArguments)), '\)')&lt;/source&gt;<sm:subWidget code="mathjax">
+			<sm:Widget sc:refUri="/aurora/web/widg/mathjax/mathjax.uiwidget"/>
+		</sm:subWidget></sm:widgetBsFragment>
+</sm:freeUiWidget>

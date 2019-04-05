@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:navUiWidget xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" code="start">
+	<sm:scope>
+		<sm:all startAtLevel="0"/>
+	</sm:scope>
+	<sm:selectPage>
+		<sm:step>
+			<sm:next>
+				<sm:excludeModel sc:refUri="/academic/model/Ue/ue.model" axis="outJson"/>
+			</sm:next>
+		</sm:step>
+	</sm:selectPage>
+	<sm:content>
+		<sm:ifPageFound>
+			<sm:WLink widgetClass="btnNav start">
+				<sm:label>￼;Démarrer le module￼</sm:label>
+				<!--<sm:labelTitle xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">￼;Démarrer￼ '<sm:targetTitle/>'</sm:labelTitle>-->
+				<sm:link target="sameWindow" type="next"/>
+			</sm:WLink>
+		</sm:ifPageFound>
+	</sm:content>
+</sm:navUiWidget>

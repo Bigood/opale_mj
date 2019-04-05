@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:crossRefTableUiWidget xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" code="glos">
+	<sm:refEntries key="glos">
+		<sm:callableModel sc:refUri="/academic/model/Re/refs/glos.model"/>
+	</sm:refEntries>
+	<sm:sortEntries>
+		<sm:alphaNonCaseSensitive>
+			<sm:callEntryTitle type="fullTitleText" axis=""/>
+			<sm:categories>
+				<sm:firstLetter minEntriesByCateg="3" ifOnlyOneCateg="eliminate">
+					<sm:forceCategories from="A" to="Z"/>
+				</sm:firstLetter>
+			</sm:categories>
+		</sm:alphaNonCaseSensitive>
+	</sm:sortEntries>
+	<sm:content>
+		<ifText xmlns="http://www.w3.org/1999/xhtml">
+			<div class="refOutline">
+				<sm:forCateg>
+					<span class="refOutlineEntry">
+						<sm:WCategLink tagNameIfCategEmpty="span">
+							<sm:categLabel/>
+						</sm:WCategLink>
+					</span>
+				</sm:forCateg>
+			</div>
+		</ifText>
+		<scBlock xmlns="http://www.w3.org/1999/xhtml">
+			<sm:forCateg filter="ifContainEntries">
+				<sm:WCategAnchor widgetClass="refCateg" tagName="hx">
+					<sm:categLabel/>
+				</sm:WCategAnchor>
+				<dl>
+					<sm:forEntry>
+						<dt>
+							<dfn>
+								<sm:callEntryTitle type="fullTitleText"/>
+							</dfn>
+						</dt>
+						<dd>
+							<sm:callEntryContent/>
+						</dd>
+					</sm:forEntry>
+				</dl>
+			</sm:forCateg>
+			<ifText>
+				<dl>
+					<sm:forEntry>
+						<dt>
+							<dfn>
+								<sm:callEntryTitle type="fullTitleText"/>
+							</dfn>
+						</dt>
+						<dd>
+							<sm:callEntryContent/>
+						</dd>
+					</sm:forEntry>
+				</dl>
+			</ifText>
+		</scBlock>
+	</sm:content>
+</sm:crossRefTableUiWidget>

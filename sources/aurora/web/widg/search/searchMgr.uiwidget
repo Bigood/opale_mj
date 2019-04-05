@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:openUiWidget xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" code="searchMgr">
+	<sm:widgetPublishFiles sc:refUri="/aurora/web/widg/search/searchMgr.doss"/>
+	<sm:fillTemplateBuffers>
+		<sm:standardLibrary codeLib="PaLib"/>
+		<sm:standardLibrary codeLib="DynUiMgr"/>
+		<sm:postXslFragment keyXsl="xhtml">&lt;xsl:template match="optScSearch"&gt;
+	&lt;xsl:value-of select="execute(java:append($vBufJs, concat('searchMgr.init({searchType:&amp;quot;',@searchType,'&amp;quot;});')))"/&gt;
+&lt;/xsl:template&gt;</sm:postXslFragment>
+		<sm:postXslFragment keyXsl="xhtml">&lt;xsl:overlay match="div[containWord( @id, 'content')]"&gt;
+	&lt;xsl:apply-templates mode="index"/&gt;
+&lt;/xsl:overlay&gt;
+&lt;xsl:overlay match="meta[@name='keywords']"&gt;
+	&lt;xsl:value-of select="execute(java:com.scenari.m.ge.pages.SearchIndexPage.indexText($vDialog, 'index', 'indexBuffer', '3', string(@content)))"/&gt;
+&lt;/xsl:overlay&gt;
+&lt;xsl:template match="*[containWord(@class,'noIndex')]" mode="index"/&gt;
+&lt;xsl:template match="*[containWord(@class,'hidden')]" mode="index"/&gt;
+&lt;xsl:template match="*[containWord(@class,'CodeMirror-linenumber')]" mode="index"/&gt;
+&lt;xsl:template match="script" mode="index"/&gt;
+&lt;xsl:template match="noscript" mode="index"/&gt;
+
+&lt;xsl:template match="scTooltipTitle" mode="index"/&gt;
+&lt;xsl:template match="scTooltipContent" mode="index"/&gt;
+&lt;xsl:template match="addAttribute" mode="index"/&gt;
+&lt;xsl:template match="text()" mode="index"&gt;
+	&lt;xsl:variable name="vCoef"&gt;
+		&lt;xsl:choose&gt;
+			&lt;xsl:when test="ancestor::*[containWord(@class, 'divQuiz') or containWord(@class, 'practUcQuest') or containWord(@class, 'practUcDesc')]"&gt;0.5&lt;/xsl:when&gt;
+			&lt;xsl:when test="ancestor::*[containWord(@class, 'hBk_ti') or containWord(@class, 'pBk_ti')] "&gt;2&lt;/xsl:when&gt;
+			&lt;xsl:otherwise&gt;1&lt;/xsl:otherwise&gt;
+		&lt;/xsl:choose&gt;
+	&lt;/xsl:variable&gt;
+	&lt;xsl:value-of select="execute(java:com.scenari.m.ge.pages.SearchIndexPage.indexText($vDialog, 'index', 'indexBuffer', $vCoef, string(.)))"/&gt;
+&lt;/xsl:template&gt;
+&lt;xsl:template match="*" mode="index"&gt;
+ 	&lt;xsl:apply-templates mode="index"/&gt;
+&lt;/xsl:template&gt;
+</sm:postXslFragment>
+		<sm:linkScript path="searchMgr.js" pathFrom="localPublishFiles" sortKey="B"/>
+	</sm:fillTemplateBuffers>
+	<sm:content>
+		<sm:callModel>
+			<sm:root axis="initSearchMgr"/>
+		</sm:callModel>
+	</sm:content>
+</sm:openUiWidget>

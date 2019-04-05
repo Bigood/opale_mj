@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:genericCond xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" code="isDeco">
+	<sm:targetModel>
+		<sm:current axis="isDeco"/>
+		<sm:ifNone>
+			<sm:fixedResult return="false"/>
+		</sm:ifNone>
+	</sm:targetModel>
+	<sm:expression>
+		<sm:comparison operator="=">
+			<sm:leftOperand>
+				<sm:fullTitleText/>
+			</sm:leftOperand>
+			<sm:rightOperand>
+				<sm:fixedString value="isDeco"/>
+			</sm:rightOperand>
+		</sm:comparison>
+	</sm:expression>
+</sm:genericCond>

@@ -1,0 +1,265 @@
+html{
+	height: 100%;
+	overflow:hidden;
+}
+/* ============= Accessibility menu ============= */
+ul#accessibility {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position:absolute;
+	right:50px;
+	width:auto;
+	z-index:90;
+	font-size:7pt;
+	top:3px;
+	opacity: 0.2;
+	filter:Alpha(opacity=20); 
+	color:white;
+    display:none;
+}
+ul#accessibility:hover,
+ul#accessibility.waiFocus{
+	opacity: 0.7;
+	filter:Alpha(opacity=70); 
+}
+ul#accessibility li{
+	float: left;
+	margin-left:10px;
+}
+ul#accessibility a{
+	color:white;
+	text-decoration: none;
+}
+ul#accessibility a:hover{
+	text-decoration: none;
+}
+
+ul.mnuMode{
+	margin:0;
+	padding:0;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+}
+noscript{
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+#tplFra {
+/*	position: absolute; compat IE7 */
+	
+
+	background-color: rgb(197, 197, 197);
+	
+
+	background-image: url('../img/struct/textured_paper.png');
+	height:100%;
+	width:100%;
+	min-width:700px;
+	min-height:360px;
+}
+#tplTop {
+	position: absolute;
+	width:100%;
+	height: 33px;
+	top:0px;
+	left:0px;
+	text-align: center;
+	font-size:16px;
+	z-index: 1000;
+}
+#titleRoot{
+	font-size: 18px;
+	padding: 5px 10px 5px 0;
+	color: rgb(83, 83, 83);
+}
+#tplLft {
+	position: absolute;
+	z-index: 20;
+	height: 50px;
+	bottom: 0px;
+	left: 175px;
+	color: white;
+	overflow: hidden;
+	text-align: center;
+	min-height: 30px;
+}
+#tplMain{
+	background: #ffffff; /* Old browsers */  background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */  background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */  background: -o-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */  background: -ms-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* IE10+ */  background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e5 100%); /* W3C */  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */;
+	position: absolute;
+	
+	top: 33px;
+	bottom:50px;
+	left: 0px;
+	right: 0px;
+	border-top: 1px solid rgb(202, 202, 202); border-bottom: 1px solid rgb(202, 202, 202); 
+	box-shadow: 0 0 14px rgb(24, 24, 24);
+}
+#tplMnu {
+	position: absolute;
+	
+	width:250px;
+	top:0px;
+	left:0px;
+	bottom:0px;
+	text-align: left;
+	border-right: 1px solid rgba(255, 255, 255, 0.66);
+	box-shadow: 1px 0 10px rgba(114, 114, 114, 0.33);
+}
+
+div.mnuOpn{
+	position: absolute;
+	width: 15px;
+	height: 27px;
+	right:0px;
+	bottom:210px;
+}
+a.mnuOpnBtn{
+	position: absolute;
+	width: 15px;
+	height: 27px;
+}
+a.mnuOpnBtn .btnImg{
+	border:0px;
+}
+a.mnuOpnBtn .btnLbl{
+	color:black:
+}
+
+#tplIco{
+	position: absolute;
+	text-align: center;
+	width:240px;
+	bottom:0px;
+	height:200px;
+	overflow: hidden;
+}
+#tplIco img{
+	position: absolute;
+	left:0px;
+	bottom:0px;
+}
+div.mnuCls{
+	position: absolute;
+	
+	top:0px;
+	left:0px;
+	bottom:0px;
+	width: 15px;
+}
+div.tplMainMnu_open div.mnuCls{
+	display:none;
+}
+div.tplMainMnu_closed #tplMnu{
+	display:none;
+}
+a.mnuClsBtn{
+	position: absolute;
+	width: 15px;
+	height: 27px;
+	bottom:210px;
+}
+a.mnuClsBtn .btnImg{
+	border:0px;
+}
+
+a.mnuClsBtn .btnLbl{
+	color:black:
+}
+
+#tplCo {
+	position: absolute;
+	
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	overflow: auto;
+	/* box-shadow: 0 0 6px rgb(213, 213, 213); */
+}
+
+.tplMainMnu_open #tplCo{
+	left:250px;
+}
+.tplMainMnu_closed #tplCo{
+	left: 15px;
+}
+
+/* with overflow=auto, margin-bottom does not work correctly for some browsers */
+/* using this method as a workaround : http://www.brunildo.org/test/overscrollbackV.html */
+#tplCoSpacer {
+	height:20px;
+}
+
+#tplRgt {
+	position: absolute;
+	width:50px;
+	height:92px;
+	right:0px;
+	bottom:50px;
+	overflow: hidden;
+	text-align: center;
+	opacity: 0.07;
+	transition: opacity .2s ease-in-out;
+}
+#tplRgt:hover{
+	opacity: 1;
+}
+#tplBtm {
+	position: absolute;
+	width:100%;
+	height:50px;
+	bottom:0px;
+	left: 20px;
+	color: white;
+	text-align: right;
+}
+#tplBtmLeft{
+	position: absolute;
+	display: block;
+	left: 50px;
+	height:48px;
+}
+#tplBtmIn {
+	position: absolute;
+	display: block;
+	right: 50px;
+	left: 150px;
+	padding-top:2px;
+	color: #808080;
+}
+#linkSp, #linkPF{
+	text-decoration: none;
+	margin: 0px;
+}
+#linkSp img, #linkPF img{
+	border-width:0px;
+	vertical-align: middle;
+}
+#linkPF img{
+	height: 32px;
+	margin-left: 12px;
+	padding: 0 8px;
+}
+#tplBtmIn a {
+	color: white;
+}
+#tplBtmIn a:hover {
+	color: lightgray;
+}
+
+/* === SMALL & TOUCH screens ================================================ */
+/* ipad */
+@media only screen and (max-device-width: 1024px){
+	body{
+		-webkit-text-size-adjust:none;
+	}
+}
+#tplLft > ul > li {
+    display: inline-block;
+    margin: 4px;
+}

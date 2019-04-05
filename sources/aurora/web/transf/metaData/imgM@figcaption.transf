@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:dataFormXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/academic/model/metaData/imgM.model"/>
+	<sm:axis code="figcaption"/>
+	<sm:content>
+		<sm:choose>
+			<sm:when xpath="not(sp:alt/sp:desc)">
+				<sm:forField codes="title">
+					<sm:WBlock widgetClass="capTi" tagName="span">
+						<sm:fieldValueString/>
+					</sm:WBlock>
+				</sm:forField>
+				<sm:choose>
+					<sm:when xpath="sp:info/op:infoBin/sp:cc or sp:info/op:infoBin/sp:cpyrgt">
+						<sm:Widget sc:refUri="/aurora/web/widg/bin/infoTooltip.uiwidget">
+							<sm:xhtmlContentZone key="ttContent">
+								<sm:forSubData codes="info">
+									<sm:callSubModel axis="legal"/>
+								</sm:forSubData>
+							</sm:xhtmlContentZone>
+						</sm:Widget>
+					</sm:when>
+				</sm:choose>
+			</sm:when>
+			<sm:otherwise>
+				<sm:Widget sc:refUri="/aurora/web/widg/bin/figcaption.uiwidget">
+					<sm:xhtmlContentZone key="zTitle">
+						<sm:choose>
+							<sm:when codes="title">
+								<sm:forField codes="title">
+									<sm:WBlock widgetClass="capTi" tagName="span">
+										<sm:fieldValueString/>
+									</sm:WBlock>
+								</sm:forField>
+							</sm:when>
+							<sm:otherwise>
+								<sm:WText value="￼;Description￼"/>
+							</sm:otherwise>
+						</sm:choose>
+					</sm:xhtmlContentZone>
+					<sm:xhtmlContentZone key="zInfo">
+						<sm:choose>
+							<sm:when xpath="sp:info/op:infoBin/sp:cc or sp:info/op:infoBin/sp:cpyrgt">
+								<sm:Widget sc:refUri="/aurora/web/widg/bin/infoTooltip.uiwidget">
+									<sm:xhtmlContentZone key="ttContent">
+										<sm:forSubData codes="info">
+											<sm:callSubModel axis="legal"/>
+										</sm:forSubData>
+									</sm:xhtmlContentZone>
+								</sm:Widget>
+							</sm:when>
+						</sm:choose>
+					</sm:xhtmlContentZone>
+					<sm:xhtmlContentZone key="zDesc">
+						<sm:forGroup codes="alt">
+							<sm:forField codes="desc">
+								<sm:WBlock>
+									<sm:fieldValueOtherType/>
+								</sm:WBlock>
+							</sm:forField>
+						</sm:forGroup>
+					</sm:xhtmlContentZone>
+				</sm:Widget>
+			</sm:otherwise>
+		</sm:choose>
+	</sm:content>
+</sm:dataFormXhtmlTransf>

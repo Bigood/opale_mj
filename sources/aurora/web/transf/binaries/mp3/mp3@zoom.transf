@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:binaryXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/binaries/mp3/mp3.model"/>
+	<sm:axis code="zoom"/>
+	<sm:content>
+		<sm:WLink widgetClass="resLnk mp3">
+			<sm:label>
+				<sm:title>
+					<sm:binaryTitle/>
+				</sm:title>
+			</sm:label>
+			<sm:labelTitle>
+				<sm:title>
+					<sm:binaryTitle suffix="￼; (nouvelle fenêtre)￼"/>
+				</sm:title>
+			</sm:labelTitle>
+			<sm:link target="newWindow" windowName="zoom">
+				<sm:behavior addLinkInHref="yes"/>
+				<sm:position>
+					<sm:centerScreen width="300" height="20"/>
+				</sm:position>
+				<sm:windowFeatures scrollbars="no"/>
+				<sm:WAudioMp3 widgetClass="resAudio">
+					<sm:binaryUrl/>
+					<sm:declareSize width="300"/>
+					<sm:stopButton/>
+					<sm:volumeButton/>
+				</sm:WAudioMp3>
+			</sm:link>
+		</sm:WLink>
+		<sm:callBinaryMeta axis="info"/>
+	</sm:content>
+</sm:binaryXhtmlTransf>

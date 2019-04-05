@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@score
+END
+coQuiz@scoreSub.transf
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@score/coQuiz@scoreSub.transf
+END
+field@score.transf
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@score/field@score.transf
+END
+mcgSur@score.transf
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@score/mcgSur@score.transf
+END
+mcgMur@score.transf
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@score/mcgMur@score.transf
+END
+mcqMur@scoreSub.transf
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@score/mcqMur@scoreSub.transf
+END
+mcqSur@score.transf
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@score/mcqSur@score.transf
+END
+numerical@score.transf
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@score/numerical@score.transf
+END
+ordWord@score.transf
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@score/ordWord@score.transf
+END
+cloze@score.transf
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@score/cloze@score.transf
+END
+cloze@scoreSub.transf
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@score/cloze@scoreSub.transf
+END
+match@score.transf
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@score/match@score.transf
+END
+coQuiz@score.transf
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@score/coQuiz@score.transf
+END
+numerical@scoreSub.transf
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@score/numerical@scoreSub.transf
+END
+field@scoreSub.transf
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@score/field@scoreSub.transf
+END
+mcqSur@scoreSub.transf
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@score/mcqSur@scoreSub.transf
+END
+mcqMur@score.transf
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@score/mcqMur@score.transf
+END

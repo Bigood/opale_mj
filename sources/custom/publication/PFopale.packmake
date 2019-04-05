@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:packMake xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:wspDef sc:refUri="/custom/publication/PFopaleAdvanced.wspdef" lang="fr-FR">
+		<sm:webSite url="https://www.pairform.fr/doc/24/1/25/web/co/4-creer_ressource.html"/>
+	</sm:wspDef>
+</sm:packMake>

@@ -1,0 +1,44 @@
+8
+
+dir
+3237
+http://scenari-platform.org/svn/opale/tags/sc41-v3.5.0.14/model/sources/opale/dist/_res
+http://scenari-platform.org/svn/opale
+
+
+
+2013-06-11T23:59:27.708918Z
+2562
+sam
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+899cd45d-9604-0410-9353-cb762ee69498
+
+graphics
+dir
+
+license.txt
+file
+
+
+
+
+2015-09-01T13:58:56.000000Z
+0e0627373c524a7ef9dc3d494b213774
+2010-05-17T14:34:37.371672Z
+1756
+sam
+has-props
+

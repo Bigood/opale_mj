@@ -1,0 +1,41 @@
+8
+
+dir
+3237
+http://scenari-platform.org/svn/opale/tags/sc41-v3.5.0.14/model/sources/aurora/web/auroraW.skin.doss/~options
+http://scenari-platform.org/svn/opale
+
+
+
+2014-09-23T16:05:13.803012Z
+2895
+sam
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+899cd45d-9604-0410-9353-cb762ee69498
+
+init.properties
+file
+
+
+
+
+2015-09-01T13:58:20.000000Z
+6a7af6128507bf09e307d317851d62aa
+2014-09-23T16:05:13.803012Z
+2895
+sam
+has-props
+

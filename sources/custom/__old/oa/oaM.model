@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:dataFormPrim name="￼;Metadonnées d'objet d'apprentissage￼" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:identification targetNamespace="utc.fr:ics/opale3" targetPrefix="op" code="oaM" itemExtension="xml"/>
+	<sm:structure>
+		<sm:field code="uid" name="￼;Identifiant unique￼" occurence="one" family="property">
+			<sm:string maxCharactersAdvised="6" maxCharacters="10"/>
+		</sm:field>
+	</sm:structure>
+	<sm:storage/>
+</sm:dataFormPrim>

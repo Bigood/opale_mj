@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:dataFormXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/custom/academic/_web/OAuid.model"/>
+	<sm:content>
+		<sm:forField codes="OAuid">
+			<sm:fieldValueString/>
+			<sm:dynamicString>
+				<sm:freeXslFragment> &lt;xsl:value-of select=&quot;execute(si(not(getEntryBuffer('OAuidBuffer')), initBuffer('OAuidBuffer', java:java.util.HashMap.new())))&quot;/&gt;
+ &lt;xsl:value-of select=&quot;execute(si((string(.) != ''), si(not(setEntryBuffer('OAuidBuffer', string(.), concat('''uri'':''', substring(resultatDialogue(pathDialogAgent($vDialog), 'actUri:'), 2 ), ''''))), warning(concat('Attention : id ', string(.), ' est déclaré plus d''une fois.')))))&quot;/&gt;</sm:freeXslFragment>
+			</sm:dynamicString>
+		</sm:forField>
+	</sm:content>
+</sm:dataFormXhtmlTransf>

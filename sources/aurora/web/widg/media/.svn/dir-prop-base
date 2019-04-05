@@ -1,0 +1,7 @@
+K 13
+svn:externals
+V 135
+scMediaMgr.doss http://scenari-platform.org/svn/modelet/branches/sc41/scMediaMgr/model/sources/scMediaMgr/gen/web/wdt/scMediaMgr.doss
+
+
+END

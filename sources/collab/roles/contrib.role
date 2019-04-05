@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:role code="webcomment" name="￼;Commenter via le web￼" priority="10" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:help quickHelp="￼;Rôle complémentaire à associer à un Lecteur pour lui donner le droit de commenter des publications dynamiques￼"/>
+	<sm:allowPerms>
+		<sm:globalPerm code="write.comment"/>
+	</sm:allowPerms>
+</sm:role>

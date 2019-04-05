@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:openUiWidget code="pbInfo" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:content>
+		<scBlock class="info" xmlns="http://www.w3.org/1999/xhtml">
+			<sm:addSrcPath/>
+			<addAttribute name="data-OAuid">
+				<sm:callZone key="zOAuid"/>
+			</addAttribute>
+			<ifText>
+				<hx class="info_ti">
+					<span>
+						<sm:callZone key="zTi"/>
+					</span>
+				</hx>
+			</ifText>
+			<div class="info_co">
+				<sm:callZone key="zCo"/>
+			</div>
+		</scBlock>
+	</sm:content>
+</sm:openUiWidget>

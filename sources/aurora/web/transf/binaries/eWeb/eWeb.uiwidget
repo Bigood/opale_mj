@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:openUiWidget code="eSite" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:fillTemplateBuffers>
+		<sm:postXslFragment keyXsl="xhtml">&lt;xsl:overlay match=&quot;iframe[contains(@class,'eWebFrame')]&quot;&gt;
+  &lt;xsl:attribute name=&quot;style&quot;&gt;width:100%;height:100%;&lt;/xsl:attribute&gt;
+&lt;/xsl:overlay&gt;</sm:postXslFragment>
+	</sm:fillTemplateBuffers>
+	<sm:content/>
+</sm:openUiWidget>

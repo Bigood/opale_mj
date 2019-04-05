@@ -1,0 +1,225 @@
+/* quiz in trainUc */
+
+.answBest,
+.answGood,
+.answWorst,
+.answBad {
+	display: block;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.answBest {
+	color: #00aa00;
+	background: #e6ffe6;
+	border: 2px solid #02a202;
+}
+.answGood {
+	color: #497749;
+	background: #ffe6e6;
+	border: 2px solid #ff7373;
+}
+.answBad {
+	color: #c05707; 
+	background: #ffe6e6;
+	border: 2px solid #ff7373;
+}
+
+.answWorst {
+	color: #a41e16; 
+	background: #ffe6e6;
+	border: 2px solid #ff7373;
+}
+.score {
+	font-weight: bold;
+	margin-top: 0.3em;
+	text-align: center;
+}
+.result{
+	margin-bottom: 0.3em;
+}
+div.chExpln p,
+div.gExpln p{
+	margin-left: 7px;
+}
+.chExpln,
+.gExpln {
+	margin-left: 0.3em;
+	padding-left: 0.9em;
+	color: rgb(85,85,85);
+	font-weight: lighter;
+	margin-top: 6px;
+	border: 1px solid rgba(0, 0, 0, 0.19);
+	border-radius: 3px;
+	padding: 14px;
+	background: rgba(0, 150, 219, 0.18);
+}
+.chExpln .op_txt_oli p,
+.gExpln .op_txt_oli p {
+	color: #79ACF7;
+}
+.bkSolResOut {
+	margin-top: 5px;
+}
+.bkSolResFra1,
+.bkSolResFra2,
+.bkSolResFra3,
+.bkSolResCo {
+	height: 35px;
+	width: 100%;
+}
+.bkSolResFra1 {
+	/* background: url(../img/quiz/evalBarBkg.png) top repeat-x; */
+}
+.bkSolResFra2 {
+	/* background: url(../img/quiz/evalBarLeft.png) top left no-repeat; */
+}
+.bkSolResFra3 {
+	/* background: url(../img/quiz/evalBarRight.png) top right no-repeat; */
+}
+.bkSolResCo {
+	position: relative;
+}
+
+.bkSolResCo div{
+	display: inline;
+}
+
+.bkSolResCo .score {
+	vertical-align: middle;
+	background-image: none;
+}
+.bkSolResCo .score div {
+	padding: 8px 20px;
+	border-radius: 3px;
+	
+}
+
+.btnQuiz {
+	display: inline-block;
+	/* height: 33px; */
+	text-decoration: none;
+	/* margin-left:15px; */
+	/* padding-left:30px; */
+}
+.btnQuizCaption {
+	color: #ffffff;
+	font-size:14px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding:0px 5px;
+	/* margin:9px 1px 0px 1px; */
+	display: inline-block;
+}
+
+a.btnQuiz:hover .btnQuizCaption {
+	border-radius:4px;
+	border:
+	border:1px solid #465879;
+	/* margin:8px 0px 0px 0px; */
+	cursor:hand;
+	cursor:pointer;
+}
+.choiceMap_mk {
+	background:url(../img/deco/checkmark.png) no-repeat !important;	
+}
+.btnCorrection, .btnReset {
+
+margin-right: 10px;
+
+display: inline-block;
+
+background-color: #0096db;
+
+border-bottom: 2px solid #007eb9;
+
+
+border-radius: 4px;
+
+/* height: 24px; */
+
+padding: 10px 14px;
+
+text-align: center;
+
+vertical-align: middle;
+
+position: relative;
+
+color:white;
+transition:background-color ease-out .2s;
+}
+
+.btnCorrection:hover, .btnReset:hover {
+	
+	background-color: #0087c7;
+}
+.btnCorrection a {
+	/* background: url(../img/quiz/sol.png) top left no-repeat; */
+}
+
+.btnCorrection a span{
+	/* background: url(../img/quiz/corrOff.gif) 5px center no-repeat; */
+	/* padding-left:12px; */
+}
+
+.btnCorrection a:hover {
+	/* background: url(../img/quiz/solOver.png) top left no-repeat; */
+}
+
+.btnCorrection a.toggleButtonOn{
+	/* background: url(../img/quiz/solOn.png) top left no-repeat; */
+}
+
+.btnCorrection a.toggleButtonOn span{
+	/* background: url(../img/quiz/corrOn.gif) 2px center no-repeat; */
+	/* padding-left:12px; */
+}
+
+.btnCorrection a.toggleButtonOn:hover{
+	/* background: url(../img/quiz/solOnOver.png) top left no-repeat; */
+}
+
+.btnReset a {
+	/* background: url(../img/quiz/restart.png) top left no-repeat; */
+}
+.btnReset a:hover {
+	/* background: url(../img/quiz/restartOver.png) top left no-repeat; */
+}
+
+/* === SMALL & TOUCH screens ================================================ */
+div.tplFra_touch .btnReset a:hover {
+	background: url(../img/quiz/restart.png) top left no-repeat;
+}
+div.tplFra_touch .btnCorrection a:hover {
+	background: url(../img/quiz/sol.png) top left no-repeat;
+}
+div.tplFra_touch .btnCorrection a.toggleButtonOn:hover {
+	background: url(../img/quiz/solOn.png) top left no-repeat;
+}
+div.tplFra_touch a.btnQuiz:hover .btnQuizCaption {
+	background-color:inherit;
+	border:0;
+	margin:9px 1px 0px 1px;
+}
+
+div.tplFra_touch a.btnQuiz:active .btnQuizCaption {
+	border-radius:4px;
+border:
+	border:1px solid #465879;
+	margin:8px 0px 0px 0px;
+	cursor:hand;
+	cursor:pointer
+}
+div.tplFra_touch .btnCorrection a:active {
+	background: url(../img/quiz/solOver.png) top left no-repeat;
+}
+div.tplFra_touch .btnCorrection a.toggleButtonOn:active{
+	background: url(../img/quiz/solOnOver.png) top left no-repeat;
+}
+div.tplFra_touch .btnReset a:active {
+	background: url(../img/quiz/restartOver.png) top left no-repeat;
+}
+
+
+

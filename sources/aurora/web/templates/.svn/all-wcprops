@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/templates
+END
+index.uitemplate
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/templates/index.uitemplate
+END
+json.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/templates/json.xsl
+END
+json.uitemplate
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/templates/json.uitemplate
+END
+tools.uitemplate
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/templates/tools.uitemplate
+END
+ref.uitemplate
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/templates/ref.uitemplate
+END
+home.uitemplate
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/templates/home.uitemplate
+END
+eval.uitemplate
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/templates/eval.uitemplate
+END
+module.uitemplate
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/templates/module.uitemplate
+END

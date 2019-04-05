@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:webSiteGenerator code="mob" name="￼;Publication mobile pour PairForm￼" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:icon sc:refUri="/custom/academic/gen/mob/PairForm-mobile.png"/>
+	<sm:modelRoot>
+		<sm:allowedModel sc:refUri="/academic/model/root/webRoot.model"/>
+		<sm:allowedModel sc:refUri="/academic/model/Ue/ue.model"/>
+	</sm:modelRoot>
+	<sm:mode standard="HTML 5" debug="yes"/>
+	<sm:uiFrame sc:refUri="/custom/academic/gen/mob/PFMob.uiframe"/>
+	<sm:transformerList>
+		<sm:transformerList info="Mobile" sc:refUri="/custom/academic/gen/mob/transf/PFMob.transflist"/>
+		<sm:transformerList info="Filter">
+			<!--<comment xmlns="scenari.eu:comment:1.0" type="thread"><comment creationTime="1404477522684">Ce filtre permet d'envoyer la valeur "short" aux conditions d'inclusion, forcant le choix des grains inclus dans la ressource (voir include.cond, qui test webroot avec l'axis rootFilter)</comment></comment>-->
+			<sm:transformer sc:refUri="/custom/academic/gen/mob/transf/webRoot@rootFilterPFMob.transf"/>
+		</sm:transformerList>
+	</sm:transformerList>
+	<sm:uiTemplateList>
+		<sm:uiTemplate code="page" sc:refUri="/custom/academic/gen/mob/templates/page.uitemplate"/>
+		<sm:uiTemplate code="home" sc:refUri="/custom/academic/gen/mob/templates/home.uitemplate"/>
+		<sm:uiTemplate code="tools" sc:refUri="/custom/academic/gen/mob/templates/tools.uitemplate"/>
+		<sm:uiTemplate code="eval" sc:refUri="/custom/academic/gen/mob/templates/eval.uitemplate"/>
+		<sm:uiTemplate code="ref" sc:refUri="/custom/academic/gen/mob/templates/ref.uitemplate"/>
+		<sm:uiTemplate code="player" sc:refUri="/custom/academic/gen/mob/templates/evalPlayer.uitemplate"/>
+		<sm:uiTemplate code="json" sc:refUri="/custom/academic/gen/mob/templates/json.uitemplate"/>
+		<!--<sm:uiTemplate xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" code="index" sc:refUri="/PairForm/academic/gen/mob/templates/index.uitemplate" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core"/>-->
+		<sm:uiTemplate code="outline" sc:refUri="/custom/academic/gen/mob/templates/outline.uitemplate"/>
+	</sm:uiTemplateList>
+	<sm:defaultSkin sc:refUri="/custom/academic/gen/mob/PFMob.skin.doss" name="￼;PairForm￼"/>
+</sm:webSiteGenerator>

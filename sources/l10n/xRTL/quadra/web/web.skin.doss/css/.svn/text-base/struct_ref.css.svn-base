@@ -1,0 +1,46 @@
+html{
+	height: 100%;
+	overflow:hidden;
+}
+#tplFra{
+	position: absolute;
+	top:0px;
+	right:0px;/* Opale RTL */
+	width:100%;
+	height:100%;
+}
+#tplCo{
+	position: absolute;
+	top:0px;
+	right:0px;/* Opale RTL */
+	width:100%;
+	height:100%;
+	overflow:auto;
+	font-size: 1.2em;/* Opale RTL : pour meilleure lisibilité de l'écriture arabe */
+}
+#refCo{
+	padding: 0px 32px 0px 10px;/* Opale RTL */
+}
+#tplFooter {
+	position: absolute;
+	bottom:0px;
+	right:0px;/* Opale RTL */
+	background: url(../img/quiz/fondEvalPrint.png) top right no-repeat;/* Opale RTL */
+	width:30px;
+	height:30px;
+	padding-right:2px;/* Opale RTL */
+}
+
+/* === SMALL & TOUCH screens ================================================ */
+div.tplFra_touch #refCo{
+	padding-top:1px;
+	padding-bottom:1px;
+}
+div.tplFra_touch #tplFooter{
+	background: #5c7ab8;
+	-webkit-border-top-left-radius: 10px;/* Opale RTL */
+	-moz-border-radius-topleft: 10px;/* Opale RTL */
+	border-top-left-radius: 10px;/* Opale RTL */
+}
+
+

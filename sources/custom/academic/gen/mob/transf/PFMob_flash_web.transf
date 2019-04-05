@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:binaryXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/binaries/flash/flash.model"/>
+	<sm:content>
+		<sm:WFreeBlock>
+			<div class="alert" xmlns="http://www.w3.org/1999/xhtml">Attention : l'animation flash &quot;<sm:binaryFileName/>&quot; ne peut être lue sur smartphone.</div>
+		</sm:WFreeBlock>
+		<sm:callModel>
+			<sm:root axis="warning"/>
+		</sm:callModel>
+	</sm:content>
+</sm:binaryXhtmlTransf>

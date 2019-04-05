@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:binaryXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/binaries/png/png.model"/>
+	<sm:fullTitleText>
+		<sm:callBinaryMeta/>
+	</sm:fullTitleText>
+	<sm:shortTitleText>
+		<sm:callBinaryMeta/>
+	</sm:shortTitleText>
+	<sm:content>
+		<sm:Widget sc:refUri="/aurora/web/widg/img/imgZoom.uiwidget"/>
+		<sm:choose>
+			<sm:when sc:refUri="/aurora/web/cnd/bin/isDeco.cond">
+				<sm:WFreeBlock>
+					<figure xmlns="http://www.w3.org/1999/xhtml" class="resInFlow png">
+						<sm:WImage>
+							<sm:binaryUrl>
+								<sm:imageTransform>
+									<sm:scaleFromStandardCharSize/>
+									<sm:sizeBounds maxWidthInPx="genProp('bin.size-int',630)" maxHeightInPx="genProp('bin.size-int',630)"/>
+									<sm:outputGIF/>
+								</sm:imageTransform>
+							</sm:binaryUrl>
+							<sm:alt/>
+							<sm:declareSize/>
+						</sm:WImage>
+					</figure>
+				</sm:WFreeBlock>
+			</sm:when>
+			<sm:otherwise>
+				<sm:WCaptionBlock widgetClass="resInFlow" class="png" tagName="figure" position="bottom">
+					<sm:caption>
+						<sm:callBinaryMeta axis="figcaption"/>
+					</sm:caption>
+					<sm:content>
+						<sm:chooseOnBinary>
+							<sm:binary>
+								<sm:imageSize>
+									<sm:scaleFromStandardCharSize>
+										<sm:ifNoStandardCharSize>
+											<sm:scale ratio="0.32"/>
+										</sm:ifNoStandardCharSize>
+									</sm:scaleFromStandardCharSize>
+								</sm:imageSize>
+							</sm:binary>
+							<sm:whenSize widthOver="genProp('bin.size-int',630)*1.1" heightOver="genProp('bin.size-int',630)*1.1">
+								<sm:WImage>
+									<sm:binaryUrl>
+										<sm:imageTransform>
+											<sm:scaleFromStandardCharSize>
+												<sm:ifNoStandardCharSize>
+													<sm:scale ratio="0.32"/>
+												</sm:ifNoStandardCharSize>
+											</sm:scaleFromStandardCharSize>
+											<sm:sizeBounds maxWidthInPx="genProp('bin.size-int',630)" maxHeightInPx="genProp('bin.size-int',630)"/>
+											<sm:outputPNG/>
+										</sm:imageTransform>
+									</sm:binaryUrl>
+									<sm:alt>
+										<sm:callBinaryMeta axis="alt"/>
+									</sm:alt>
+									<sm:declareSize/>
+									<sm:linkOverImage class="imgZoom">
+										<sm:binaryUrl>
+											<sm:imageTransform>
+												<sm:scaleFromStandardCharSize>
+													<sm:ifNoStandardCharSize>
+														<sm:scale ratio="0.32"/>
+													</sm:ifNoStandardCharSize>
+												</sm:scaleFromStandardCharSize>
+												<sm:sizeBounds maxWidthInPx="genProp('bin.size.zoom-int',1200)" maxHeightInPx="genProp('bin.size.zoom-int',1200)"/>
+												<sm:outputPNG/>
+											</sm:imageTransform>
+										</sm:binaryUrl>
+									</sm:linkOverImage>
+								</sm:WImage>
+							</sm:whenSize>
+							<sm:otherwise>
+								<sm:WImage>
+									<sm:binaryUrl>
+										<sm:imageTransform>
+											<sm:scaleFromStandardCharSize>
+												<sm:ifNoStandardCharSize>
+													<sm:scale ratio="0.32"/>
+												</sm:ifNoStandardCharSize>
+											</sm:scaleFromStandardCharSize>
+											<sm:sizeBounds maxWidthInPx="genProp('bin.size-int',630)" maxHeightInPx="genProp('bin.size-int',630)"/>
+											<sm:outputPNG/>
+										</sm:imageTransform>
+									</sm:binaryUrl>
+									<sm:alt>
+										<sm:callBinaryMeta axis="alt"/>
+									</sm:alt>
+									<sm:declareSize/>
+								</sm:WImage>
+							</sm:otherwise>
+						</sm:chooseOnBinary>
+					</sm:content>
+				</sm:WCaptionBlock>
+			</sm:otherwise>
+		</sm:choose>
+	</sm:content>
+</sm:binaryXhtmlTransf>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:textXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/academic/model/Re/refs/bibTxt.model"/>
+	<sm:content classConstructionType="standard">
+		<sm:paraTag tagName="p"/>
+		<sm:uLinkTag widgetClass="txt" role="url">
+			<sm:externalUrl>
+				<sm:label class="url">
+					<sm:textLink/>
+				</sm:label>
+				<sm:labelTitle>
+					<sm:urlText cropTo="50"/>
+					<sm:fixedString value="￼; (nouvelle fenêtre)￼"/>
+				</sm:labelTitle>
+				<sm:link target="newWindow"/>
+			</sm:externalUrl>
+		</sm:uLinkTag>
+		<sm:textLeafTag widgetClass="txt_title" role="title" tagName="cite"/>
+		<sm:textLeafTag widgetClass="txt_ed" role="ed" tagName="span"/>
+		<sm:textLeafTag widgetClass="txt_date" role="date" tagName="time"/>
+		<sm:textLeafTag widgetClass="txt_auth" role="auth" tagName="span"/>
+	</sm:content>
+</sm:textXhtmlTransf>

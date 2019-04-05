@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:binaryXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/binaries/mp3/mp3.model"/>
+	<sm:axis code="view"/>
+	<sm:content>
+		<sm:WFreeBlock>
+			<div xmlns="http://www.w3.org/1999/xhtml" class="mediaPlayer" data-type="audio">
+				<addAttribute name="data-src">
+					<sm:binaryUrl/>
+				</addAttribute>
+				<sm:callBinaryMeta axis="mediaAttributes"/>
+				<sm:WAudioMp3 widgetClass="resAudio">
+					<sm:binaryUrl/>
+					<sm:declareSize width="300"/>
+					<sm:stopButton/>
+					<sm:volumeButton/>
+				</sm:WAudioMp3>
+			</div>
+			<sm:callBinaryMeta axis="transcript"/>
+		</sm:WFreeBlock>
+	</sm:content>
+</sm:binaryXhtmlTransf>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:openUiWidget code="tplMgr" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:widgetPublishFiles sc:refUri="/custom/academic/gen/_common/widget/tplMgr.doss"/>
+	<sm:fillTemplateBuffers>
+		<sm:standardLibrary codeLib="PaLib"/>
+		<!--Ajout d'untitre au scBasket si il y a des tooltips dans la page.-->
+		<sm:postXslFragment keyXsl="xhtml">&lt;xsl:overlay match=&quot;scBasket&quot;&gt;
+	&lt;xsl:if test=&quot;count(//scTooltip)&amp;gt;0&quot;&gt;&lt;hr class=&quot;hidden&quot;/&gt;&lt;strong class=&quot;hidden&quot;&gt;￼;Notes &amp;amp; renvois :￼&lt;/strong&gt;&lt;/xsl:if&gt;
+&lt;/xsl:overlay&gt;</sm:postXslFragment>
+		<sm:postXslFragment keyXsl="xhtml">&lt;xsl:template match=&quot;span[containWord(parent::a/@class,'op_txt_ul_acr')]&quot;&gt;
+	&lt;abbr&gt;&lt;xsl:apply-templates select=&quot;@*|node()&quot;/&gt;&lt;/abbr&gt;
+&lt;/xsl:template&gt;
+&lt;xsl:template match=&quot;span[containWord(parent::a/@class,'op_txt_ul_glos')]&quot;&gt;
+	&lt;dfn&gt;&lt;xsl:apply-templates select=&quot;@*|node()&quot;/&gt;&lt;/dfn&gt;
+&lt;/xsl:template&gt;
+</sm:postXslFragment>
+		<!--Ajout init JS de tplMgr à la page.-->
+		<sm:postXslFragment keyXsl="xhtml">&lt;xsl:overlay match=&quot;body&quot; priority=&quot;200&quot;&gt;
+	&lt;xsl:value-of select=&quot;execute(java:append($vBufJs, 'tplMgr.init();'))&quot;/&gt;
+&lt;/xsl:overlay&gt;</sm:postXslFragment>
+		<sm:postXslFragment keyXsl="xhtml"><!--<comment xmlns="scenari.eu:comment:1.0" type="thread"><comment creationTime="1365089639774">supprimer les collapsableBlocks vides</comment></comment>-->&lt;xsl:template match=&quot;div[contains(@class,'cbkClosed') and not(boolean(child::div/child::*))]&quot;/&gt;</sm:postXslFragment>
+		<sm:linkScript path="tplMgr.js" pathFrom="localPublishFiles" sortKey="A"/>
+		<!--iscroll is loaded dynamicaly if needed.-->
+	</sm:fillTemplateBuffers>
+	<sm:content/>
+</sm:openUiWidget>

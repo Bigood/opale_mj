@@ -1,0 +1,1486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="gen" source-language="" datatype="plaintext">
+    <header>
+      <note>Scenari model : OpaleGenAurora3-5</note>
+    </header>
+    <body>
+      <trans-unit resname="Ce module de formation a été produit avec OPALE 3.">
+        <source>Ce module de formation a été produit avec OPALE 3.</source>
+        <target>Este módulo de formación ha sido producido con OPALE 3.</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Vous utilisez une version ancienne d'internet explorer (inférieure à la version 11)">
+        <source>Vous utilisez une version ancienne d'internet explorer (inférieure à la version 11)</source>
+        <target>Está utilizando una versión antigua de Internet Explorer (anterior a la versión 11)</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Ce module pourrait ne pas être compatible ou présenter des erreurs d'affichage.">
+        <source>Ce module pourrait ne pas être compatible ou présenter des erreurs d'affichage.</source>
+        <target>Puede que este módulo no sea compatible o presente errores de visualización.</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Nous vous recommandons de mettre à jour vers une version plus récente ou de choisir un autre navigateur.">
+        <source>Nous vous recommandons de mettre à jour vers une version plus récente ou de choisir un autre navigateur.</source>
+        <target>Le recomendamos actualizar su navegador o elegir otro.</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Réalisé avec Scenari (nouvelle fenêtre)">
+        <source>Réalisé avec Scenari (nouvelle fenêtre)</source>
+        <target>Realizado con Scenari (nueva ventana)</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="contenu">
+        <source>contenu</source>
+        <target>contenido</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="menu">
+        <source>menu</source>
+        <target>índice</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="navigation">
+        <source>navigation</source>
+        <target>navegación</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="outils">
+        <source>outils</source>
+        <target>herramientas</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="pied de page">
+        <source>pied de page</source>
+        <target>pie de página</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="searchIndexUiTemplate.auroraW.index">
+        <source>&lt;filters&gt;&lt;excludeShortWords minChars="1" forWords="\d+"/&gt;&lt;excludeShortWords minChars="3" forWords="\D+"/&gt;&lt;cutLongWords maxChars="20" forWords=""/&gt;&lt;lowerCase locale="fr"/&gt;&lt;ignoreWords words="alors au aucuns aussi autre avant avec avoir bon car ce cela ces ceux chaque ci comme comment dans des du dedans dehors depuis deux devrait doit donc dos droite début elle elles en encore essai est et eu fait faites fois font force haut hors ici il ils je juste la le les leur là ma maintenant mais mes mine moins mon mot même ni nommés notre nous nouveaux ou où par parce parole pas personnes peut peu pièce plupart pour pourquoi quand que quel quelle quelles quels qui sa sans ses seulement si sien son sont sous soyez sujet sur ta tandis tellement tels tes ton tous tout trop très tu valeur voie voient vont votre vous vu ça étaient état étions été être"/&gt;&lt;filterAccentedLatinLetters/&gt;&lt;/filters&gt;&lt;serialization/&gt;</source>
+        <target>&lt;filters&gt;&lt;excludeShortWords minChars="1" forWords="\d+"/&gt;&lt;excludeShortWords minChars="3" forWords="\D+"/&gt;&lt;cutLongWords maxChars="20" forWords=""/&gt;&lt;lowerCase locale="es"/&gt;&lt;ignoreWords words="un una unas unos uno sobre todo también tras otro algún alguno alguna algunos algunas ser es soy eres somos sois estoy esta estamos estáis están como en para atrás porque por qué estado estaba ante antes siendo ambos pero por poder puede puedo podemos podéis pueden fui fue fuimos fueron hacer hago hace hacemos hacéis hacen cada fin incluso primero desde conseguir consigo consigue consigues conseguimos consiguen ir voy va vamos vais van vaya bueno ha tener tengo tiene tenemos tenéis tienen el la lo las los su aquí mio tuyo ellos ellas nos nosotros vosotros vosotras si dentro solo solamente saber sabes sabe sabemos sabéis saben ultimo largo bastante haces muchos aquellos aquellas sus entonces tiempo verdad verdadero verdadera cierto ciertos cierta ciertas intentar intento intenta intentas intentamos intentáis intentan dos bajo arriba encima usar uso usas usa usamos usáis usan emplear empleo empleas emplean empleamos empleáis valor muy era eras eramos eran modo bien cual cuando donde mientras quien con entre sin trabajo trabajar trabajas trabaja trabajamos trabajáis trabajan podría podrías podríamos podrían podríais yo aquel"/&gt;&lt;filterAccentedLatinLetters/&gt;&lt;/filters&gt;&lt;serialization/&gt;</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+      </trans-unit>
+      <trans-unit resname="defaultWebLangCode">
+        <source>fr</source>
+        <target>es</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="précédent">
+        <source>précédent</source>
+        <target>anterior</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="image précédente (flèche de gauche)">
+        <source>image précédente (flèche de gauche)</source>
+        <target>imagen anterior (flecha izquierda)</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="suivant">
+        <source>suivant</source>
+        <target>siguiente</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="image suivante (flèche de droite)">
+        <source>image suivante (flèche de droite)</source>
+        <target>imagen siguiente (fleche derecha)</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="fermer">
+        <source>fermer</source>
+        <target>cerrar</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="fermer le diaporama (Echap)">
+        <source>fermer le diaporama (Echap)</source>
+        <target>cerrar la presentación con diapositivas (Esc)</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="lancer">
+        <source>lancer</source>
+        <target>iniciar</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="lancer le diaporama (p)">
+        <source>lancer le diaporama (p)</source>
+        <target>parar</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="arrêter">
+        <source>arrêter</source>
+        <target>Detener</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="arrêter le diaporama (p)">
+        <source>arrêter le diaporama (p)</source>
+        <target>parar la presentación con diapositivas (p)</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Cette page est en cours de chargement. Veuillez patienter.">
+        <source>Cette page est en cours de chargement. Veuillez patienter.</source>
+        <target>Se está cargando esa página. Por favor espere.</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="image précédente">
+        <source>image précédente</source>
+        <target>imagen anterior</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="image suivante">
+        <source>image suivante</source>
+        <target>imagen siguiente</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="lancer l'animation">
+        <source>lancer l'animation</source>
+        <target>iniciar la animación</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="arrêter l'animation">
+        <source>arrêter l'animation</source>
+        <target>detener la animación</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="début">
+        <source>début</source>
+        <target>principio</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="aller au début de l'animation">
+        <source>aller au début de l'animation</source>
+        <target>ir al inicio de la animación</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="fin">
+        <source>fin</source>
+        <target>fin</target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="aller à la fin de l'animation">
+        <source>aller à la fin de l'animation</source>
+        <target>ir al fin de la animación</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="vitesse">
+        <source>vitesse</source>
+        <target>velocidad</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="changer la vitesse de l'animation">
+        <source>changer la vitesse de l'animation</source>
+        <target>cambiar la velocidad de la animación</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="image">
+        <source>image</source>
+        <target>imagen</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Consulter le diaporama à partir de :">
+        <source>Consulter le diaporama à partir de :</source>
+        <target>Consultar la presentación con diapositivas a partir de:</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="boucle">
+        <source>boucle</source>
+        <target>bucle</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="jouer en boucle continue">
+        <source>jouer en boucle continue</source>
+        <target>Ejecutar en bucle continuo</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="fermer le zoom (Echap)">
+        <source>fermer le zoom (Echap)</source>
+        <target>cerrar el zoom (Esc)</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="zoomer sur cette image">
+        <source>zoomer sur cette image</source>
+        <target>hacer zoom en esta imagen</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="mathjaxLocale">
+        <source>fr</source>
+        <target>es</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Montrer les sous-titres">
+        <source>Montrer les sous-titres</source>
+        <target>Mostrar los subtítulos</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Cacher les sous-titres">
+        <source>Cacher les sous-titres</source>
+        <target>Ocultar los subtítulos</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Choisir la langue">
+        <source>Choisir la langue</source>
+        <target>Escoger el idioma</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Off">
+        <source>Off</source>
+        <target>Off</target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Clic droit, enregistrer sous... pour télécharger">
+        <source>Clic droit, enregistrer sous... pour télécharger</source>
+        <target>Clic derecho, guardar como… para descargar</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Lecture">
+        <source>Lecture</source>
+        <target>Lectura</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Désactiver le son">
+        <source>Désactiver le son</source>
+        <target>Desactivar el sonido</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Transcription">
+        <source>Transcription</source>
+        <target>Transcripción</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Voir la transcription">
+        <source>Voir la transcription</source>
+        <target>Ver la transcripción</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Alternative vidéo">
+        <source>Alternative vidéo</source>
+        <target>Alternativa vídeo</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Voir l'alternative vidéo (LSF,LPC)">
+        <source>Voir l'alternative vidéo (LSF,LPC)</source>
+        <target>Ver la alternativa vídeo (idioma de signos)</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Audiodescription">
+        <source>Audiodescription</source>
+        <target>Audiodescripción</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Voir l'audiodescription">
+        <source>Voir l'audiodescription</source>
+        <target>Ver la audiodescripción</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Vidéo">
+        <source>Vidéo</source>
+        <target>Vídeo</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Voir le média d'origine">
+        <source>Voir le média d'origine</source>
+        <target>Ver el vídeo original</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Sous-titres">
+        <source>Sous-titres</source>
+        <target>Subtítulos</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Voir les sous-titres">
+        <source>Voir les sous-titres</source>
+        <target>Ver los subtítulos</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Pause">
+        <source>Pause</source>
+        <target>Pausa</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Activer le son">
+        <source>Activer le son</source>
+        <target>Activar el sonido</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Cacher la transcription">
+        <source>Cacher la transcription</source>
+        <target>Ocultar la transcripción</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Voir la vidéo en plein écran">
+        <source>Voir la vidéo en plein écran</source>
+        <target>Ver el vídeo en pantalla completa (pulsar Esc)</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Revenir au mode normal (appuyer sur Échap)">
+        <source>Revenir au mode normal (appuyer sur Échap)</source>
+        <target>Volver al modo normal (pulsar Esc)</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Pour quitter le plein écran, appuyer sur Échap...">
+        <source>Pour quitter le plein écran, appuyer sur Échap...</source>
+        <target>Para cerrar el modo pantalla completa, pulse Esc…</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Barre de navigation">
+        <source>Barre de navigation</source>
+        <target>Barra de navegación</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Barre de volume">
+        <source>Barre de volume</source>
+        <target>Barra de volumen</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Télécharger la transcription">
+        <source>Télécharger la transcription</source>
+        <target>Descargar la transcripción</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="num.">
+        <source>num.</source>
+        <target>num.</target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Désactiver les numéros de ligne">
+        <source>Désactiver les numéros de ligne</source>
+        <target>Desactivar los numeros de línea</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="texte">
+        <source>texte</source>
+        <target>texto</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Activer la vue texte brut">
+        <source>Activer la vue texte brut</source>
+        <target>Activar la vista de texto plano</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="copie">
+        <source>copie</source>
+        <target>copia</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Sélectionner le texte brut pour le copier">
+        <source>Sélectionner le texte brut pour le copier</source>
+        <target>Seleccionar el texto plano para copiarlo</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Ligne">
+        <source>Ligne</source>
+        <target>Línea</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Désactiver le retour à la ligne automatique">
+        <source>Désactiver le retour à la ligne automatique</source>
+        <target>Desactivar el retorno a línea nueva automático</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="CTRL+C pour copier, CTRL+V pour coller">
+        <source>CTRL+C pour copier, CTRL+V pour coller</source>
+        <target>CTRL+C para copiar, CTRL+V para pegar</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Activer les numéros de ligne">
+        <source>Activer les numéros de ligne</source>
+        <target>Activar los números de líneas</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Désactiver la vue texte brut">
+        <source>Désactiver la vue texte brut</source>
+        <target>Desactivar la vista de texto plano</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Activer le retour à la ligne automatique">
+        <source>Activer le retour à la ligne automatique</source>
+        <target>Activar el retorno a nueva linea automático</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Agrandir">
+        <source>Agrandir</source>
+        <target>Aumentar</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Cacher des éléments de l'interface pour agrandir le contenu">
+        <source>Cacher des éléments de l'interface pour agrandir le contenu</source>
+        <target>Ocultar los elementos de la interfaz para aumentar el menú</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Restaurer">
+        <source>Restaurer</source>
+        <target>Restaurar</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Restaurer l'interface par défaut.">
+        <source>Restaurer l'interface par défaut.</source>
+        <target>Restaurar la interfaz por defecto.</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Cacher le contenu de '%s'">
+        <source>Cacher le contenu de '%s'</source>
+        <target>Ocultar el contenido de '%s'</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Afficher le contenu de '%s'">
+        <source>Afficher le contenu de '%s'</source>
+        <target>Mostrar el contenido de '%s'</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Le chargement dynamique de ressources est désactivé.\n\nLes restrictions sécuritaires de votre navigateur interdisent l'utilisation de certaines fonctionnalités telles que la recherche ou l'exploration du menu.">
+        <source>Le chargement dynamique de ressources est désactivé.Les restrictions sécuritaires de votre navigateur interdisent l'utilisation de certaines fonctionnalités telles que la recherche ou l'exploration du menu.</source>
+        <target>La carga dinámica de recursos está desactivada.Las restricciones de seguridad de su navegador prohiben el uso de ciertas funcionalidades como la búsqueda o la exploración del índice.</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="défilement haut">
+        <source>défilement haut</source>
+        <target>desplazamiento arriba</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Faire défiler le menu vers le haut">
+        <source>Faire défiler le menu vers le haut</source>
+        <target>Desplazar el índice hacia arriba</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="défilement bas">
+        <source>défilement bas</source>
+        <target>Desplazar abajo</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Faire défiler le menu vers le bas">
+        <source>Faire défiler le menu vers le bas</source>
+        <target>Desplazar el índice hacia abajo</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Masquer le plan">
+        <source>Masquer le plan</source>
+        <target>Ocultar el índice del sitio</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Afficher le plan">
+        <source>Afficher le plan</source>
+        <target>Mostrar el índice del sitio</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Masquer / afficher le plan">
+        <source>Masquer / afficher le plan</source>
+        <target>Mostrar / ocultar el índice</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Ouvrir le menu '%s'">
+        <source>Ouvrir le menu '%s'</source>
+        <target>Abrir el menú '%s'</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Fermer le menu '%s'">
+        <source>Fermer le menu '%s'</source>
+        <target>Cerrar el menú '%s'</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Annuler">
+        <source>Annuler</source>
+        <target>Cancelar</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Annuler la recherche">
+        <source>Annuler la recherche</source>
+        <target>Cancelar la búsqueda</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Rechercher dans le contenu">
+        <source>Rechercher dans le contenu</source>
+        <target>Buscar en el contenido</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Aucun résultat.">
+        <source>Aucun résultat.</source>
+        <target>Ningún resultado.</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="1 page trouvée">
+        <source>1 page trouvée</source>
+        <target>1 página encontrada</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="%s pages trouvées">
+        <source>%s pages trouvées</source>
+        <target>%s páginas encontradas</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Précisez votre recherche...">
+        <source>Précisez votre recherche...</source>
+        <target>Especifique su búsqueda…</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Termes recherchés :">
+        <source>Termes recherchés :</source>
+        <target>Términos buscados:</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Précédent">
+        <source>Précédent</source>
+        <target>Anterior</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Occurrence précédente">
+        <source>Occurrence précédente</source>
+        <target>Ocurrencia anterior</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Suivant">
+        <source>Suivant</source>
+        <target>Siguiente</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Occurrence suivante">
+        <source>Occurrence suivante</source>
+        <target>Ocurrencia siguiente</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Page précédente">
+        <source>Page précédente</source>
+        <target>Página anterior</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Page suivante">
+        <source>Page suivante</source>
+        <target>Página siguiente</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Liste">
+        <source>Liste</source>
+        <target>Lista</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Afficher/cacher la liste des pages trouvées">
+        <source>Afficher/cacher la liste des pages trouvées</source>
+        <target>Mostrar / ocultar la lista de la páginas encontradas</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="pertinence : %s/9">
+        <source>pertinence : %s/9</source>
+        <target>relevancia: %s/9</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Pas de résultat de recherche">
+        <source>Pas de résultat de recherche</source>
+        <target>Ningún resultado de búsqueda</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Rechercher">
+        <source>Rechercher</source>
+        <target>Buscar</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Ouvrir le menu">
+        <source>Ouvrir le menu</source>
+        <target>Abrir el menú</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Fermer le menu">
+        <source>Fermer le menu</source>
+        <target>Cerrar el menú</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="menu principal">
+        <source>menu principal</source>
+        <target>menú principal</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Cliquez pour agrandir (nouvelle fenêtre)">
+        <source>Cliquez pour agrandir (nouvelle fenêtre)</source>
+        <target>Clicar para agrandar (nueva ventana)</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Démarrer le module">
+        <source>Démarrer le module</source>
+        <target>Empezar el módulo</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+      </trans-unit>
+      <trans-unit resname="Fin">
+        <source>Fin</source>
+        <target>Fin</target>
+      </trans-unit>
+      <trans-unit resname="searchIndexUiTemplate.auroraS.index">
+        <source>&lt;filters&gt;&lt;excludeShortWords minChars="1" forWords="\d+"/&gt;&lt;excludeShortWords minChars="3" forWords="\D+"/&gt;&lt;cutLongWords maxChars="20" forWords=""/&gt;&lt;lowerCase locale="fr"/&gt;&lt;ignoreWords words="alors au aucuns aussi autre avant avec avoir bon car ce cela ces ceux chaque ci comme comment dans des du dedans dehors depuis deux devrait doit donc dos droite début elle elles en encore essai est et eu fait faites fois font force haut hors ici il ils je juste la le les leur là ma maintenant mais mes mine moins mon mot même ni nommés notre nous nouveaux ou où par parce parole pas personnes peut peu pièce plupart pour pourquoi quand que quel quelle quelles quels qui sa sans ses seulement si sien son sont sous soyez sujet sur ta tandis tellement tels tes ton tous tout trop très tu valeur voie voient vont votre vous vu ça étaient état étions été être"/&gt;&lt;filterAccentedLatinLetters/&gt;&lt;/filters&gt;&lt;serialization/&gt;</source>
+        <target>&lt;filters&gt;&lt;excludeShortWords minChars="1" forWords="\d+"/&gt;&lt;excludeShortWords minChars="3" forWords="\D+"/&gt;&lt;cutLongWords maxChars="20" forWords=""/&gt;&lt;lowerCase locale="es"/&gt;&lt;ignoreWords words="un una unas unos uno sobre todo también tras otro algún alguno alguna algunos algunas ser es soy eres somos sois estoy esta estamos estáis están como en para atrás porque por qué estado estaba ante antes siendo ambos pero por poder puede puedo podemos podéis pueden fui fue fuimos fueron hacer hago hace hacemos hacéis hacen cada fin incluso primero desde conseguir consigo consigue consigues conseguimos consiguen ir voy va vamos vais van vaya bueno ha tener tengo tiene tenemos tenéis tienen el la lo las los su aquí mio tuyo ellos ellas nos nosotros vosotros vosotras si dentro solo solamente saber sabes sabe sabemos sabéis saben ultimo largo bastante haces muchos aquellos aquellas sus entonces tiempo verdad verdadero verdadera cierto ciertos cierta ciertas intentar intento intenta intentas intentamos intentáis intentan dos bajo arriba encima usar uso usas usa usamos usáis usan emplear empleo empleas emplean empleamos empleáis valor muy era eras eramos eran modo bien cual cuando donde mientras quien con entre sin trabajo trabajar trabajas trabaja trabajamos trabajáis trabajan podría podrías podríamos podrían podríais yo aquel"/&gt;&lt;filterAccentedLatinLetters/&gt;&lt;/filters&gt;&lt;serialization/&gt;</target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Quiter">
+        <source>Quiter</source>
+        <target>Cerrar</target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Quiter ce module">
+        <source>Quiter ce module</source>
+        <target>Cerrar ese módulo</target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="page vue">
+        <source>page vue</source>
+        <target>página visitada</target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="page non vue">
+        <source>page non vue</source>
+        <target>página no visitada</target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Marquer la page '%s' non vue">
+        <source>Marquer la page '%s' non vue</source>
+        <target>Marcar la página '%s' no visitada</target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Marquer la page '%s' vue">
+        <source>Marquer la page '%s' vue</source>
+        <target>Marcar la página '%s' visitada</target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Ouvrir la dernière page consultée">
+        <source>Ouvrir la dernière page consultée</source>
+        <target>Abrir la última página vista</target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Cette galerie utilise Javascript pour un affichage optimal.">
+        <source>Cette galerie utilise Javascript pour un affichage optimal.</source>
+        <target>Esa galería utiliza Javascript para un buen funcionamiento.</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Creative Commons Zéro">
+        <source>Creative Commons Zéro</source>
+        <target>Creative Commons Cero</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Paternité">
+        <source>Paternité</source>
+        <target>Paternidad</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Paternité - Pas d'Utilisation Commerciale">
+        <source>Paternité - Pas d'Utilisation Commerciale</source>
+        <target>Paternidad – ninguna utilización comercial</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Paternité - Pas d'Utilisation Commerciale - Pas de Modification">
+        <source>Paternité - Pas d'Utilisation Commerciale - Pas de Modification</source>
+        <target>Paternidad – ninguna utilización comercial – ninguna modificación</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Paternité - Pas d'Utilisation Commerciale - Partage des Conditions Initiales à l'Identique">
+        <source>Paternité - Pas d'Utilisation Commerciale - Partage des Conditions Initiales à l'Identique</source>
+        <target>Paternidad – ninguna utilización comercial – difusión con las mismas condiciones</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Paternité - Pas de Modification">
+        <source>Paternité - Pas de Modification</source>
+        <target>Paternidad – ninguna modificación</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Paternité - Partage des Conditions Initiales à l'Identique">
+        <source>Paternité - Partage des Conditions Initiales à l'Identique</source>
+        <target>Paternidad – Difusión bajo las mismas condiciones</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Licence de documentation libre GNU">
+        <source>Licence de documentation libre GNU</source>
+        <target>Licencia de documentación libre GNU</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Licence : Domaine Public">
+        <source>Licence : Domaine Public</source>
+        <target>Licencia : Dominio Público</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="(nouvelle fenêtre)">
+        <source>(nouvelle fenêtre)</source>
+        <target>(nueva ventana)</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Question">
+        <source>Question</source>
+        <target>Pregunta</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname=" (nouvelle fenêtre)">
+        <source>(nouvelle fenêtre)</source>
+        <target>(nueva ventana)</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Bonne réponse">
+        <source>Bonne réponse</source>
+        <target>Respuesta correcta</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="% de bonnes réponses">
+        <source>% de bonnes réponses</source>
+        <target>% de respuestas correctas</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Mauvaise réponse ">
+        <source>Mauvaise réponse </source>
+        <target>Respuesta equivocada</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Fermer">
+        <source>Fermer</source>
+        <target>Cerrar</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Informations complémentaires...">
+        <source>Informations complémentaires...</source>
+        <target>Informaciones complementarias...</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Informations">
+        <source>Informations</source>
+        <target>Informaciones</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Cliquez pour visualiser la ressource (nouvelle fenêtre)">
+        <source>Cliquez pour visualiser la ressource (nouvelle fenêtre)</source>
+        <target>Clique aquí para visualizar el recurso (nueva ventana)</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Exercice :">
+        <source>Exercice :</source>
+        <target>Ejercicio: </target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Exercice">
+        <source>Exercice</source>
+        <target>Ejercicio</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Zoom (nouvelle fenêtre)...">
+        <source>Zoom (nouvelle fenêtre)...</source>
+        <target>Zoom (nueva ventana)..</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="[zoom...]">
+        <source>[zoom...]</source>
+        <target>[zoom..]</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="[sans titre]">
+        <source>[sans titre]</source>
+        <target>[sin título]</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Exercice : ">
+        <source>Exercice : </source>
+        <target>Ejercicio: </target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="ATTENTION : Ce type de ressource n'est pas compatible avec ce générateur.">
+        <source>ATTENTION : Ce type de ressource n'est pas compatible avec ce générateur.</source>
+        <target>OJO: este tipo de recurso no es compatible con este generador.</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="...">
+        <source>...</source>
+        <target>...</target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="« ">
+        <source>« </source>
+        <target>« </target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname=" »">
+        <source> »</source>
+        <target> »</target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Plus d'éléments à catégoriser">
+        <source>Plus d'éléments à catégoriser</source>
+        <target>No más elementos para categorizar</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Déposez ici">
+        <source>Déposez ici</source>
+        <target>Deposite aquí</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Afficher le score et la correction">
+        <source>Afficher le score et la correction</source>
+        <target>Mostrar los puntos y la corrección</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Correction">
+        <source>Correction</source>
+        <target>Corrección</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Effacer les réponses">
+        <source>Effacer les réponses</source>
+        <target>Borrar las respuestas</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Recommencer">
+        <source>Recommencer</source>
+        <target>Volver a empezar</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Vous avez bien répondu à toutes les questions!">
+        <source>Vous avez bien répondu à toutes les questions!</source>
+        <target>¡ Usted ha contestado correctamente a todas las preguntas !</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Vous avez obtenu... ">
+        <source>Vous avez obtenu... </source>
+        <target>Usted ha obtenido...</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="% de bonnes réponses.">
+        <source>% de bonnes réponses.</source>
+        <target>% de respuestas correctas</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Erreur - ">
+        <source>Erreur - </source>
+        <target>Error - </target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="[Module]">
+        <source>[Module]</source>
+        <target>[Módulo]</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Erreur - aucun item n'a été saisi">
+        <source>Erreur - aucun item n'a été saisi</source>
+        <target>Error – ningún ítem fue cogido</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Évaluation">
+        <source>Évaluation</source>
+        <target>Evaluación</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Exercice d'auto-évaluation">
+        <source>Exercice d'auto-évaluation</source>
+        <target>Ejercicio de auto-evaluación</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Fin de l'évaluation">
+        <source>Fin de l'évaluation</source>
+        <target>Fin de la evaluación</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Vous avez fini l'évaluation, en allant à la page suivante, vous allez valider vos réponses et il ne vous sera plus possible de les modifier.">
+        <source>Vous avez fini l'évaluation, en allant à la page suivante, vous allez valider vos réponses et il ne vous sera plus possible de les modifier.</source>
+        <target>Ha terminado la evaluación, al entrar en la página siguiente, usted validará sus respuestas y será imposible modificarlas.</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Validez votre évaluation">
+        <source>Validez votre évaluation</source>
+        <target>Valide su evaluación</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Énoncé">
+        <source>Énoncé</source>
+        <target>Sentencia</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Résultat">
+        <source>Résultat</source>
+        <target>Resultado</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Explications">
+        <source>Explications</source>
+        <target>Explicaciones: </target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Introduction">
+        <source>Introduction</source>
+        <target>Introducción</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Conclusion">
+        <source>Conclusion</source>
+        <target>Conclusión</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Définition">
+        <source>Définition</source>
+        <target>Definición</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Exemple">
+        <source>Exemple</source>
+        <target>Ejemplo</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Remarque">
+        <source>Remarque</source>
+        <target>Observación</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Conseil">
+        <source>Conseil</source>
+        <target>Consejo</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Attention">
+        <source>Attention</source>
+        <target>Atención</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Complément">
+        <source>Complément</source>
+        <target>Complemento</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Méthode">
+        <source>Méthode</source>
+        <target>Método</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Rappel">
+        <source>Rappel</source>
+        <target>Recordatorio</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Fondamental">
+        <source>Fondamental</source>
+        <target>Fundamental</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Syntaxe">
+        <source>Syntaxe</source>
+        <target>Sintaxis</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Texte légal">
+        <source>Texte légal</source>
+        <target>Texto legal</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Simulation">
+        <source>Simulation</source>
+        <target>Simulación</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Outils">
+        <source>Outils</source>
+        <target>Herramientas</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Questions de synthèse">
+        <source>Questions de synthèse</source>
+        <target>Preguntas de síntesis</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Glossaire">
+        <source>Glossaire</source>
+        <target>Glosario</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Abréviations">
+        <source>Abréviations</source>
+        <target>Abreviaturas</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Références">
+        <source>Références</source>
+        <target>Referencias</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Bibliographie">
+        <source>Bibliographie</source>
+        <target>Bibliografía</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Webographie">
+        <source>Webographie</source>
+        <target>Bibliografía web</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Index des mots-clés">
+        <source>Index des mots-clés</source>
+        <target>Índice de la palabras claves</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Crédits">
+        <source>Crédits</source>
+        <target>Créditos</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Outils transverses du module">
+        <source>Outils transverses du module</source>
+        <target>Herramientas transversales del módulo</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname=" :">
+        <source>:</source>
+        <target>: </target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Indice">
+        <source>Indice</source>
+        <target>Ayuda</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Solution">
+        <source>Solution</source>
+        <target>Solución</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Votre réponse">
+        <source>Votre réponse</source>
+        <target>Su respuesta</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname=" :">
+        <source> :</source>
+        <target>: </target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="[">
+        <source>[</source>
+        <target>[</target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="]">
+        <source>]</source>
+        <target>]</target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Votre navigateur ne prend pas en charge le format OPUS. Téléchargez le fichier :">
+        <source>Votre navigateur ne prend pas en charge le format OPUS. Téléchargez le fichier :</source>
+        <target>Su navegador no soporta el formato OPUS. Descargue el archivo:</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="[Zoom...]">
+        <source>[Zoom...]</source>
+        <target>[Zoom...]</target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Votre réponse est incorrecte.">
+        <source>Votre réponse est incorrecte.</source>
+        <target>Su respuesta no es correcta</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Votre réponse est juste.">
+        <source>Votre réponse est juste.</source>
+        <target>Su respuesta es correcta.</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Module">
+        <source>Module</source>
+        <target>Módulo</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Objectifs">
+        <source>Objectifs</source>
+        <target>Objetivos</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Contenu du module">
+        <source>Contenu du module</source>
+        <target>Contenido del módulo</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Votre réponse :">
+        <source>Votre réponse :</source>
+        <target>Su respuesta: </target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Solution :">
+        <source>Solution :</source>
+        <target>Solución: </target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Plus d'éléments à ordonner">
+        <source>Plus d'éléments à ordonner</source>
+        <target>No más elementos para ordenar</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Description">
+        <source>Description</source>
+        <target>Descripción</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Entrer dans le test...">
+        <source>Entrer dans le test...</source>
+        <target>Entre en el test...</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Accueil">
+        <source>Accueil</source>
+        <target>Inicio</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Page d'accueil du module">
+        <source>Page d'accueil du module</source>
+        <target>Página de inicio del módulo</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Liste d'exercices">
+        <source>Liste d'exercices</source>
+        <target>Lista de ejercicios</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Résultats du test">
+        <source>Résultats du test</source>
+        <target>Resultados del test</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Quitter le test">
+        <source>Quitter le test</source>
+        <target>Abandonar el test</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Solution d'exercice">
+        <source>Solution d'exercice</source>
+        <target>Solución del ejercicio</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Fin du test">
+        <source>Fin du test</source>
+        <target>Fin del test</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Consulter les solutions...">
+        <source>Consulter les solutions...</source>
+        <target>Consultar las soluciones...</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Site web embarqué">
+        <source>Site web embarqué</source>
+        <target>Sitio web embebido</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Énoncé général">
+        <source>Énoncé général</source>
+        <target>Sentencia general</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Vous allez à présent effectuer une série d'exercices d'auto-évaluation.">
+        <source>Vous allez à présent effectuer une série d'exercices d'auto-évaluation.</source>
+        <target>Ahora, va a efectuar una serie de ejercicios de auto-evaluación</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Une synthèse vous sera présentée à la fin de cette série d'exercices.">
+        <source>Une synthèse vous sera présentée à la fin de cette série d'exercices.</source>
+        <target>Una síntesis le será presentada al final de esa serie de ejercicios</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Commencer l'évaluation...">
+        <source>Commencer l'évaluation...</source>
+        <target>Empezar la evaluación...</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Commencer le test...">
+        <source>Commencer le test...</source>
+        <target>Comenzar el test...</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Vous avez déjà commencé ce test.">
+        <source>Vous avez déjà commencé ce test.</source>
+        <target>Usted ya ha empezado el test</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname=" Vos réponses ont été conservées. Vous pouvez les revoir et poursuivre le test ou les effacer et recommencer le test.">
+        <source>Vos réponses ont été conservées. Vous pouvez les revoir et poursuivre le test ou les effacer et recommencer le test.</source>
+        <target>Sus respuestas ha sido guardadas. Puede verlas y seguir con el test o borrar y volver a hacer el test.</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Reprendre le test...">
+        <source>Reprendre le test...</source>
+        <target>Seguir con el test...</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Effacer et recommencer le test...">
+        <source>Effacer et recommencer le test...</source>
+        <target>Borrar y volver a empezar el test...</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Vous avez déjà réalisé ce test.">
+        <source>Vous avez déjà réalisé ce test.</source>
+        <target>Usted ya ha realizado este test.</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname=" Vous pouvez de nouveau consulter vos résultats ou effacer vos réponses et recommencer le test.">
+        <source>Vous pouvez de nouveau consulter vos résultats ou effacer vos réponses et recommencer le test.</source>
+        <target>Puede de nuevo consultar sus resultados o borrar sus respuestas y volver a empezar el test.</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Afficher les résultats...">
+        <source>Afficher les résultats...</source>
+        <target>Mostrar los resultados...</target>
+        <note from="usedInGenSpecifier">auroraW</note>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Quitter">
+        <source>Quitter</source>
+        <target>Cerrar</target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Vous venez de quitter ce module">
+        <source>Vous venez de quitter ce module</source>
+        <target>Acaba de dejar este módulo</target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="Vous pouvez clore cette page, ou charger un autre module.">
+        <source>Vous pouvez clore cette page, ou charger un autre module.</source>
+        <target>Puede cerrar esa página, o cargar otro módulo.</target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+      <trans-unit resname="[Contenu non titré]">
+        <source>[Contenu non titré]</source>
+        <target>[contenido sin título]</target>
+        <note from="usedInGenSpecifier">auroraS</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="authoring" source-language="" datatype="plaintext">
+    <header>
+      <note>Scenari model : OpaleGenAurora3-5</note>
+    </header>
+    <body>
+      <trans-unit resname="Générateur Web Aurora">
+        <source>Générateur Web Aurora</source>
+        <target>Generador Web Aurora</target>
+      </trans-unit>
+      <trans-unit resname="Publication Web Aurora (Expérimental)">
+        <source>Publication Web Aurora (Expérimental)</source>
+        <target>Publicación Web Aurora (Experimental)</target>
+      </trans-unit>
+      <trans-unit resname="Publication SCORM mono SCO Aurora (Expérimental)">
+        <source>Publication SCORM mono SCO Aurora (Expérimental)</source>
+        <target>Publicación SCORM mono SCO Aurora (Experimental)</target>
+      </trans-unit>
+      <trans-unit resname="packaging SCORM 1.2">
+        <source>packaging SCORM 1.2</source>
+        <target>Empaquetamiento SCORM 1.2 </target>
+      </trans-unit>
+      <trans-unit resname="packaging SCORM 2004">
+        <source>packaging SCORM 2004</source>
+        <target>Empaquetamiento SCORM 2004</target>
+      </trans-unit>
+      <trans-unit resname="Aurora">
+        <source>Aurora</source>
+        <target>Aurora</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

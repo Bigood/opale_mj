@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:transformerList xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:transformer sc:refUri="/custom/academic/gen/_common/transf/PFPb/pb.transf"/>
+	<sm:transformer sc:refUri="/custom/academic/gen/_common/transf/PFPb/pbTi.transf"/>
+	<!--<sm:transformer xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" sc:refUri="/PairForm/academic/gen/_common/transf/PFPb/OAuid.transf" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core"/>-->
+	<!--<sm:transformer xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" sc:refUri="/PairForm/academic/gen/_common/transf/PFPb/pbTi@OAuid.transf" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core"/>-->
+</sm:transformerList>

@@ -1,0 +1,40 @@
+8
+
+dir
+3237
+http://scenari-platform.org/svn/opale/tags/sc41-v3.5.0.14/model/sources/aurora/web/widg/code
+http://scenari-platform.org/svn/opale
+
+
+
+2014-08-06T17:11:24.781728Z
+2757
+sam
+has-props
+
+svn:special svn:externals svn:needs-lock
+svn:externals
+
+
+
+
+
+
+
+
+
+
+899cd45d-9604-0410-9353-cb762ee69498
+
+scCodeMgr.uiwidget
+file
+
+
+
+
+2015-09-01T13:58:22.000000Z
+56788d4e64d3306284b68abb05e5036d
+2014-08-06T17:11:24.781728Z
+2757
+sam
+

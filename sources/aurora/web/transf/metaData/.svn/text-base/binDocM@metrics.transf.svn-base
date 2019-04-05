@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:dataFormXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/academic/model/metaData/binDocM.model"/>
+	<sm:axis code="metrics"/>
+	<sm:content>
+		<sm:forField codes="weight">
+			<sm:WText value=", "/>
+			<sm:fieldValueString/>
+		</sm:forField>
+		<sm:forSubData codes="lang">
+			<sm:WText value=", "/>
+			<sm:dynamicString>
+				<sm:freeSelect xpath="//sp:code"/>
+			</sm:dynamicString>
+		</sm:forSubData>
+	</sm:content>
+</sm:dataFormXhtmlTransf>

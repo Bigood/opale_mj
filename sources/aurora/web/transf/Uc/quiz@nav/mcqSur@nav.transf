@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:genericWebSiteTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/academic/model/Uc/quiz/mcqSur.model"/>
+	<sm:axis code="nav"/>
+	<sm:fullTitleText>
+		<sm:choose>
+			<sm:when xpath="op:exeM/sp:title">
+				<sm:fixedString value="￼;Exercice :￼"/>
+				<sm:fixedString value=" "/>
+				<sm:callModel view="fullTitleText">
+					<sm:current/>
+				</sm:callModel>
+			</sm:when>
+			<sm:otherwise>
+				<sm:fixedString value="￼;Exercice￼"/>
+			</sm:otherwise>
+		</sm:choose>
+	</sm:fullTitleText>
+	<sm:navigation>
+		<sm:page template="module">
+			<sm:title>
+				<sm:callModel view="fullTitleText">
+					<sm:current axis="nav"/>
+				</sm:callModel>
+			</sm:title>
+			<sm:outlineClasses>
+				<sm:fixedString value="quiz mcqSur"/>
+			</sm:outlineClasses>
+			<sm:mainZone format="xhtml">
+				<scBlock xmlns="http://www.w3.org/1999/xhtml" class="hBk article quiz mcqSur" tagName="section">
+					<ifText>
+						<hx class="hBk_ti">
+							<span>
+								<sm:callModel view="fullTitleText">
+									<sm:current axis="nav"/>
+								</sm:callModel>
+							</span>
+						</hx>
+					</ifText>
+					<div class="hBk_co">
+						<sm:Widget sc:refUri="/aurora/web/widg/refs/kwrdEntries.uiwidget"/>
+						<sm:choose>
+							<sm:when sc:refUri="/aurora/web/cnd/solutions/solQuiz.cond">
+								<sm:callModel view="xhtmlContent">
+									<sm:current/>
+								</sm:callModel>
+							</sm:when>
+							<sm:otherwise>
+								<sm:callModel view="xhtmlContent">
+									<sm:current axis="noSol"/>
+								</sm:callModel>
+							</sm:otherwise>
+						</sm:choose>
+					</div>
+				</scBlock>
+			</sm:mainZone>
+			<sm:zone key="zLegal" format="xhtml">
+				<sm:callModel view="xhtmlContent">
+					<sm:current axis="legal"/>
+				</sm:callModel>
+			</sm:zone>
+			<sm:zone key="zKeywords" format="text">
+				<sm:callModel view="xhtmlContent">
+					<sm:current axis="keywords"/>
+				</sm:callModel>
+			</sm:zone>
+		</sm:page>
+	</sm:navigation>
+</sm:genericWebSiteTransf>

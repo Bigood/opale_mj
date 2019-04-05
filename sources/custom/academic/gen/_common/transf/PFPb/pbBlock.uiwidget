@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:openUiWidget code="pbBlock" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:content>
+		<scBlock xmlns="http://www.w3.org/1999/xhtml">
+			<sm:addSrcPath/>
+			<addAttribute name="class">
+				<sm:callZone key="zClass"/>
+			</addAttribute>
+			<addAttribute name="data-OAuid">
+				<sm:callZone key="zOAuid"/>
+			</addAttribute>
+			<hx>
+				<addAttribute name="class">
+					<sm:callZone key="zClass"/>_ti blocks_ti</addAttribute>
+				<span>
+					<addAttribute name="class">
+						<sm:callZone key="zClass"/>_ti_co pb_ti_co</addAttribute>
+					<span class="pbTiAuthor">
+						<sm:callZone key="zTi"/>
+					</span>
+					<span class="pbTi">
+						<sm:callZone key="zType"/>
+					</span>
+				</span>
+			</hx>
+			<div>
+				<addAttribute name="class">
+					<sm:callZone key="zClass"/>_co blocks_co</addAttribute>
+				<sm:callZone key="zCo"/>
+			</div>
+		</scBlock>
+	</sm:content>
+</sm:openUiWidget>

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@nav
+END
+field@nav.transf
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@nav/field@nav.transf
+END
+cloze@nav.transf
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@nav/cloze@nav.transf
+END
+match@nav.transf
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@nav/match@nav.transf
+END
+mcqMur@nav.transf
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@nav/mcqMur@nav.transf
+END
+ordWord@nav.transf
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@nav/ordWord@nav.transf
+END
+mcgMur@nav.transf
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@nav/mcgMur@nav.transf
+END
+mcqSur@nav.transf
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@nav/mcqSur@nav.transf
+END
+numerical@nav.transf
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@nav/numerical@nav.transf
+END
+coQuiz@nav.transf
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@nav/coQuiz@nav.transf
+END
+mcgSur@nav.transf
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/transf/Uc/quiz@nav/mcgSur@nav.transf
+END

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:binaryXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/binaries/webm/webm.model"/>
+	<sm:axis code="view"/>
+	<sm:content>
+		<sm:WFreeBlock>
+			<div xmlns="http://www.w3.org/1999/xhtml" class="mediaPlayer" data-type="video">
+				<sm:Widget sc:refUri="/aurora/web/widg/bin/videoDims.uiwidget">
+					<sm:xhtmlContentZone key="zMaxSize">
+						<sm:WFreeBlock>
+							<sm:dynamicString>
+								<sm:freeSelect xpath="genProp('bin.size-int',630)"/>
+							</sm:dynamicString>
+						</sm:WFreeBlock>
+					</sm:xhtmlContentZone>
+				</sm:Widget>
+				<addAttribute name="data-src">
+					<sm:binaryUrl/>
+				</addAttribute>
+				<sm:callBinaryMeta axis="mediaAttributes"/>
+				<div class="infoVideo">
+					<p>Votre navigateur ne prend pas en charge le format WEBM.
+Téléchargez la vidéo :</p>
+					<sm:WLink>
+						<sm:label>
+							<sm:binaryFileName/>
+						</sm:label>
+						<sm:link target="newWindow">
+							<sm:binaryUrl/>
+						</sm:link>
+					</sm:WLink>
+					<p>Si vous utilisez Internet Explorer 9 ou supérieur, vous pouvez installer ce plugin :</p>
+					<sm:WLink>
+						<sm:label>
+							<sm:WFreeBlock>https://tools.google.com/dlpage/webmmf</sm:WFreeBlock>
+						</sm:label>
+						<sm:link target="newWindow">
+							<sm:externalUrl>
+								<sm:fixedString value="https://tools.google.com/dlpage/webmmf"/>
+							</sm:externalUrl>
+						</sm:link>
+					</sm:WLink>
+				</div>
+			</div>
+			<sm:callBinaryMeta axis="transcript"/>
+		</sm:WFreeBlock>
+	</sm:content>
+</sm:binaryXhtmlTransf>

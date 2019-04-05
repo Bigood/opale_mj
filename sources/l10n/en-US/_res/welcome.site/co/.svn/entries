@@ -1,0 +1,54 @@
+8
+
+dir
+3237
+http://scenari-platform.org/svn/opale/tags/sc41-v3.5.0.14/model/sources/l10n/en-US/_res/welcome.site/co
+http://scenari-platform.org/svn/opale
+
+
+
+2014-10-02T10:37:35.294179Z
+2969
+chl
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+899cd45d-9604-0410-9353-cb762ee69498
+
+presentation.html
+file
+
+
+
+
+2015-09-01T13:58:40.000000Z
+449d66fc2cd08400fdb2a174dfe8098c
+2014-10-02T10:37:35.294179Z
+2969
+chl
+has-props
+
+welcome.html
+file
+
+
+
+
+2015-09-01T13:58:40.000000Z
+7fadbfc7b908d9fea97e1cc283d75224
+2014-10-02T10:37:35.294179Z
+2969
+chl
+has-props
+

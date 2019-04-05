@@ -1,0 +1,378 @@
+html{
+	height: 100%;
+	/* overflow:hidden; */
+}
+/* ============= Accessibility menu ============= */
+ul#accessibility {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position:absolute;
+	right:50px;
+	width:auto;
+	z-index:90;
+	font-size:7pt;
+	top:3px;
+	opacity: 0.2;
+	filter:Alpha(opacity=20); 
+	color:white;
+    display:none;
+}
+ul#accessibility:hover,
+ul#accessibility.waiFocus{
+	opacity: 0.7;
+	filter:Alpha(opacity=70); 
+}
+ul#accessibility li{
+	float: left;
+	margin-left:10px;
+}
+ul#accessibility a{
+	color:white;
+	text-decoration: none;
+}
+ul#accessibility a:hover{
+	text-decoration: none;
+}
+
+ul.mnuMode{
+	margin:0;
+	padding:0;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+}
+noscript{
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+#tplFra {
+/*	position: absolute; compat IE7 */
+	
+
+
+	/* height:100%; */
+	
+
+	/* width:100%; */
+	
+
+	/* min-width:700px; */
+	
+
+	/* min-height:360px; */
+}
+#tplTop {
+	/* position: absolute; */
+	width:100%;
+	height: 58px;
+	background: rgb(0, 150, 219);
+	border-bottom: 2px solid #007DB7;
+	/* background: url('../img/struct/textured_paper.png'); */
+	/* border-bottom: 1px solid #E4E4E4; */
+	top:0px;
+	left:0px;
+	text-align: center;
+	font-size:16px;
+	z-index: 1000;
+}
+#titleRoot{
+	font-size: 16px;
+	min-width: 130px;
+	/* max-width: 200px; */
+	font-weight: 200;
+	padding: 5px 10px 5px 0;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.04);
+	border-left: 2px solid rgba(0, 0, 0, 0.08);
+	color: rgb(236, 236, 236);
+	display: inline-block;
+	vertical-align: top;
+	padding: 8px 16px;
+	/* width: 70%; */
+	line-height: 42px;
+	float: right;
+	/* clear: left; */
+	/* outline: 1px solid red; */
+}
+#tplLft {
+	/* position: absolute; */
+	/* z-index: 20; */
+	/* height: 50px; */
+	/* top: 10px; */
+	/* left: 175px; */
+	color: white;
+	/* overflow: hidden; */
+	/* text-align: center; */
+	/* min-height: 30px; */
+	padding-right: 12px;
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	/* background-color: rgba(0, 0, 0, 0); */
+}
+#tplMain{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	/* position: absolute; */
+	
+	/* top: 33px; */
+	/* bottom:50px; */
+	/* left: 0px; */
+	/* right: 0px; */
+	/* border-top: 1px solid rgb(202, 202, 202); */ 
+	/* border-bottom: 1px solid rgb(202, 202, 202); */ 
+}
+
+#tplMnu {
+	position: fixed;
+	z-index: 200;
+	
+	width:250px;
+	top: 70px;
+	left: calc(250px + 50vw);
+	min-height: 300px;
+	max-height: 80vh;
+	padding: 0 10px;
+	overflow-y: auto;
+	text-align: left;
+	border-right: 1px solid rgba(255, 255, 255, 0.66);
+	box-shadow: 0px 8px 10px -5px rgba(114, 114, 114, 0.33);
+	background: white;
+	border: 1px solid #E4E4E4;
+}
+
+/* Portrait */
+@media only screen 
+  and (max-width: 960px) {
+	#tplMnu{
+		width: 30px;
+		max-height: 30px;
+		padding: 4px;
+		transition: width ease-out .2s, max-height ease-out 0.3s .2s, background ease-out .5s;
+		position:absolute;
+		top: 0;
+		left: initial;
+		right: 0px;
+		overflow:hidden;
+		border-right: none;
+		box-shadow: none;
+		background: none;
+		border: none;
+	}
+	#tplMnu::before {
+		content:"\2261";
+		font-size:32px;
+	    text-shadow: 4px 0px 0px #db7300;
+	    color: #db7300;
+		display:block;
+		opacity:1;
+		position:absolute;
+		transition:opacity ease-out .5s;
+	}
+	#tplMnu .mnuFra {
+		opacity:0;
+		transition:opacity ease-out .2s .3s;
+	}
+	#tplMnu:hover{
+		width: 252px;
+		max-height:500px;
+		border-right: 1px solid rgba(255, 255, 255, 0.66);
+		box-shadow: 0px 8px 10px -5px rgba(114, 114, 114, 0.33);
+		background: white;
+		border: 1px solid #E4E4E4;
+		overflow-y:auto;
+	}
+	#tplMnu:hover::before{
+		opacity:0;
+	}
+	#tplMnu:hover .mnuFra {
+		opacity:1;
+	}
+	#tplCo, #tplMain, #tplRgt{
+		width: 100% !important;
+	
+		margin-top: 0px !important;
+		padding: 0px !important;
+  }
+
+}
+div.mnuOpn{
+	display: none;
+	position: absolute;
+	width: 15px;
+	height: 27px;
+	right:0px;
+	bottom:210px;
+}
+a.mnuOpnBtn{
+	position: absolute;
+	width: 15px;
+	height: 27px;
+}
+a.mnuOpnBtn .btnImg{
+	border:0px;
+}
+a.mnuOpnBtn .btnLbl{
+	color:black:
+}
+
+#tplIco{
+	/* position: absolute; */
+	/* text-align: center; */
+	/* width:240px; */
+	/* bottom:0px; */
+	/* height:200px; */
+	/* overflow: hidden; */
+	display: none;
+}
+#tplIco img{
+	position: absolute;
+	left:0px;
+	bottom:0px;
+}
+div.mnuCls{
+	position: absolute;
+	
+	top:0px;
+	left:0px;
+	bottom:0px;
+	width: 15px;
+}
+div.tplMainMnu_open div.mnuCls{
+	display:none;
+}
+div.tplMainMnu_closed #tplMnu{
+	display:none;
+}
+a.mnuClsBtn{
+	position: absolute;
+	width: 15px;
+	height: 27px;
+	bottom:210px;
+}
+a.mnuClsBtn .btnImg{
+	border:0px;
+}
+
+a.mnuClsBtn .btnLbl{
+	color:black:
+}
+
+#tplCo {
+	width: 700px;
+	/* margin-left: 250px; */
+	/* margin: 0 auto; */
+	background: white;
+	min-height: calc(100vh - 200px);
+	/* position: absolute; */
+	
+	/* left: 0px; */
+	/* top: 0px; */
+	/* right: 0px; */
+	/* bottom: 0px; */
+	/* overflow: auto; */
+	box-shadow: 0px 8px 10px -5px rgba(114, 114, 114, 0.33);
+	border: 1px solid #E4E4E4;
+	margin-top: 10px;
+}
+
+.tplMainMnu_open #tplCo{
+	/* left:250px; */
+}
+.tplMainMnu_closed #tplCo{
+	left: 15px;
+}
+
+/* with overflow=auto, margin-bottom does not work correctly for some browsers */
+/* using this method as a workaround : http://www.brunildo.org/test/overscrollbackV.html */
+#tplCoSpacer {
+	height:20px;
+}
+
+#tplRgt {
+	display: block;
+	padding: 6px 70px;
+	width: 560px;
+	margin-top: 10px;
+	/* height: 32px; */
+	transition: opacity .2s ease-in-out;
+	box-shadow: 0px 8px 10px -5px rgba(114, 114, 114, 0.33);  border: 1px solid #E4E4E4;
+	background: white;
+}
+#tplRgt:hover{
+	opacity: 1;
+}
+#tplBtm {
+	/* position: absolute; */
+	/* width:100%; */
+	/* height:50px; */
+	/* top: 10px; */
+	/* right: 20px; */
+	color: white;
+	/* text-align: right; */
+	display: inline-block;
+	float: left;
+	padding-left: 10px;
+	/* background-color: rgba(0, 0, 0, 0.05); */
+}
+#tplBtmLeft{
+	/* position: absolute; */
+	display: block;
+	/* left: 50px; */
+	height:48px;
+}
+#tplBtmIn {
+	/* position: absolute; */
+	/* float: right; */
+	display: block;
+	/* width: 200px; */
+	line-height: 32px;
+	margin-top: 10px;
+	top: 0px;
+	right: 0px;
+	/* padding-top:2px; */
+	color: #A2A2A2;
+	/* background-color: rgba(0, 0, 0, 0.05); */
+}
+#linkSp, #linkPF{
+	text-decoration: none;
+	margin: 0px;
+	float: right;
+}
+#linkSp img, #linkPF img{
+	border-width:0px;
+	vertical-align: middle;
+}
+#linkPF img{
+	height: 32px;
+	margin-left: 12px;
+	padding: 0 8px;
+	background-color: rgb(250, 250, 250);
+	border-radius: 3px;
+}
+#tplBtmIn a {
+	color: white;
+}
+#tplBtmIn a:hover {
+	color: lightgray;
+}
+
+/* === SMALL & TOUCH screens ================================================ */
+/* ipad */
+@media only screen and (max-device-width: 1024px){
+	body{
+		-webkit-text-size-adjust:none;
+	}
+}
+#tplLft > ul > li {
+    display: inline-block;
+    margin: 4px;
+}
+#tplCoFlexTop{
+	display:none;
+}

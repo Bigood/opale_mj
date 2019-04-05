@@ -1,0 +1,8 @@
+K 13
+svn:externals
+V 340
+modeling.locale http://scenari-platform.org/svn/dev-core/branches/4.1.x/Bui_Localization/es-ES/locale/modeling/
+scenari.locale http://scenari-platform.org/svn/dev-core/branches/4.1.x/Bui_Localization/es-ES/locale/SCENARIcore/
+framework.locale http://scenari-platform.org/svn/dev-core/branches/4.1.x/Bui_Localization/es-ES/locale/framework/
+
+END

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:transparentUiFrame xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:uiServices>
+		<sm:uiService sc:refUri="/aurora/web/svc/assmnt.uiservice"/>
+		<sm:uiService sc:refUri="/aurora/web/svc/scSearch.uiservice"/>
+	</sm:uiServices>
+	<sm:rootContext>
+		<sm:none lookForInternContext="yes"/>
+	</sm:rootContext>
+	<sm:callRootModel axis="root"/>
+	<sm:publishFiles sc:refUri="/aurora/web/frame/postBuild.doss">
+		<!--<comment xmlns="scenari.eu:comment:1.0" type="thread"><comment creationTime="1410445268744">Post-build : suppression de MathJax si pas de math présent dans la génération.</comment></comment>-->
+	</sm:publishFiles>
+	<sm:freeInitProperties mode="append">postTask.ant=build.xml</sm:freeInitProperties>
+</sm:transparentUiFrame>

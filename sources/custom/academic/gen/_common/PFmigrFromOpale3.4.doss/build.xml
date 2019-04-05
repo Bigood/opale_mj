@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="Migration Opale Opale 3.4.003 -> PairForm Opale 3.4.101" default="main" basedir=".">
+	
+	<target name="main">
+		<echo>####### MIGRATION Opale 3.4.003 -> PairForm Opale 3.4.101</echo>
+		<tstamp><format property="timestamp" pattern="yyMMdd-HHmm"/></tstamp>
+		
+		
+		<migrateXsl style="${basedir}/migration.xsl">
+			<param name="pWspPath" expression="${scenari.wsp.path}"/>
+			<fileset dir="${scenari.wsp.path}" includes="**/*.xml"/>
+		</migrateXsl>		
+		
+		<echo>--- Migration terminée ---</echo>
+	</target>
+	
+</project>

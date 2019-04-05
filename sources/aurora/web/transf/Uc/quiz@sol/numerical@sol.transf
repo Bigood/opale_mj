@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sma:assmntUnitEditDhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" xmlns:sma="kelis.fr:scenari/modeling/assessment" xmlns="http://www.w3.org/1999/xhtml">
+	<sm:model sc:refUri="/academic/model/Uc/quiz/numerical.model"/>
+	<sm:axis code="sol"/>
+	<sm:scenario>
+		<sm:sequence>
+			<sm:initBody>
+				<sm:inputInteraction mode="disabled"/>
+				<sm:solutionDisplay ifRight="collapsed" ifNotBestResponse="visible"/>
+				<sm:resultDisplay mode="addClass"/>
+			</sm:initBody>
+			<sm:loadData>
+				<sm:responseSessionKey>
+					<sm:fixedKey value="eval"/>
+				</sm:responseSessionKey>
+				<sm:scoreSessionKey>
+					<sm:fixedKey value="eval"/>
+				</sm:scoreSessionKey>
+			</sm:loadData>
+		</sm:sequence>
+	</sm:scenario>
+	<sm:assmntBody>
+		<div class="solBody">
+			<sm:choose>
+				<sm:when xpath="sc:question">
+					<scBlock class="question">
+						<hx class="question_ti">
+							<span>￼;Énoncé￼</span>
+						</hx>
+						<sm:callQuestionModel/>
+					</scBlock>
+				</sm:when>
+			</sm:choose>
+			<scBlock class="score">
+				<hx class="score_ti">
+					<span>￼;Résultat￼</span>
+				</hx>
+				<sm:WScore widgetClass="scoreEval">
+					<sm:scoreText>
+						<sm:pointsScore step="1">
+							<sm:display pointsMoreThan="0" class="answBest">
+								<sm:fixedString value="￼;Votre réponse est juste.￼"/>
+							</sm:display>
+							<sm:display class="answWorst">
+								<sm:fixedString value="￼;Votre réponse est incorrecte.￼"/>
+							</sm:display>
+						</sm:pointsScore>
+					</sm:scoreText>
+				</sm:WScore>
+			</scBlock>
+			<scBlock class="sol">
+				<hx class="sol_ti">
+					<span>￼;Correction￼</span>
+				</hx>
+				<sm:WInputZone>
+					<sm:singleField>
+						<sm:forNumberField codes="asw">
+							<div>
+								<sm:WInputText widgetClass="exoInput"/>
+								<sm:WSolution widgetClass="gapAnswer">
+									<sm:solution/>
+								</sm:WSolution>
+							</div>
+						</sm:forNumberField>
+					</sm:singleField>
+				</sm:WInputZone>
+			</scBlock>
+			<sm:choose>
+				<sm:when xpath="sc:globalExplanation">
+					<scBlock class="explain">
+						<hx class="explain_ti">
+							<span>￼;Explications￼</span>
+						</hx>
+						<sm:WGlobalExplanation>
+							<sm:callExplanationModel/>
+						</sm:WGlobalExplanation>
+					</scBlock>
+				</sm:when>
+			</sm:choose>
+		</div>
+	</sm:assmntBody>
+</sma:assmntUnitEditDhtmlTransf>

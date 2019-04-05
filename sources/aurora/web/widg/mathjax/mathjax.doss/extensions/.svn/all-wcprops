@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/modelet/!svn/ver/901/branches/sc41/math/model/sources/math/mathjax/mathjax-svg.doss/extensions
+END
+FontWarnings.js
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/modelet/!svn/ver/901/branches/sc41/math/model/sources/math/mathjax/mathjax-svg.doss/extensions/FontWarnings.js
+END
+HelpDialog.js
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/modelet/!svn/ver/901/branches/sc41/math/model/sources/math/mathjax/mathjax-svg.doss/extensions/HelpDialog.js
+END
+toMathML.js
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/modelet/!svn/ver/901/branches/sc41/math/model/sources/math/mathjax/mathjax-svg.doss/extensions/toMathML.js
+END
+MathMenu.js
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/modelet/!svn/ver/901/branches/sc41/math/model/sources/math/mathjax/mathjax-svg.doss/extensions/MathMenu.js
+END
+MathZoom.js
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/modelet/!svn/ver/901/branches/sc41/math/model/sources/math/mathjax/mathjax-svg.doss/extensions/MathZoom.js
+END
+tex2jax.js
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/modelet/!svn/ver/901/branches/sc41/math/model/sources/math/mathjax/mathjax-svg.doss/extensions/tex2jax.js
+END
+Safe.js
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/modelet/!svn/ver/901/branches/sc41/math/model/sources/math/mathjax/mathjax-svg.doss/extensions/Safe.js
+END
+MatchWebFonts.js
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/modelet/!svn/ver/901/branches/sc41/math/model/sources/math/mathjax/mathjax-svg.doss/extensions/MatchWebFonts.js
+END
+MathEvents.js
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/modelet/!svn/ver/901/branches/sc41/math/model/sources/math/mathjax/mathjax-svg.doss/extensions/MathEvents.js
+END
+jsMath2jax.js
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/modelet/!svn/ver/901/branches/sc41/math/model/sources/math/mathjax/mathjax-svg.doss/extensions/jsMath2jax.js
+END

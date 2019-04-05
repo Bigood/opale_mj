@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:compositionXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/academic/model/metaData/transcript.model"/>
+	<sm:content format="xhtml">
+		<sm:for codes="*">
+			<sm:choose>
+				<sm:when xpath="not(typeAgent(concat('@',gotoSubModel()))='sfile_pdf' or typeAgent(concat('@',gotoSubModel()))='sfile_rtf')">
+					<sm:WSimpleBlock widgetClass="transcript">
+						<sm:callSubModel/>
+					</sm:WSimpleBlock>
+				</sm:when>
+			</sm:choose>
+		</sm:for>
+	</sm:content>
+</sm:compositionXhtmlTransf>

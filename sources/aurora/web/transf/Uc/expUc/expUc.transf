@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:compositionXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/academic/model/Uc/expUc.model"/>
+	<sm:content format="xhtml">
+		<sm:WHeadingBlock widgetClass="hBk" class="article expUc" tagName="section">
+			<sm:title>
+				<sm:compositionTitle format="fullTitleText"/>
+			</sm:title>
+			<sm:Widget sc:refUri="/aurora/web/widg/refs/kwrdEntries.uiwidget"/>
+			<sm:for codes="pb">
+				<sm:callSubModel/>
+			</sm:for>
+			<sm:for codes="div">
+				<sm:choose>
+					<sm:when sc:refUri="/aurora/web/cnd/filters/include.cond">
+						<sm:callSubModel/>
+					</sm:when>
+				</sm:choose>
+			</sm:for>
+		</sm:WHeadingBlock>
+	</sm:content>
+</sm:compositionXhtmlTransf>

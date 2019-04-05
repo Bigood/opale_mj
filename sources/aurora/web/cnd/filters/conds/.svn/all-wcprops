@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/cnd/filters/conds
+END
+includeInStandardQuest.cond
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/cnd/filters/conds/includeInStandardQuest.cond
+END
+includeInShort.cond
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/cnd/filters/conds/includeInShort.cond
+END
+isStandardPub.cond
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/cnd/filters/conds/isStandardPub.cond
+END
+includeInStandard.cond
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/cnd/filters/conds/includeInStandard.cond
+END
+isShortPub.cond
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/cnd/filters/conds/isShortPub.cond
+END
+includeInShortQuest.cond
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/cnd/filters/conds/includeInShortQuest.cond
+END

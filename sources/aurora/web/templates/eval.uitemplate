@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:openUiTemplate xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" pageUnicityCriterion="none">
+	<sm:head>
+		<sm:windowTitle>
+			<sm:pageTitle/>
+		</sm:windowTitle>
+		<sm:Widget sc:refUri="/aurora/web/widg/tpl/template.uiwidget"/>
+		<sm:meta name="author">
+			<sm:callRootModel axis="author"/>
+		</sm:meta>
+		<sm:meta name="date">
+			<sm:callRootModel axis="date"/>
+		</sm:meta>
+		<sm:meta name="viewport">
+			<sm:fixedContent value="width=device-width, initial-scale=1"/>
+		</sm:meta>
+		<sm:styleSheet src="css/main.css" srcFrom="skin" media="all"/>
+		<sm:styleSheet src="css/skin.css" srcFrom="skin" media="all"/>
+		<sm:styleSheet src="css/print.css" srcFrom="skin" media="print"/>
+		<sm:Widget sc:refUri="/aurora/web/widg/tpl/tplMgr.uiwidget"/>
+		<sm:Widget sc:refUri="/aurora/web/widg/tpl/setSubWinTitle.uiwidget"/>
+		<sm:callRootModel axis="genSpecific" navCtx="preserveCurrent"/>
+	</sm:head>
+	<sm:body>
+		<addClassToBody xmlns="http://www.w3.org/1999/xhtml" class="subWin eval"></addClassToBody>
+		<scBlock xmlns="http://www.w3.org/1999/xhtml" id="root">
+			<header id="header" role="banner">
+				<nav role="navigation">
+					<sm:Widget sc:refUri="/aurora/web/widg/tpl/accessBtns.uiwidget"/>
+				</nav>
+			</header>
+			<main id="main" role="main">
+				<div id="document">
+					<div id="content" tabindex="-1">
+						<div class="scroller">
+							<!--<comment xmlns="scenari.eu:comment:1.0" type="thread"><comment creationTime="1414084384660">Ajouté pour compat IE11 qui ne peut pas scroller un flex auto</comment></comment>-->
+							<hr class="hidden" />
+							<sm:callMainZone format="xhtml"/>
+							<sm:WBasket key="footnotes" widgetClass="footnotes" tagName="ol" suppressIfEmpty="yes">
+								<sm:title tagName="aside">
+									<sm:fixedString value="￼;Notes￼"/>
+								</sm:title>
+							</sm:WBasket>
+						</div>
+					</div>
+					<div id="navigation" tabindex="-1">
+						<hr class="hidden" />
+						<sm:callZone key="zCounter" format="xhtml"/>
+						<nav class="pageTurner" role="navigation">
+							<ul>
+								<ifText>
+									<li>
+										<sm:Widget sc:refUri="/aurora/web/widg/nav/prevEval.uiwidget"/>
+									</li>
+								</ifText>
+								<ifText>
+									<li>
+										<sm:Widget sc:refUri="/aurora/web/widg/nav/nextEval.uiwidget"/>
+									</li>
+								</ifText>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</main>
+			<!--<footer xmlns="http://www.w3.org/1999/xhtml" id="footer" role="contentinfo" tabindex="-1">
+	<hr class="hidden" />
+	<sm:callZone xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" key="zLegal" format="xhtml"/>
+</footer>-->
+		</scBlock>
+		<sm:script src="js/skin.js" srcFrom="skin" type="text/JavaScript"/>
+	</sm:body>
+</sm:openUiTemplate>

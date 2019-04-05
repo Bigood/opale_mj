@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:binaryXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/binaries/gif/gif.model"/>
+	<sm:axis code="inlineBasic"/>
+	<sm:content>
+		<sm:choose>
+			<sm:when sc:refUri="/aurora/web/cnd/bin/isDeco.cond">
+				<sm:choose>
+					<sm:when sc:refUri="/aurora/web/cnd/bin/isInLabel.cond">
+						<sm:WImage>
+							<sm:binaryUrl>
+								<sm:imageTransform>
+									<sm:scaleFromStandardCharSize/>
+									<sm:sizeBounds maxWidthInPx="genProp('bin.size.label-int',100)" maxHeightInPx="genProp('bin.size.label-int',100)"/>
+									<sm:outputGIF/>
+								</sm:imageTransform>
+							</sm:binaryUrl>
+							<sm:alt/>
+							<sm:declareSize/>
+						</sm:WImage>
+					</sm:when>
+					<sm:otherwise>
+						<sm:WImage>
+							<sm:binaryUrl>
+								<sm:imageTransform>
+									<sm:scaleFromStandardCharSize/>
+									<sm:sizeBounds maxWidthInPx="genProp('bin.size.inline.w-int',400)" maxHeightInPx="genProp('bin.size.inline.h-int',100)"/>
+									<sm:outputGIF/>
+								</sm:imageTransform>
+							</sm:binaryUrl>
+							<sm:alt/>
+							<sm:declareSize/>
+						</sm:WImage>
+					</sm:otherwise>
+				</sm:choose>
+			</sm:when>
+			<sm:otherwise>
+				<sm:choose>
+					<sm:when sc:refUri="/aurora/web/cnd/bin/isInLabel.cond">
+						<sm:WImage>
+							<sm:binaryUrl>
+								<sm:imageTransform>
+									<sm:scaleFromStandardCharSize/>
+									<sm:sizeBounds maxWidthInPx="genProp('bin.size.label-int',100)" maxHeightInPx="genProp('bin.size.label-int',100)"/>
+									<sm:outputGIF/>
+								</sm:imageTransform>
+							</sm:binaryUrl>
+							<sm:alt>
+								<sm:callBinaryMeta axis="altTitle"/>
+							</sm:alt>
+							<sm:declareSize/>
+						</sm:WImage>
+					</sm:when>
+					<sm:otherwise>
+						<sm:WImage>
+							<sm:binaryUrl>
+								<sm:imageTransform>
+									<sm:scaleFromStandardCharSize/>
+									<sm:sizeBounds maxWidthInPx="genProp('bin.size.inline.w-int',400)" maxHeightInPx="genProp('bin.size.inline.h-int',100)"/>
+									<sm:outputGIF/>
+								</sm:imageTransform>
+							</sm:binaryUrl>
+							<sm:alt>
+								<sm:callBinaryMeta axis="altTitle"/>
+							</sm:alt>
+							<sm:declareSize/>
+						</sm:WImage>
+					</sm:otherwise>
+				</sm:choose>
+			</sm:otherwise>
+		</sm:choose>
+	</sm:content>
+</sm:binaryXhtmlTransf>

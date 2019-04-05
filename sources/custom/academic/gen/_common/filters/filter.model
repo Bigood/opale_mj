@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:dataFormPrim name="Filtre par version" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:identification targetNamespace="utc.fr:ics/opale3" targetPrefix="op" code="filter" itemExtension="xml"/>
+	<sm:structure>
+		<sm:field code="exclude" name="Exclu de la version" occurrence="zeroOrMore" family="content">
+			<sm:enum>
+				<sm:option key="standard" name="Version web"/>
+				<sm:option key="short" name="Version mobile"/>
+			</sm:enum>
+		</sm:field>
+	</sm:structure>
+	<sm:storage/>
+	<sm:authoring>
+		<sm:formEditor indentXml="true">
+			<sm:xmlEditor sc:refUri="/custom/academic/gen/_common/filters/filter.xed"/>
+		</sm:formEditor>
+	</sm:authoring>
+</sm:dataFormPrim>

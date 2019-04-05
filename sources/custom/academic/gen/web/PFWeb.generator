@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:webSiteGenerator xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" code="web" name="￼;Publication Web￼">
+	<sm:icon sc:refUri="/custom/academic/gen/web/desktop-icon.png"/>
+	<sm:modelRoot>
+		<sm:allowedModel sc:refUri="/academic/model/root/webRoot.model"/>
+		<sm:allowedModel sc:refUri="/academic/model/Ue/ue.model"/>
+	</sm:modelRoot>
+	<sm:mode standard="HTML 5" debug="no"/>
+	<sm:uiFrame sc:refUri="/custom/academic/gen/web/PFWeb.uiframe"/>
+	<sm:transformerList>
+		<sm:transformerList sc:refUri="/custom/academic/gen/web/transf/PFWeb.transflist"/>
+		<!--<sm:transformer xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" sc:refUri="/PairForm/academic/gen/web/webRoot@homeURL.transf" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core"/>-->
+		<!--<sm:transformer xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" sc:refUri="/PairForm/academic/gen/web/webRoot@btnHomeURL.transf" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core"/>-->
+		<!--<sm:transformer xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" sc:refUri="/PairForm/academic/gen/web/webRoot@homeURL.transf" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core"/>-->
+		<!--<sm:transformerList xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" info="Filter">
+	<sm:transformer sc:refUri="/PairForm/academic/gen/apercuWeb/@rootFilter/courseUa@rootFilter.transf"/>
+	<sm:transformer sc:refUri="/PairForm/academic/gen/apercuWeb/@rootFilter/expUc@rootFilter.transf"/>
+	<sm:transformer sc:refUri="/PairForm/academic/gen/apercuWeb/@rootFilter/ue@rootFilter.transf"/>
+</sm:transformerList>-->
+	</sm:transformerList>
+	<sm:uiTemplateList>
+		<sm:uiTemplate code="page" sc:refUri="/custom/academic/gen/web/templates/page.uitemplate"/>
+		<sm:uiTemplate code="home" sc:refUri="/custom/academic/gen/web/templates/home.uitemplate"/>
+		<sm:uiTemplate code="tools" sc:refUri="/custom/academic/gen/web/templates/tools.uitemplate"/>
+		<sm:uiTemplate code="eval" sc:refUri="/custom/academic/gen/web/templates/eval.uitemplate"/>
+		<sm:uiTemplate code="ref" sc:refUri="/custom/academic/gen/web/templates/ref.uitemplate"/>
+		<sm:uiTemplate code="player" sc:refUri="/custom/academic/gen/web/templates/evalPlayer.uitemplate"/>
+		<sm:uiTemplate code="json" sc:refUri="/custom/academic/gen/web/templates/json.uitemplate"/>
+		<sm:uiTemplate code="index" sc:refUri="/custom/academic/gen/web/templates/index.uitemplate"/>
+		<sm:uiTemplate code="outline" sc:refUri="/custom/academic/gen/mob/templates/outline.uitemplate"/>
+	</sm:uiTemplateList>
+	<sm:defaultSkin sc:refUri="/custom/academic/gen/web/web.skin.doss" name="￼;PairForm￼"/>
+</sm:webSiteGenerator>

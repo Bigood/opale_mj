@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:extDefinition xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" keyExt="OpaleGenAuroraStarter" name="￼;Générateur Web Aurora￼" majorVersion="3" mediumVersion="5" minorVersion="014">
+	<sm:parentWspDef sc:refUri="/opale/opaleStarter.wspdef"/>
+	<sm:mainViewsOverlays>
+		<sm:class sc:refUri="/academic/model/Ue/ue.model">
+			<sm:insertGenBoxes position="asLastBoxOfBlock" refIdInView="bkPub">
+				<sm:genBox idInView="genAurora">
+					<sm:generator sc:refUri="/aurora/web/auroraW.generator"/>
+				</sm:genBox>
+			</sm:insertGenBoxes>
+		</sm:class>
+	</sm:mainViewsOverlays>
+</sm:extDefinition>

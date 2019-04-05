@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:openUiWidget code="depreciated" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:content>
+		<s class="depreciated" xmlns="http://www.w3.org/1999/xhtml">￼;ATTENTION : Ce type de ressource n'est pas compatible avec ce générateur.￼</s>
+	</sm:content>
+</sm:openUiWidget>

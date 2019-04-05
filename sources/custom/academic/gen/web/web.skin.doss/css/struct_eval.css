@@ -1,0 +1,121 @@
+html{
+	height: 100%;
+}
+body{
+
+}
+#evalPlayerCo{
+	padding: 0px 32px 0px 32px;
+}
+#evalPlayerBar {margin-top: 20px;}
+
+#evalPlayerBar a{
+	color:white
+}
+
+#evalPlayerBarFra1 {
+}
+#evalPlayerBarFra2 {
+} 
+#evalPlayerBarFra3{text-align: center;}
+#evalPlayerPrint {
+	position: fixed;
+	bottom:0px;
+	left:0px;
+	background: url(../img/quiz/fondEvalPrint.png) top left no-repeat;
+	width:30px;
+	height:30px;
+	padding-left:2px;
+	display: none;
+}
+
+#evalPlayerPrint a{
+	color:black
+}
+
+.evalCounter{
+	color: #505050;
+	width: 28px;
+	height: 28px;
+	margin: 3px 6px;
+	font-size: 15px;
+	display: inline-block;
+}
+.evalCounterSeen{
+	font-weight: bold;
+	display:inline;
+}
+.evalCounterOver{
+	display:inline;
+}
+.evalCounterTotal{
+	font-weight: bold;
+	display:inline;
+}
+
+.nextEval,
+.prevEval,
+.printEval{
+	text-decoration: none;
+	margin-right: 10px;
+	color:white;
+	width: 84px;
+	font-size:13px;
+	display: inline-block;
+	background-color: #0096db;
+	border-bottom: 2px solid #007eb9;
+	border-radius: 4px;
+	padding: 10px 14px;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	color: white;
+	transition: background-color ease-out .2s;
+}
+
+a.nextEval:hover, a.prevEval:hover{
+	background-color: #0087c7;
+}
+
+.prevEval:hover::before
+{
+	left:4px;
+}
+.nextEval:hover::before {
+	right:4px;
+}
+.prevEval::before, .nextEval::before{
+	transition:right ease-out .2s, left ease-out .2s;
+	position:absolute;
+	color: white;
+	top: 2px;
+	font-size: 26px;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+.prevEval::before{
+	content: "\276e";
+	left: 10px;
+}
+.nextEval::before{
+	content: "\276f";
+	display: inline;
+	right: 10px;
+}
+.printEval{
+	background: url(../img/quiz/evalPrint.gif) top right no-repeat;
+	position:absolute;
+	bottom:0px
+}
+a.printEval:hover{
+	background: url(../img/quiz/evalPrintOver.gif) top right no-repeat;
+}
+.nextEval span, .prevEval span, .printEval span{
+	/* display: none; */
+}
+
+//* === SMALL & TOUCH screens ================================================ */
+div.tplFra_touch{
+}
+div.tplFra_touch #tplCo #evalPlayerCo{
+	padding:4px;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:freeUiWidget code="kwrdEntries" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:widgetBsFragment contentFormat="xhtml">&lt;source type=&quot;xsl-statique&quot;&gt;
+	&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; exclude-result-prefixes=&quot;sc sp op&quot; version=&quot;1.0&quot; xmlns:op=&quot;utc.fr:ics/opale3&quot; xmlns:sc=&quot;http://www.utc.fr/ics/scenari/v3/core&quot; xmlns:sp=&quot;http://www.utc.fr/ics/scenari/v3/primitive&quot;&gt;
+		&lt;xsl:output omit-xml-declaration=&quot;yes&quot; indent=&quot;no&quot; method=&quot;xml&quot;/&gt;
+		&lt;xsl:template match=&quot;*&quot;&gt;
+			&lt;xsl:variable name=&quot;vListKwrds&quot; select=&quot;*[1]/sp:info/*/sp:keywds/op:keywds/sp:keywd&quot;/&gt;
+			&lt;xsl:if test=&quot;$vListKwrds&quot;&gt;
+				&lt;crossRef&gt;
+				&lt;xsl:for-each select=&quot;$vListKwrds&quot;&gt;
+					&lt;entry value=&quot;{.}&quot; keyRef=&quot;keywords&quot;/&gt;
+				&lt;/xsl:for-each&gt;
+				&lt;/crossRef&gt;
+			&lt;/xsl:if&gt;
+		&lt;/xsl:template&gt;
+	&lt;/xsl:stylesheet&gt;
+&lt;/source&gt;</sm:widgetBsFragment>
+</sm:freeUiWidget>

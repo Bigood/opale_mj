@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="authoring" source-language="" datatype="plaintext">
+        <header>
+            <note>Scenari model : OpaleRTL3-5</note>
+        </header>
+        <body>
+            <trans-unit id="1" resname="Opale &quot;Lecture de droite à gauche&quot;">
+                <target>أوبال " قراءة من اليمين إلى اليسار &quot;Opale&quot;</target>
+            </trans-unit>
+            <trans-unit id="2" resname="Quadra &quot;Lecture de droite à gauche&quot;">
+                <target>أوبال " قراءة من اليمين إلى اليسار &quot;Quadra&quot;</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

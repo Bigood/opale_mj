@@ -1,0 +1,6 @@
+K 13
+svn:externals
+V 126
+scImgMgr.doss http://scenari-platform.org/svn/modelet/branches/sc41/scImgMgr/model/sources/scImgMgr/gen/web/wdt/scImgMgr.doss
+
+END

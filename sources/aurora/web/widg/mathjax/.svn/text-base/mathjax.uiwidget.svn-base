@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:openUiWidget xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" code="mathjax">
+	<sm:widgetPublishFiles sc:refUri="/aurora/web/widg/mathjax/mathjax.doss"/>
+	<sm:fillTemplateBuffers>
+		<sm:postXslFragment keyXsl="xhtml">&lt;xsl:overlay match="body"&gt;
+	&lt;xsl:if test="descendant::mathjax"&gt;
+		&lt;xsl:value-of select="execute(java:append($vBufJs, 'mathjaxMgr.init();'))"/&gt;
+	&lt;/xsl:if&gt;
+&lt;/xsl:overlay&gt;
+&lt;xsl:template match="mathjax"/&gt;
+</sm:postXslFragment>
+		<sm:linkScript path="mathjaxMgr.js" pathFrom="localPublishFiles" sortKey="A"/>
+	</sm:fillTemplateBuffers>
+	<sm:content/>
+</sm:openUiWidget>

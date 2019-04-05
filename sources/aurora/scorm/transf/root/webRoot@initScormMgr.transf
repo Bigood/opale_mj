@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:freeXslWebSiteTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/academic/model/root/webRoot.model"/>
+	<sm:axis code="initScormMgr"/>
+	<sm:content>
+		<sm:xsl sc:refUri="/aurora/scorm/transf/root/webRoot@initScormMgr.xsl"/>
+		<sm:callModel sc:refUri="/academic/model/root/webRoot.model" axis="quit" codeView="navigation"/>
+	</sm:content>
+</sm:freeXslWebSiteTransf>

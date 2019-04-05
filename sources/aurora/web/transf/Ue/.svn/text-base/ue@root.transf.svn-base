@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:compositionXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/academic/model/Ue/ue.model"/>
+	<sm:axis code="root"/>
+	<sm:navigation>
+		<sm:choose>
+			<!--<comment xmlns="scenari.eu:comment:1.0" type="thread"><comment creationTime="1397731849952" updateTime="1397731852646">Test s'il y a une entrée dans le contenu pour éviter de retourner une erreur</comment></comment>-->
+			<sm:when xpath="op:ueM/following-sibling::*/* or op:ueM/following-sibling::*[@sc:refUri]">
+				<sm:callModel>
+					<sm:current axis="home"/>
+				</sm:callModel>
+				<sm:callModel>
+					<sm:current axis="nav"/>
+				</sm:callModel>
+				<sm:callModel>
+					<sm:root axis="tools"/>
+				</sm:callModel>
+				<sm:callModel>
+					<sm:current axis="outJson"/>
+				</sm:callModel>
+			</sm:when>
+			<sm:otherwise>
+				<sm:page template="module">
+					<sm:title>
+						<sm:compositionTitle prefix="￼;Erreur - ￼" format="shortTitleText"/>
+						<sm:fixedTitle value="￼;[Module]￼"/>
+					</sm:title>
+					<sm:mainZone format="xhtml">
+						<sm:WHeadingBlock widgetClass="hBk" class="article error" tagName="section">
+							<sm:title>
+								<sm:fixedTitle value="￼;Erreur - aucun item n'a été saisi￼"/>
+							</sm:title>
+						</sm:WHeadingBlock>
+					</sm:mainZone>
+					<sm:zone key="zLegal" format="xhtml">
+						<sm:callModel>
+							<sm:current axis="legal"/>
+						</sm:callModel>
+					</sm:zone>
+					<sm:zone key="zKeywords" format="text">
+						<sm:callModel>
+							<sm:current axis="keywords"/>
+						</sm:callModel>
+					</sm:zone>
+				</sm:page>
+			</sm:otherwise>
+		</sm:choose>
+	</sm:navigation>
+</sm:compositionXhtmlTransf>

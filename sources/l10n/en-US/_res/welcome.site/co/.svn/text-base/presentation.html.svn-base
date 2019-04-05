@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+                      "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title>Welcome to Opale 3.5 - Presentation</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <link rel="stylesheet" type="text/css" href="../wdgt/scImgMgr/scImgMgr.css">
+  <script type="text/JavaScript">
+/*0*/ var scServices = {};
+/*1*/ scServices["scLoad"] = {loadFromRoot:function(pUrl){window.location.href="../"+pUrl;}, getPathFromRoot:function(pPath){return "../"+pPath;}, getUrlFromRoot:function(pHref){if(!this.fRootOffset) this.fRootOffset = scCoLib.hrefBase().length-20; return pHref.substring(this.fRootOffset);},getRootUrl:function(){if(!this.fRootUrl) this.fRootUrl = scCoLib.hrefBase().substring(0,scCoLib.hrefBase().length-21); return this.fRootUrl;}};
+</script>
+  <script type="text/JavaScript" src="../lib-sm/scCoLib.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scTiLib.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scPaLib.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scSiLib.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scTooltipMgr.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scDynUiMgr.js"></script>
+  <script type="text/JavaScript" src="../wdgt/scImgMgr/scImgMgr.js"></script>
+  <script type="text/JavaScript">
+
+scImgMgr.registerAnimation("des:div.screenSeqFra",{auto:false,loop:false,counter:true});
+
+scImgMgr.registerZoom("des:a.imgZoom",{titlePath:"anc:.caption/des:.caption_ti"});
+
+scImgMgr.registerZoom("des:a.screenZoom",{mag:1,titlePath:"anc:.caption/des:.caption_ti"});
+
+scImgMgr.setPathPgeFra("ide:tplPage");
+scImgMgr.setLocalize(false);
+
+</script>
+  <script type="text/javascript">var uiFontSize = {
+ onLoad: function(){
+ try{
+ if(parent.ut && parent.ut.defaultFontSize) document.body.style.fontSize = parent.ut.defaultFontSize;
+ }catch(e){}
+ }
+}
+scOnLoads[scOnLoads.length] = uiFontSize;
+
+</script>
+  <link type="text/css" rel="stylesheet" href="../skin/css/pres.css">
+  <link type="text/css" rel="stylesheet" href="../skin/css/main.css">
+ </head>
+ <body>
+  <div id="tplPage" class="wspUi"><div id="tplTitle"><div id="tplTitleLogo"><img src="../res/logoOpale3.png" alt width="48" height="48"></div><span id="tplTitleMain">Welcome to Opale 3.5</span><span id="tplTitlesub">Pedagogical content creation</span></div><div id="tplTabs"><div id="tplTabCo"><div id="tplTabCoScroll"><div class="infoblock"><h1 class="infoblock_ti"><span class="txt_vName_el ">Opale 3.5</span></h1><div class="infoblock_co"><div class="text "><p class="txt_p "><span class="txt_vName_el ">Opale 3.5</span>  is a publishing chain for the production of academic training documents that can be used for on-site training, distance or blended learning. Opale provides solutions for  educational contents management and multi-format publications:</p><ul class="txt_sl "><li class="txt_m "><span>paper-based documents (OpenDocument and PDF formats),</span></li><li class="txt_m "><span>slideshow,</span></li><li class="txt_m "><span>web site,</span></li><li class="txt_m "><span>SCORM 1.2 and 2004 modules that can be integrated into a LMS platform.</span></li></ul></div></div></div><div class="infoblock"><h1 class="infoblock_ti">One application, two versions</h1><div class="infoblock_co"><div class="text "><p class="txt_p ">Two versions of <span class="txt_vName_el ">Opale 3.5</span> exist in order to answer various needs:</p><ul class="txt_il "><li class="txt_ili "><p class="txt_p "><strong class="txt_emphasis_is ">Opale Starter</strong>, designed for trainers and teachers wishing to autonomously produce their training modules without needing any specific training;</p></li><li class="txt_ili "><p class="txt_p "><strong class="txt_emphasis_is ">Opale</strong>, designed for trainers and teachers with advanced production, content management, re-usability or indexation needs.</p><p class="txt_p ">This publishing chain is also designed for organizations, training centers and schools needing solutions for managing the production and the publishing of advanced academic training documents.</p></li></ul></div></div></div></div></div><div id="tplTabBar"><span class=" tabSel_yes"><span>Presentation</span></span><a href="welcome.html" target="_self" class=" tabSel_no"><span>About...</span></a></div></div></div>
+  <script type="text/javascript">scImgMgr.init();scImgMgr.setDisplayRoot(sc$("tplPage"));</script>
+ </body>
+</html>

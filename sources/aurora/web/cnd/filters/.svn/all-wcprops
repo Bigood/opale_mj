@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/cnd/filters
+END
+include.cond
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/cnd/filters/include.cond
+END
+includeInQuest.cond
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/cnd/filters/includeInQuest.cond
+END
+op_xxxRoot@rootFilter.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/web/cnd/filters/op_xxxRoot@rootFilter.xsl
+END

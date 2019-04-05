@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:lifeCycle xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:states>
+		<sm:state name=""/>
+		<sm:state code="?" name="￼;Inconnu￼"/>
+		<sm:state code="finished" name="￼;Terminé￼">
+			<sm:display color="#be34b0">
+				<sm:icon sc:refUri="/collab/lifeCycle/finished.png"/>
+			</sm:display>
+		</sm:state>
+		<sm:state code="validated" name="￼;Validé￼">
+			<sm:display color="#009933">
+				<sm:icon sc:refUri="/collab/lifeCycle/valid.png"/>
+			</sm:display>
+			<sm:rightVariations>
+				<sm:addRight sc:refUri="/collab/lifeCycle/lockItem.right"/>
+			</sm:rightVariations>
+		</sm:state>
+		<sm:state code="draft" name="￼;En cours d'édition￼">
+			<sm:display color="#3366CC">
+				<sm:icon sc:refUri="/collab/lifeCycle/draft.png"/>
+			</sm:display>
+			<sm:rightVariations>
+				<sm:removeRight sc:refUri="/collab/lifeCycle/lockItem.right"/>
+			</sm:rightVariations>
+		</sm:state>
+	</sm:states>
+	<sm:transitions>
+		<sm:automaticTransition code="startEditing" targetState="draft">
+			<sm:triggers>
+				<sm:triggerOnUpdate/>
+			</sm:triggers>
+			<sm:restricForClass sc:refUri="/academic/model/Ue/ue.model"/>
+			<sm:restricForClass sc:refUri="/academic/model/Ua/assmntUa.model"/>
+			<sm:restricForClass sc:refUri="/academic/model/Ua/courseUa.model"/>
+			<sm:restricForClass sc:refUri="/academic/model/Uc/expUc.model"/>
+			<sm:restricForClass sc:refUri="/academic/model/Uc/practUc.model"/>
+			<sm:restricForClass sc:refUri="/academic/model/Uc/quiz/cloze.model"/>
+			<sm:restricForClass sc:refUri="/academic/model/Uc/quiz/coQuiz.model"/>
+			<sm:restricForClass sc:refUri="/academic/model/Uc/quiz/field.model"/>
+			<sm:restricForClass sc:refUri="/academic/model/Uc/quiz/numerical.model"/>
+			<sm:restricForClass sc:refUri="/academic/model/Uc/quiz/match.model"/>
+			<sm:restricForClass sc:refUri="/academic/model/Uc/quiz/mcgMur.model"/>
+			<sm:restricForClass sc:refUri="/academic/model/Uc/quiz/mcgSur.model"/>
+			<sm:restricForClass sc:refUri="/academic/model/Uc/quiz/mcqSur.model"/>
+			<sm:restricForClass sc:refUri="/academic/model/Uc/quiz/mcqMur.model"/>
+			<sm:restricForClass sc:refUri="/academic/model/Uc/quiz/ordWord.model"/>
+		</sm:automaticTransition>
+		<sm:simpleTransition code="endEditing" targetState="finished" name="￼;Terminer l'édition￼">
+			<sm:restrictFromState refState="draft"/>
+		</sm:simpleTransition>
+		<sm:simpleTransition code="validate" targetState="validated" name="￼;Valider l'item￼">
+			<sm:restrictFromState refState="finished"/>
+		</sm:simpleTransition>
+		<sm:simpleTransition code="notReady" targetState="draft" name="￼;Reprendre l'édition￼">
+			<sm:restrictFromState refState="validated"/>
+			<sm:restrictFromState refState="finished"/>
+		</sm:simpleTransition>
+	</sm:transitions>
+</sm:lifeCycle>

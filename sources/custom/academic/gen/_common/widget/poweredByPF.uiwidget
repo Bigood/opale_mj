@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:openUiWidget code="poweredByPF" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:content>
+		<sm:WLink id="linkPF">
+			<sm:label>
+				<sm:WImg src="img/struct/PairformFullFinal.png" srcFrom="skin" alt="￼;Ce site utilise PairForm (Site web)￼"/>
+			</sm:label>
+			<sm:labelTitle>￼;Ce site utilise PairForm (Site web)￼</sm:labelTitle>
+			<sm:link target="newWindow">
+				<sm:fixedURL url="//www.pairform.fr"/>
+			</sm:link>
+		</sm:WLink>
+	</sm:content>
+</sm:openUiWidget>

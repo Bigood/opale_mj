@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:transformerList xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:transformer sc:refUri="/aurora/web/transf/Ue/ue.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Ue/ue@genSpecific.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Ue/ue@home.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Ue/ue@initOutMgr.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Ue/ue@nav.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Ue/ue@outJson.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Ue/ue@root.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Ue/ue@tools.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Ue/ueDiv.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Ue/ueDiv@nav.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Ue/ueDivM.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Ue/ueM.transf"/>
+</sm:transformerList>

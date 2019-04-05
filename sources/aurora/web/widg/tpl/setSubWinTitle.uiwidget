@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:openUiWidget xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" code="setSubWinTitle">
+	<sm:fillTemplateBuffers>
+		<sm:otherBuffers keyBuffer="xslFragmentOnZone.xhtml" keyEntry="crossRef"><!--<comment xmlns="scenari.eu:comment:1.0" type="thread"><comment creationTime="1411728433821">kill des crossRefEntries dans les subWindows</comment></comment>-->&lt;xsl:template match="crossRef"/&gt;</sm:otherBuffers>
+	</sm:fillTemplateBuffers>
+	<sm:content>
+		<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">try{
+	if(window.frameElement.setSubWindowTitle) window.frameElement.setSubWindowTitle(document.title);
+}catch(e){}
+</script>
+	</sm:content>
+</sm:openUiWidget>

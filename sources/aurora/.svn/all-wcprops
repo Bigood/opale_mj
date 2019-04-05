@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora
+END
+test.wspdef
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/test.wspdef
+END
+genAurora.extdef
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/genAurora.extdef
+END
+genAuroraOpaleStarter.extdef
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/genAuroraOpaleStarter.extdef
+END

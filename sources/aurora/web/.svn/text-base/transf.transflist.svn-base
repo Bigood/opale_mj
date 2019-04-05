@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:transformerList xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:transformerList sc:refUri="/aurora/web/transf/@credits.transflist"/>
+	<sm:transformerList sc:refUri="/aurora/web/transf/@synth.transflist"/>
+	<sm:transformerList sc:refUri="/aurora/web/transf/binaries.transflist"/>
+	<sm:transformerList sc:refUri="/aurora/web/transf/metaData.transflist"/>
+	<sm:transformerList sc:refUri="/aurora/web/transf/Pb.transflist"/>
+	<sm:transformerList sc:refUri="/aurora/web/transf/Re.transflist"/>
+	<sm:transformerList sc:refUri="/aurora/web/transf/root.transflist"/>
+	<sm:transformerList sc:refUri="/aurora/web/transf/Ua.transflist"/>
+	<sm:transformerList sc:refUri="/aurora/web/transf/Uc.transflist"/>
+	<sm:transformerList sc:refUri="/aurora/web/transf/Ue.transflist"/>
+</sm:transformerList>

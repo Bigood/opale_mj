@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:genericWebSiteTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/academic/model/Ue/ue.model"/>
+	<sm:axis code="outline"/>
+	<sm:navigation>
+		<!--<comment xmlns="scenari.eu:comment:1.0" type="thread"><comment creationTime="1365424715535">Axis qui permet la création du fichier outline.xml</comment></comment>-->
+		<sm:page template="outline">
+			<sm:title/>
+			<sm:path>
+				<sm:fixedPath value="outline.xml"/>
+			</sm:path>
+			<sm:mainZone format="xhtml">
+				<sm:Widget sc:refUri="/custom/academic/gen/_common/outlinexml/mnuXml.uiwidget"/>
+			</sm:mainZone>
+		</sm:page>
+	</sm:navigation>
+</sm:genericWebSiteTransf>

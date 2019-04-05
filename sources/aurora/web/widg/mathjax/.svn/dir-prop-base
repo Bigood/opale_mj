@@ -1,0 +1,6 @@
+K 13
+svn:externals
+V 116
+mathjax.doss http://scenari-platform.org/svn/modelet/branches/sc41/math/model/sources/math/mathjax/mathjax-svg.doss
+
+END

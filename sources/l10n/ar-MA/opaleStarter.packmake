@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:packMake xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:wspDef sc:refUri="/opale/opaleStarter.wspdef" lang="ar-MA">
+		<sm:welcomeSite sc:refUri="/l10n/ar-MA/_res/presStarter.site" mainFile="index.html"/>
+		<sm:localization defaultLang="fr-FR">
+			<sm:modeling>
+				<sm:locale sc:refUri="/l10n/ar-MA/modeling.locale"/>
+			</sm:modeling>
+			<sm:model>
+				<sm:locale sc:refUri="/l10n/ar-MA/modelStarter.locale"/>
+			</sm:model>
+		</sm:localization>
+	</sm:wspDef>
+	<sm:extDef sc:refUri="/l10n/xRTL/opaleRtl4strt.extdef" lang="ar-MA" parentLang="ar-MA">
+		<sm:localization defaultLang="fr-FR">
+			<sm:modeling>
+				<sm:locale sc:refUri="/l10n/ar-MA/modeling.locale"/>
+			</sm:modeling>
+			<sm:model>
+				<sm:locale sc:refUri="/l10n/ar-MA/model.locale"/>
+			</sm:model>
+		</sm:localization>
+	</sm:extDef>
+	<!--<sm:extDef xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" sc:refUri="/aurora/genAuroraOpaleStarter.extdef" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" lang="ar-MA">
+	<sm:localization defaultLang="en-US">
+		<sm:model>
+			<sm:locale sc:refUri="/l10n/en-US/aurora.locale"/>
+		</sm:model>
+	</sm:localization>
+</sm:extDef>-->
+</sm:packMake>

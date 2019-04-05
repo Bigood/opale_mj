@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:openUiWidget xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" code="figcaption">
+	<sm:fillTemplateBuffers>
+		<sm:standardLibrary codeLib="DynUiMgr"/>
+		<sm:postXslFragment keyXsl="xhtml">&lt;xsl:template match="figcaption/div[contains(@class, 'desc')]"&gt;
+	&lt;xsl:if test="following-sibling::resZoom"&gt;
+		&lt;xsl:apply-templates select="following-sibling::resZoom/*"/&gt;
+	&lt;/xsl:if&gt;
+	&lt;xsl:copy&gt;
+		&lt;xsl:apply-templates select="@*|node()"/&gt;
+	&lt;/xsl:copy&gt;
+&lt;/xsl:template&gt;
+&lt;xsl:template match="resZoom"&gt;
+	&lt;xsl:if test="not(preceding-sibling::div[contains(@class, 'desc')])"&gt;
+		&lt;xsl:apply-templates select="*"/&gt;
+	&lt;/xsl:if&gt;
+&lt;/xsl:template&gt;
+
+</sm:postXslFragment>
+	</sm:fillTemplateBuffers>
+	<sm:content>
+		<span xmlns="http://www.w3.org/1999/xhtml" class="cbkClosed">
+			<a class="iBk_open" sc-role="button" href="#" onkeydown="scDynUiMgr.handleBtnKeyDwn(event);" onkeyup="scDynUiMgr.handleBtnKeyUp(event);" onclick="scDynUiMgr.collBlkToggle(this, scPaLib.findNode('nsi:.desc',this.parentNode),'iBk_open','iBk_closed');return false;">
+				<sm:callZone key="zTitle"/>
+			</a>
+		</span>
+		<sm:callZone key="zInfo"/>
+		<div xmlns="http://www.w3.org/1999/xhtml" class="desc">
+			<sm:callZone key="zDesc"/>
+		</div>
+	</sm:content>
+</sm:openUiWidget>

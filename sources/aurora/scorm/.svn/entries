@@ -1,0 +1,92 @@
+8
+
+dir
+3237
+http://scenari-platform.org/svn/opale/tags/sc41-v3.5.0.14/model/sources/aurora/scorm
+http://scenari-platform.org/svn/opale
+
+
+
+2015-03-30T11:58:24.622467Z
+3157
+sam
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+899cd45d-9604-0410-9353-cb762ee69498
+
+auroraS.generator
+file
+
+
+
+
+2015-09-01T13:58:19.000000Z
+9108104db9b89d17c6b91c5559ebb33b
+2015-01-20T21:53:07.400491Z
+3139
+sam
+
+auroraS.png
+file
+
+
+
+
+2015-09-01T13:58:19.000000Z
+8879da07a8793c9b99ef60e526b28df8
+2015-01-20T21:53:07.400491Z
+3139
+sam
+has-props
+
+auroraS.uiframe
+file
+
+
+
+
+2015-09-01T13:58:19.000000Z
+ee8d41393af0be3574e66e6f1b2f532a
+2015-03-30T11:58:24.622467Z
+3157
+sam
+
+genDeploy
+dir
+
+svc
+dir
+
+templates
+dir
+
+transf
+dir
+
+transf.transflist
+file
+
+
+
+
+2015-09-01T13:58:19.000000Z
+bc226f2d881a3df4af260d51e583bcee
+2015-01-20T21:53:07.400491Z
+3139
+sam
+
+widg
+dir
+

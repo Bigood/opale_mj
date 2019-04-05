@@ -1,0 +1,234 @@
+body{
+	height:100%;
+	background-color: black;
+}
+#tplFra {
+	position: absolute;
+	text-align: right;/* Opale RTL */
+	top:50%;
+	right:50%;/* Opale RTL */
+	height:660px;
+	margin-top:-330px;
+	width:1020px;
+	margin-right:-510px;/* Opale RTL */
+}
+#tplMnu {
+	height:560px;
+	overflow: auto;
+}
+
+
+.mnuFra{
+	height:362px;
+}
+ul.mnu{
+	height:337px;
+}
+
+#tplIco{
+	z-index: -1;
+}
+#tplCo {
+	height: 560px;
+}
+.tplMainMnu_open #tplCo{
+	right:250px;/* Opale RTL */
+	width: 670px;
+}
+.tplMainMnu_closed #tplCo{
+	right: 15px;/* Opale RTL */
+	width: 905px;
+}
+
+#tplCoMarginW {
+	
+}
+#tplBtmIn {
+	width: 820px;
+}
+.nextBtn, .prevBtn{
+	margin-right: -2px;/* Opale RTL */
+}
+.mnuBlock{
+	height:338px;
+}
+div.mnuCls{
+	height:560px;
+}
+ul.mnu div.mnuLbl {
+    height: 20px;
+}
+
+
+.menuElt_entry, .toolsElt_entry{
+	display: block;
+	height: 25px;
+}
+.childElt_entry, .childElt_entry span{
+	height: 38px;
+}
+
+.basic_ti, .legal_ti, .complement_ti, .method_ti, .syntax_ti, .simulation_ti,
+.remind_ti, .def_ti, .example_ti, .remark_ti, .advice_ti, .warning_ti,
+.obj_ti, 
+.info_ti{
+	height: 31px;
+}
+
+.question{
+	padding-bottom:20px;
+}
+.divQuiz{
+	position: absolute;
+	width: 590px;
+	height: 520px;
+}
+
+
+
+.tabChildH, .tabChildM, .tabChildB{
+	width:550px;
+}
+div.op_practUcQ_hint_co{
+	background: url(../img/quiz/practHint.png) no-repeat 10px 10px;
+	padding-right: 45px;/* Opale RTL */
+}
+div.op_practUcQ_sol_co{
+	background: url(../img/quiz/practSol2.png) no-repeat 10px 10px;
+	padding-right: 45px;/* Opale RTL */
+}
+
+
+.childs_co_co {
+	margin-right:40px;/* Opale RTL */
+	background:none;
+}
+ul.sw_child_navList li a span {
+	margin-bottom:10px;
+}
+
+.divQuiz {
+	position:absolute;
+	top:0px;
+	right:0px;/* Opale RTL */
+}
+
+
+/***** Opale RTL ******/
+
+.hidden{
+	display:none;
+}
+
+.bkSolResFra1{
+	width: 530px;
+}
+a.btnEval{
+	background: url(../img/deco/assmntUaMnu.png) no-repeat right;
+	height: 33px;
+	padding-left: 30px;
+}
+
+/* Weblink */
+.op_txt_ul,
+.op_sTxt_ul,
+.op_labelTxt_ul,
+.op_clozeTxt_ul,
+.op_qTxt_ul,
+.sfile_lnk,
+.op_eSite_link_S,
+.op_eSite_link_L,
+.op_txt_ul_glos,
+.op_labelTxt_ul_glos,
+.op_clozeTxt_ul_glos,
+.op_qTxt_ul_glos,
+.op_txt_ul_bib,
+.op_labelTxt_ul_bib,
+.op_clozeTxt_ul_bib,
+.op_qTxt_ul_bib,
+.op_txt_ul_docLnk,
+.op_clozeTxt_ul_docLnk,
+.op_qTxt_ul_docLnk
+{
+	padding-left:�15px;
+}
+
+.op_txt_ul span,
+.op_sTxt_ul span,
+.op_labelTxt_ul span,
+.op_clozeTxt_ul span,
+.op_qTxt_ul span,
+.sfile_lnk span,
+.op_eSite_link_S span,
+.op_eSite_link_L span,
+.op_txt_ul_glos dfn,
+.op_labelTxt_ul_glos dfn,
+.op_clozeTxt_ul_glos dfn,
+.op_qTxt_ul_glos dfn,
+.op_txt_ul_bib span,
+.op_labelTxt_ul_bib span,
+.op_clozeTxt_ul_bib span,
+.op_qTxt_ul_bib span,
+.op_txt_ul_docLnk span,
+.op_clozeTxt_ul_docLnk span,
+.op_qTxt_ul_docLnk span
+{
+	padding-right: 15px;
+}
+
+
+.op_txt_ul_ucLnk,
+.op_clozeTxt_ul_ucLnk,
+.op_qTxt_ul_ucLnk
+{
+	background-image: none;
+	padding:�0 0�;
+}
+
+.op_txt_ul_ucLnk span,
+.op_clozeTxt_ul_ucLnk span,
+.op_qTxt_ul_ucLnk span
+{
+}
+
+
+.op_txt_ul_acr abbr,
+.op_labelTxt_ul_acr abbr,
+.op_clozeTxt_ul_acr abbr,
+.op_qTxt_ul_acr abbr{
+	padding-left:�14px;
+	padding-right:�15px;
+	margin: 0 15px;
+}
+
+.op_txt_ul_acr,
+.op_labelTxt_ul_acr,
+.op_clozeTxt_ul_acr,
+.op_qTxt_ul_acr{
+	background-position: right center;
+	padding-right: 20px;
+}
+
+.op_txt_ul_ref span,
+.op_labelTxt_ul_ref span, 
+.op_clozeTxt_ul_ref span,
+.op_qTxt_ul_ref span {
+	margin: 0 25px 0 0px;
+}
+.op_txt_ul_ref,
+.op_labelTxt_ul_ref,
+.op_clozeTxt_ul_ref,
+.op_qTxt_ul_ref{
+	background-position: left center;
+	padding-right: 20px; 
+}
+
+
+
+
+ /****** Opale RTL****/
+/*** debug width of the window ***/
+.hidden{
+	display:none;
+}
+

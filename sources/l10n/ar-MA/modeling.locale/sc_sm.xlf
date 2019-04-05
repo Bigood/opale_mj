@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="sc:sm:appMake" source-language="fr" datatype="plaintext">
+<body>
+<group resname="/gen/appMake/ui.doss/lib/res/scXpi/scXpiMgr/install.rdf">
+<trans-unit id="1" resname="Gestionnaire d'applications SCENARI">
+<source xml:space="preserve">Gestionnaire d'applications SCENARI</source>
+<target xml:space="preserve">إدارة تطبيقات SCENARI</target>
+</trans-unit>
+<trans-unit id="2" resname="Permet d'executer différentes applications SCENARI sur Firefox">
+<source xml:space="preserve">Permet d'executer différentes applications SCENARI sur Firefox</source>
+<target xml:space="preserve">يسهم في تنفيذ مختلف تطبيقات سيناري على فايرفوكس Fire fox</target>
+</trans-unit>
+</group>
+<group resname="/gen/appMake/bs/sm_appMake/modDistantServer/All/gecko/chrome/mDistSrv/app.actions.extSource.js">
+<trans-unit id="3" resname="Paramétrer la connexion à internet">
+<source xml:space="preserve">Paramétrer la connexion à internet</source>
+<target xml:space="preserve">حدد عوامل التواصل على شبكة الإنترنت</target>
+</trans-unit>
+<trans-unit id="4" resname="Paramètres de connexion">
+<source xml:space="preserve">Paramètres de connexion</source>
+<target xml:space="preserve">عوامل التواصل على شبكة الإنترنيت</target>
+</trans-unit>
+<trans-unit id="5" resname="Ajouter un entrepôt distant">
+<source xml:space="preserve">Ajouter un entrepôt distant</source>
+<target xml:space="preserve">أضف مستودع عن بعد</target>
+</trans-unit>
+</group>
+<group resname="/gen/appMake/bs/sm_appMake/modDistantServer/All/gecko/chrome/mDistSrv/desks/prefDesk/prefDesk.extSource.js">
+<trans-unit id="6" resname="Chiffrement">
+<source xml:space="preserve">Chiffrement</source>
+<target xml:space="preserve">تشفير</target>
+</trans-unit>
+</group>
+<group resname="/gen/appMake/bs/sm_appMake/modBuilder/All/gecko/chrome/mBuilder/app.actions.extSource.js">
+<trans-unit id="7" resname="Pack">
+<source xml:space="preserve">Pack</source>
+<target xml:space="preserve">حزمة</target>
+</trans-unit>
+</group>
+<group resname="/gen/appMake/bs/sm_appMake/modBuilder/All/gecko/chrome/mBuilder/desks/aboutDesk/aboutDesk.extSource.js">
+<trans-unit id="8" resname="Application">
+<source xml:space="preserve">Application</source>
+<target xml:space="preserve">تطبيق</target>
+</trans-unit>
+<trans-unit id="9" resname="Solutions Scenari">
+<source xml:space="preserve">Solutions Scenari</source>
+<target xml:space="preserve">حلول سيناري" Scenari"</target>
+</trans-unit>
+</group>
+<group resname="/gen/appMake/bs/sm_appMake/modBuilder/All/gecko/chrome/mBuilder/desks/aboutDesk/scbd.about.xul">
+<trans-unit id="10" resname="Construit à partir de la solution Scenari">
+<source xml:space="preserve">Construit à partir de la solution Scenari</source>
+<target xml:space="preserve">تم بناؤه بحل من سيناري"Scenari"</target>
+</trans-unit>
+</group>
+<group resname="/gen/appMake/bs/sm_appMake/modBuilder/All/gecko/chrome/mBuilder/desks/prefDesk/prefDesk.extSource.js">
+<trans-unit id="11" resname="Édition">
+<source xml:space="preserve">Édition</source>
+<target xml:space="preserve">تأليف</target>
+</trans-unit>
+<trans-unit id="12" resname="Fenêtres">
+<source xml:space="preserve">Fenêtres</source>
+<target xml:space="preserve">نوافذ</target>
+</trans-unit>
+<trans-unit id="13" resname="Outils externes">
+<source xml:space="preserve">Outils externes</source>
+<target xml:space="preserve">أدوات خارجية</target>
+</trans-unit>
+<trans-unit id="14" resname="Sécurité">
+<source xml:space="preserve">Sécurité</source>
+<target xml:space="preserve">أمن</target>
+</trans-unit>
+<trans-unit id="15" resname="Divers">
+<source xml:space="preserve">Divers</source>
+<target xml:space="preserve">مختلفات</target>
+</trans-unit>
+</group>
+<group resname="/gen/appMake/bs/sm_appMake/modHelp.xml">
+<trans-unit id="16" resname="Aide">
+<source xml:space="preserve">Aide</source>
+<target xml:space="preserve">مساعدة</target>
+</trans-unit>
+</group>
+<group resname="/gen/appMake/bs/sm_appMake/modProxy/All/gecko/chrome/mProxy/desks/prefDesk/prefDesk.extSource.js">
+<trans-unit id="17" resname="Réseau">
+<source xml:space="preserve">Réseau</source>
+<target xml:space="preserve">شبكة</target>
+</trans-unit>
+</group>
+<group resname="/gen/appMake/bs/sm_appMake/modXpi/xpi/gecko/chrome/mXpi/app.extSource.js">
+<trans-unit id="18" resname="Quitter %s">
+<source xml:space="preserve">Quitter %s</source>
+<target xml:space="preserve">اخرج %s</target>
+<note>ATTENTION, syntaxe à respecter : Formatter</note>
+</trans-unit>
+</group>
+<group resname="/gen/appMake/bs/sm_appMake/modWelcome.xml">
+<trans-unit id="19" resname="Accueil">
+<source xml:space="preserve">Accueil</source>
+<target xml:space="preserve">استقبال</target>
+</trans-unit>
+</group>
+<group resname="/gen/appMake/bs/sm_appMake/modEmbeddedServer.xml">
+<trans-unit id="20" resname="Ouvrir l'atelier '%s'">
+<source xml:space="preserve">Ouvrir l'atelier '%s'</source>
+<target xml:space="preserve">افتح ورشة عمل 's%'</target>
+<note>ATTENTION, syntaxe à respecter : Formatter</note>
+</trans-unit>
+</group>
+<group resname="/gen/appMake/bs/sm_appMake/modDistantServer.xml">
+<trans-unit id="21" resname="Entrepôt distant">
+<source xml:space="preserve">Entrepôt distant</source>
+<target xml:space="preserve">مستودع عن بعد</target>
+</trans-unit>
+</group>
+<group resname="/gen/appMake/bs/sm_appMake/modWeb.xml">
+<trans-unit id="22" resname=" sur le web...">
+<source xml:space="preserve"> sur le web...</source>
+<target xml:space="preserve">على شبكة الإنتيرنيت</target>
+</trans-unit>
+</group>
+<group resname="/gen/appMake/bs/sm_appMake/modEmbeddedServer/All/gecko/chrome/mEmbdSrv/app.actions.extSource.js">
+<trans-unit id="23" resname="Ajouter un atelier local">
+<source xml:space="preserve">Ajouter un atelier local</source>
+<target xml:space="preserve">أضف ورشة عمل محلية</target>
+</trans-unit>
+<trans-unit id="24" resname="Installer un modèle documentaire">
+<source xml:space="preserve">Installer un modèle documentaire</source>
+<target xml:space="preserve">ثبت نموذج وثائقي</target>
+</trans-unit>
+</group>
+<group resname="/gen/appMake/bs/sm_appMake/modEmbeddedServer/All/gecko/chrome/mEmbdSrv/desks/prefDesk/prefDesk.extSource.js">
+<trans-unit id="25" resname="Entrepôt local">
+<source xml:space="preserve">Entrepôt local</source>
+<target xml:space="preserve">مستودع محلي</target>
+</trans-unit>
+</group>
+</body>
+</file>
+<file original="/gen/modelBuilder/bs/sm_sourceCodePrim/formBase.xed.xml.xsl" source-language="fr" datatype="plaintext">
+<body>
+<trans-unit id="1" resname="Code source">
+<source xml:space="preserve">Code source</source>
+<target xml:space="preserve">رمز مصدر</target>
+</trans-unit>
+<trans-unit id="2" resname="Langue">
+<source xml:space="preserve">Langue</source>
+<target xml:space="preserve">لغة</target>
+</trans-unit>
+<trans-unit id="3" resname="HTML avec PHP">
+<source xml:space="preserve">HTML avec PHP</source>
+<target xml:space="preserve">HTML مع PHP</target>
+</trans-unit>
+<trans-unit id="4" resname="Perl">
+<source xml:space="preserve">Perl</source>
+<target xml:space="preserve">بيرل</target>
+</trans-unit>
+<trans-unit id="5" resname="PHP simple">
+<source xml:space="preserve">PHP simple</source>
+<target xml:space="preserve">PHP بسيط</target>
+</trans-unit>
+<trans-unit id="6" resname="Fichiers properties">
+<source xml:space="preserve">Fichiers properties</source>
+<target xml:space="preserve">خصائص ملفات</target>
+</trans-unit>
+<trans-unit id="7" resname="Fichiers INI">
+<source xml:space="preserve">Fichiers INI</source>
+<target xml:space="preserve">ملفات INI</target>
+</trans-unit>
+<trans-unit id="8" resname="Texte simple">
+<source xml:space="preserve">Texte simple</source>
+<target xml:space="preserve">نص بسيط</target>
+</trans-unit>
+<trans-unit id="9" resname="[Langage inconnu]">
+<source xml:space="preserve">[Langage inconnu]</source>
+<target xml:space="preserve">لغة غير معروفة</target>
+</trans-unit>
+</body>
+</file>
+<file original="/gen/modelBuilder/bs/sm_searchIndexUiTemplate.xml" source-language="fr" datatype="plaintext">
+<body>
+<trans-unit id="1" resname="&lt;xsl:apply-templates/&gt;">
+<source xml:space="preserve">&lt;xsl:apply-templates/&gt;</source>
+</trans-unit>
+</body>
+</file>
+<file original="sc:sm:" source-language="fr" datatype="plaintext">
+<body>
+<group resname="/gen/modelBuilder/bs/_common/sm/organisationPrims/ss.xml">
+<trans-unit id="1" resname="Lien inconnu.">
+<source xml:space="preserve">Lien inconnu.</source>
+<target xml:space="preserve">رابط غير معروف</target>
+</trans-unit>
+<trans-unit id="2" resname="L'item référencé n'existe pas.">
+<source xml:space="preserve">L'item référencé n'existe pas.</source>
+<target xml:space="preserve">البند المشار إليه غير موجود.</target>
+</trans-unit>
+<trans-unit id="3" resname="Aucun 'encoding' n'est déclaré dans votre fichier XML.">
+<source xml:space="preserve">Aucun 'encoding' n'est déclaré dans votre fichier XML.</source>
+<target xml:space="preserve">لا يوجد أي ترميزمصرح به في ملفكم Xml.</target>
+</trans-unit>
+<trans-unit id="4" resname="Il est fortement conseillé d'ajouter la déclaration Xml en début de fichier en précisant son encoding : UTF-8 par exemple.">
+<source xml:space="preserve">Il est fortement conseillé d'ajouter la déclaration Xml en début de fichier en précisant son encoding : UTF-8 par exemple.</source>
+<target xml:space="preserve">من المستحسن إضافة إعلان Xml في بداية الملف عن طريق تحديد الترميز فيه : UTF-8 على سبيل المثال.</target>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/_common/sm/wspDef/wspDesk.overlay.xsl">
+<trans-unit id="5" resname="accueil">
+<source xml:space="preserve">accueil</source>
+<target xml:space="preserve">استقبال</target>
+</trans-unit>
+<trans-unit id="6" resname="site web">
+<source xml:space="preserve">site web</source>
+<target xml:space="preserve">موقع ويب</target>
+</trans-unit>
+<trans-unit id="7" resname="aide">
+<source xml:space="preserve">aide</source>
+<target xml:space="preserve">مساعدة</target>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/_common/sm/textOdTransf/getContent.xsl.xsl">
+<trans-unit id="8" resname="Tableau non publié : le format OpenDocument ne permet pas d'inclure un tableau dans une liste.">
+<source xml:space="preserve">Tableau non publié : le format OpenDocument ne permet pas d'inclure un tableau dans une liste.</source>
+<target xml:space="preserve">جدول غير منشور: الإطار OpenDocument لا يسهم في إدخال جدول في لائحة.</target>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/_common/sm/binaryPrims/bs.xml">
+<trans-unit id="9" resname="Les métadonnées ne sont pas renseignées.">
+<source xml:space="preserve">Les métadonnées ne sont pas renseignées.</source>
+<target xml:space="preserve">لم تتم الإشارة إلى الميتا معطيات</target>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/_common/sm/binaryPrims/ss.xml">
+<trans-unit id="10" resname="La ressource est manquante">
+<source xml:space="preserve">La ressource est manquante</source>
+<target xml:space="preserve">المورد مفقود</target>
+</trans-unit>
+<trans-unit id="11" resname="La ressource est vide">
+<source xml:space="preserve">La ressource est vide</source>
+<target xml:space="preserve">المورد منعدم</target>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/_common/sm/compositionPrim/ssGenAttr.xsl.xsl">
+<trans-unit id="12" resname="Un item a été référencé plusieurs fois !">
+<source xml:space="preserve">Un item a été référencé plusieurs fois !</source>
+<target xml:space="preserve">أحد البنود مشار إليه عدة مرات!</target>
+</trans-unit>
+<trans-unit id="13" resname="Veuillez supprimer une des références à l'item '%s'.">
+<source xml:space="preserve">Veuillez supprimer une des références à l'item '%s'.</source>
+<target xml:space="preserve">يرجى إزالة أحد المراجع التي تشير إلى البند'%s'0</target>
+<note>ATTENTION, syntaxe à respecter : Formatter</note>
+</trans-unit>
+<trans-unit id="14" resname="Récursivité directe détectée !">
+<source xml:space="preserve">Récursivité directe détectée !</source>
+<target xml:space="preserve">اكتشاف العودية المباشرة</target>
+</trans-unit>
+<trans-unit id="15" resname="Veuillez supprimer les références à l'item '%s'.">
+<source xml:space="preserve">Veuillez supprimer les références à l'item '%s'.</source>
+<target xml:space="preserve">يرجى إزالة المراجع التي تشير إلى البند'%s'.</target>
+<note>ATTENTION, syntaxe à respecter : Formatter</note>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/_common/sm/compositionPrim/form.xed.xml.xsl">
+<trans-unit id="16" resname="Item">
+<source xml:space="preserve">Item</source>
+<target xml:space="preserve">البند</target>
+</trans-unit>
+<trans-unit id="17" resname="Item externe...">
+<source xml:space="preserve">Item externe...</source>
+<target xml:space="preserve">بند خارجي...</target>
+</trans-unit>
+<trans-unit id="18" resname="Référence">
+<source xml:space="preserve">Référence</source>
+<target xml:space="preserve">مرجع</target>
+</trans-unit>
+<trans-unit id="19" resname="Contenu internalisé...">
+<source xml:space="preserve">Contenu internalisé...</source>
+<target xml:space="preserve">محتوى مستدخل...</target>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/_common/sm/compositionPrim/ssValidSgnRefs.xsl">
+<trans-unit id="20" resname="Cet item n'est pas d'un type autorisé : ">
+<source xml:space="preserve">Cet item n'est pas d'un type autorisé : </source>
+<target xml:space="preserve">هذا البند ليس من النوع المرخص به :</target>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/_common/sm/textPrim/ssGenAttr.xsl.xsl">
+<trans-unit id="21" resname="Un texte est trop long : %1$s / %2$s">
+<source xml:space="preserve">Un texte est trop long : %1$s / %2$s</source>
+<target xml:space="preserve">نص طويل جدا: %1$s / %2$s</target>
+<note>ATTENTION, syntaxe à respecter : Formatter</note>
+</trans-unit>
+<trans-unit id="22" resname="Un texte dépasse le nombre de caractères conseillé : %1$s / %2$s">
+<source xml:space="preserve">Un texte dépasse le nombre de caractères conseillé : %1$s / %2$s</source>
+<target xml:space="preserve">نص يتجاوز عدد الخصائص المرخص بها:%1$s / %2$s</target>
+<note>ATTENTION, syntaxe à respecter : Formatter</note>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/_common/sm/textPrim/xedUi/text.xbl.xml.xsl">
+<trans-unit id="23" resname="Insérer : %s...">
+<source xml:space="preserve">Insérer : %s...</source>
+<target xml:space="preserve">أدرج: ٪ S...</target>
+</trans-unit>
+<trans-unit id="24" resname="Insérer une colonne...">
+<source xml:space="preserve">Insérer une colonne...</source>
+<target xml:space="preserve">أدرج عمود...</target>
+</trans-unit>
+<trans-unit id="25" resname="Insérer une colonne">
+<source xml:space="preserve">Insérer une colonne</source>
+<target xml:space="preserve">أدرج عمود</target>
+</trans-unit>
+<trans-unit id="26" resname="Insérer une ligne...">
+<source xml:space="preserve">Insérer une ligne...</source>
+<target xml:space="preserve">أدرج خط...</target>
+</trans-unit>
+<trans-unit id="27" resname="Insérer une ligne">
+<source xml:space="preserve">Insérer une ligne</source>
+</trans-unit>
+<trans-unit id="28" resname="Fusionner les cellules">
+<source xml:space="preserve">Fusionner les cellules</source>
+<target xml:space="preserve">أدمج الخلايا</target>
+</trans-unit>
+<trans-unit id="29" resname="Défusionner les cellules">
+<source xml:space="preserve">Défusionner les cellules</source>
+<target xml:space="preserve">فكك الخلايا </target>
+</trans-unit>
+<trans-unit id="30" resname="Type de colonnes...">
+<source xml:space="preserve">Type de colonnes...</source>
+<target xml:space="preserve">نوع الأعمدة...</target>
+</trans-unit>
+<trans-unit id="31" resname="Largeur de colonne...">
+<source xml:space="preserve">Largeur de colonne...</source>
+<target xml:space="preserve">عرض العمود...</target>
+</trans-unit>
+<trans-unit id="32" resname="Ajuster au contenu">
+<source xml:space="preserve">Ajuster au contenu</source>
+<target xml:space="preserve">تعديل نحو المحتوى</target>
+</trans-unit>
+<trans-unit id="33" resname="Equilibrer">
+<source xml:space="preserve">Equilibrer</source>
+<target xml:space="preserve">وازن</target>
+</trans-unit>
+<trans-unit id="34" resname="Editer...">
+<source xml:space="preserve">Editer...</source>
+<target xml:space="preserve">حرر...</target>
+</trans-unit>
+<trans-unit id="35" resname="+ 10%">
+<source xml:space="preserve">+ 10%</source>
+<target xml:space="preserve">+ 10 ٪.</target>
+</trans-unit>
+<trans-unit id="36" resname="+ 20%">
+<source xml:space="preserve">+ 20%</source>
+<target xml:space="preserve">+ 20 ٪</target>
+</trans-unit>
+<trans-unit id="37" resname="+ 50%">
+<source xml:space="preserve">+ 50%</source>
+<target xml:space="preserve">+ 50 ٪</target>
+</trans-unit>
+<trans-unit id="38" resname="+ 100%">
+<source xml:space="preserve">+ 100%</source>
+<target xml:space="preserve">+ 100 ٪</target>
+</trans-unit>
+<trans-unit id="39" resname="- 10%">
+<source xml:space="preserve">- 10%</source>
+<target xml:space="preserve">-- 10 ٪</target>
+</trans-unit>
+<trans-unit id="40" resname="- 20%">
+<source xml:space="preserve">- 20%</source>
+<target xml:space="preserve">-- 20 ٪</target>
+</trans-unit>
+<trans-unit id="41" resname="- 50%">
+<source xml:space="preserve">- 50%</source>
+<target xml:space="preserve">-50%</target>
+</trans-unit>
+<trans-unit id="42" resname="Type de lignes...">
+<source xml:space="preserve">Type de lignes...</source>
+<target xml:space="preserve">نوع الخطوط...</target>
+</trans-unit>
+<trans-unit id="43" resname="Type de cellules...">
+<source xml:space="preserve">Type de cellules...</source>
+<target xml:space="preserve">نوع الخلايا...</target>
+</trans-unit>
+<trans-unit id="44" resname="Supprimer ligne(s)">
+<source xml:space="preserve">Supprimer ligne(s)</source>
+<target xml:space="preserve">احذف سطر أو أكثر</target>
+</trans-unit>
+<trans-unit id="45" resname="Supprimer colonne(s)">
+<source xml:space="preserve">Supprimer colonne(s)</source>
+<target xml:space="preserve">حذف عمود أو أكثر</target>
+</trans-unit>
+<trans-unit id="46" resname="Supprimer le tableau">
+<source xml:space="preserve">Supprimer le tableau</source>
+<target xml:space="preserve">حذف الجدول</target>
+</trans-unit>
+<trans-unit id="47" resname="Copier">
+<source xml:space="preserve">Copier</source>
+<target xml:space="preserve">انسخ</target>
+</trans-unit>
+<trans-unit id="48" resname="Tout sélectionner">
+<source xml:space="preserve">Tout sélectionner</source>
+<target xml:space="preserve">اختيار كلي</target>
+</trans-unit>
+<trans-unit id="49" resname="Coller sans retour à la ligne">
+<source xml:space="preserve">Coller sans retour à la ligne</source>
+<target xml:space="preserve">لصق دون الرجوع إلى السطر</target>
+</trans-unit>
+<trans-unit id="50" resname="Ouvrir l'item lié...">
+<source xml:space="preserve">Ouvrir l'item lié...</source>
+<target xml:space="preserve">افتح البند ذو صلة برابط...</target>
+</trans-unit>
+<trans-unit id="51" resname="Insérer dans le paragraphe...">
+<source xml:space="preserve">Insérer dans le paragraphe...</source>
+<target xml:space="preserve">أدرج في الفقرة...</target>
+</trans-unit>
+<trans-unit id="52" resname="Eliminer une balise de paragraphe...">
+<source xml:space="preserve">Eliminer une balise de paragraphe...</source>
+<target xml:space="preserve">احذف علامة الفقرة...</target>
+</trans-unit>
+<trans-unit id="53" resname="Eliminer du paragraphe...">
+<source xml:space="preserve">Eliminer du paragraphe...</source>
+<target xml:space="preserve">احذف من الفقرة...</target>
+</trans-unit>
+<trans-unit id="54" resname="Insérer une liste...">
+<source xml:space="preserve">Insérer une liste...</source>
+<target xml:space="preserve">أضف لائحة...</target>
+</trans-unit>
+<trans-unit id="55" resname="Liste...">
+<source xml:space="preserve">Liste...</source>
+<target xml:space="preserve">لائحة...</target>
+</trans-unit>
+<trans-unit id="56" resname="Sortir de la liste">
+<source xml:space="preserve">Sortir de la liste</source>
+<target xml:space="preserve">اخرج من اللائحة</target>
+</trans-unit>
+<trans-unit id="57" resname="Insérer / modifier un tableau...">
+<source xml:space="preserve">Insérer / modifier un tableau...</source>
+<target xml:space="preserve">أدرج / غير الجدول...</target>
+</trans-unit>
+<trans-unit id="58" resname="Tableau...">
+<source xml:space="preserve">Tableau...</source>
+<target xml:space="preserve">جدول...</target>
+</trans-unit>
+<trans-unit id="59" resname="Insérer un bloc...">
+<source xml:space="preserve">Insérer un bloc...</source>
+<target xml:space="preserve">أضف مجموعة...</target>
+</trans-unit>
+<trans-unit id="60" resname="Bloc...">
+<source xml:space="preserve">Bloc...</source>
+<target xml:space="preserve">مجموعة...</target>
+</trans-unit>
+<trans-unit id="61" resname="Insérer des caractères spéciaux...">
+<source xml:space="preserve">Insérer des caractères spéciaux...</source>
+<target xml:space="preserve">أدرج حروف خاصة...</target>
+</trans-unit>
+<trans-unit id="62" resname="Caractères spéciaux...">
+<source xml:space="preserve">Caractères spéciaux...</source>
+<target xml:space="preserve">حروف خاصة...</target>
+</trans-unit>
+<trans-unit id="63" resname="Marquer / cacher la structure du texte">
+<source xml:space="preserve">Marquer / cacher la structure du texte</source>
+<target xml:space="preserve">حدد / اخف بنية النص</target>
+</trans-unit>
+<trans-unit id="64" resname="Structure du texte">
+<source xml:space="preserve">Structure du texte</source>
+<target xml:space="preserve">هيكل النص</target>
+</trans-unit>
+<trans-unit id="65" resname="Editer le lien...">
+<source xml:space="preserve">Editer le lien...</source>
+<target xml:space="preserve">حرر الرابط...</target>
+</trans-unit>
+<trans-unit id="66" resname="Propriétés...">
+<source xml:space="preserve">Propriétés...</source>
+<target xml:space="preserve">خصائص...</target>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/_common/sm/textPrim/xedUi/noteProps.xul.xsl">
+<trans-unit id="67" resname="Fermer">
+<source xml:space="preserve">Fermer</source>
+<target xml:space="preserve">اغلق</target>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/sm_dataFormPrim/ssGenAttr.xsl.xsl">
+<trans-unit id="68" resname="Le texte du champ '%1$s' est trop long : %3$s / %2$s">
+<source xml:space="preserve">Le texte du champ '%1$s' est trop long : %3$s / %2$s</source>
+<target xml:space="preserve">نص الحقل طويل جدا</target>
+<note>ATTENTION, syntaxe à respecter : Formatter</note>
+</trans-unit>
+<trans-unit id="69" resname="Le texte du champ '%1$s' dépasse la taille conseillée : %3$s / %2$s">
+<source xml:space="preserve">Le texte du champ '%1$s' dépasse la taille conseillée : %3$s / %2$s</source>
+<target xml:space="preserve">نص الحقل يتجاوز الحجم الموصى به</target>
+<note>ATTENTION, syntaxe à respecter : Formatter</note>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/sm_folderPrim/mainview.xul">
+<trans-unit id="70" resname="Visu.">
+<source xml:space="preserve">Visu.</source>
+<target xml:space="preserve">VISU</target>
+</trans-unit>
+<trans-unit id="71" resname="Visualisation">
+<source xml:space="preserve">Visualisation</source>
+<target xml:space="preserve">نشر</target>
+</trans-unit>
+<trans-unit id="72" resname="Informations techniques">
+<source xml:space="preserve">Informations techniques</source>
+<target xml:space="preserve">معلومات تقنية</target>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/sm_wspDefinition.xml">
+<trans-unit id="73" resname="Édition">
+<source xml:space="preserve">Édition</source>
+<target xml:space="preserve">تأليف</target>
+</trans-unit>
+<trans-unit id="74" resname="Aperçu du contenu">
+<source xml:space="preserve">Aperçu du contenu</source>
+<target xml:space="preserve">نظرة عامة على المحتوى</target>
+</trans-unit>
+<trans-unit id="75" resname="Information technique">
+<source xml:space="preserve">Information technique</source>
+<target xml:space="preserve">معلومة تقنية</target>
+</trans-unit>
+<trans-unit id="76" resname="Édition textuelle">
+<source xml:space="preserve">Édition textuelle</source>
+<target xml:space="preserve">تأليف منصوص</target>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/sm_sendServerGenDeploy/build.xml">
+<trans-unit id="77" resname="Rapport d'export">
+<source xml:space="preserve">Rapport d'export</source>
+<target xml:space="preserve">تقرير التصدير</target>
+</trans-unit>
+<trans-unit id="78" resname="Paramètres :">
+<source xml:space="preserve">Paramètres :</source>
+<target xml:space="preserve">العوامل :</target>
+</trans-unit>
+<trans-unit id="79" resname="Serveur :">
+<source xml:space="preserve">Serveur :</source>
+<target xml:space="preserve">الخادم :</target>
+</trans-unit>
+<trans-unit id="80" resname="Répertoire principal :">
+<source xml:space="preserve">Répertoire principal :</source>
+<target xml:space="preserve">المنطقة الرئيسية :</target>
+</trans-unit>
+<trans-unit id="81" resname="Compte utilisateur :">
+<source xml:space="preserve">Compte utilisateur :</source>
+<target xml:space="preserve">حساب المستخدم</target>
+</trans-unit>
+<trans-unit id="82" resname="Envoi des contenus :">
+<source xml:space="preserve">Envoi des contenus :</source>
+<target xml:space="preserve">إرسال المحتويات :</target>
+</trans-unit>
+<trans-unit id="83" resname="Mode de communication FTP :">
+<source xml:space="preserve">Mode de communication FTP :</source>
+<target xml:space="preserve">نوع الاتصال FTP :</target>
+</trans-unit>
+<trans-unit id="84" resname="Exporté le :">
+<source xml:space="preserve">Exporté le :</source>
+<target xml:space="preserve">تم تصديره في :</target>
+</trans-unit>
+<trans-unit id="85" resname="URL du serveur FTP vide ou compte utilisateur et/ou mot de passe incorrect(s)">
+<source xml:space="preserve">URL du serveur FTP vide ou compte utilisateur et/ou mot de passe incorrect(s)</source>
+<target xml:space="preserve">عنوان الموزع FTP فارغ - أو حساب المستخدم و/ أو كلمة مرور غير صحيحة</target>
+</trans-unit>
+<trans-unit id="86" resname="URL du serveur FTP incorrecte (Unknown Host)">
+<source xml:space="preserve">URL du serveur FTP incorrecte (Unknown Host)</source>
+<target xml:space="preserve">عنوان الموزع FTP غير صحيح</target>
+</trans-unit>
+<trans-unit id="87" resname="Veuillez spécifier un répertoire principal correct">
+<source xml:space="preserve">Veuillez spécifier un répertoire principal correct</source>
+<target xml:space="preserve">يرجى تخصيص منطقة رئيسية صحيحة</target>
+</trans-unit>
+<trans-unit id="88" resname="Le serveur FTP ne répond pas. Veuillez vérifier l'URL du serveur FTP.">
+<source xml:space="preserve">Le serveur FTP ne répond pas. Veuillez vérifier l'URL du serveur FTP.</source>
+<target xml:space="preserve">الموزع FTP لا يستجيب. يرجى التحقق من عنوان الموزع المستهدف.</target>
+</trans-unit>
+<trans-unit id="89" resname="Erreur de transfert FTP">
+<source xml:space="preserve">Erreur de transfert FTP</source>
+<target xml:space="preserve">خطأ في عملية التحويل FTP</target>
+</trans-unit>
+<trans-unit id="90" resname="Fin de l'export">
+<source xml:space="preserve">Fin de l'export</source>
+<target xml:space="preserve">نهاية التصدير</target>
+</trans-unit>
+<trans-unit id="91" resname="Mode de transfert :">
+<source xml:space="preserve">Mode de transfert :</source>
+<target xml:space="preserve">نوع التحويل :</target>
+</trans-unit>
+<trans-unit id="92" resname="- Création du répertoire :">
+<source xml:space="preserve">- Création du répertoire :</source>
+<target xml:space="preserve">إنشاء منطقة : </target>
+</trans-unit>
+<trans-unit id="93" resname="- Export des fichiers modifiés :">
+<source xml:space="preserve">- Export des fichiers modifiés :</source>
+<target xml:space="preserve">تصدير الملفات المعدلة :</target>
+</trans-unit>
+<trans-unit id="94" resname="- Export des fichiers ajoutés :">
+<source xml:space="preserve">- Export des fichiers ajoutés :</source>
+<target xml:space="preserve">تصدير الملفات الإضافية :</target>
+</trans-unit>
+<trans-unit id="95" resname="- Suppression des fichiers :">
+<source xml:space="preserve">- Suppression des fichiers :</source>
+<target xml:space="preserve">حذف الملفات :</target>
+</trans-unit>
+<trans-unit id="96" resname="- Suppression des répertoires :">
+<source xml:space="preserve">- Suppression des répertoires :</source>
+<target xml:space="preserve">حذف المناطق : </target>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/sm_sendServerGenDeploy.xml">
+<trans-unit id="97" resname="exporter">
+<source xml:space="preserve">exporter</source>
+<target xml:space="preserve">صدر</target>
+</trans-unit>
+<trans-unit id="98" resname="exporter toute la génération">
+<source xml:space="preserve">exporter toute la génération</source>
+<target xml:space="preserve">صدر الجيل بأكمله</target>
+</trans-unit>
+<trans-unit id="99" resname="mettre à jour">
+<source xml:space="preserve">mettre à jour</source>
+<target xml:space="preserve">تحديث</target>
+</trans-unit>
+<trans-unit id="100" resname="n'exporter que les éléments modifiés">
+<source xml:space="preserve">n'exporter que les éléments modifiés</source>
+<target xml:space="preserve">فقط تصدير العناصر المعدلة</target>
+</trans-unit>
+<trans-unit id="101" resname="ré-exporter">
+<source xml:space="preserve">ré-exporter</source>
+<target xml:space="preserve">إعادة تصدير </target>
+</trans-unit>
+<trans-unit id="102" resname="ré-exporter toute la génération">
+<source xml:space="preserve">ré-exporter toute la génération</source>
+<target xml:space="preserve">إعادة تصدير الجيل بأكمله</target>
+</trans-unit>
+<trans-unit id="103" resname="purger &amp; exporter">
+<source xml:space="preserve">purger &amp; exporter</source>
+<target xml:space="preserve">طهر وصدر</target>
+</trans-unit>
+<trans-unit id="104" resname="purger le répertoire de génération et ré-exporter">
+<source xml:space="preserve">purger le répertoire de génération et ré-exporter</source>
+<target xml:space="preserve">طهر منطقة الجيل وأعد تصديرها</target>
+</trans-unit>
+<trans-unit id="105" resname="rapport">
+<source xml:space="preserve">rapport</source>
+<target xml:space="preserve">تقرير</target>
+</trans-unit>
+<trans-unit id="106" resname="consulter le dernier rapport">
+<source xml:space="preserve">consulter le dernier rapport</source>
+<target xml:space="preserve">تفحص التقرير الأخير</target>
+</trans-unit>
+<trans-unit id="107" resname="traces">
+<source xml:space="preserve">traces</source>
+<target xml:space="preserve">آثار</target>
+</trans-unit>
+<trans-unit id="108" resname="Consulter les traces">
+<source xml:space="preserve">Consulter les traces</source>
+<target xml:space="preserve">تصفح الآثار</target>
+</trans-unit>
+<trans-unit id="109" resname="tout exporter">
+<source xml:space="preserve">tout exporter</source>
+<target xml:space="preserve">صدر الكل</target>
+</trans-unit>
+<trans-unit id="110" resname="Le répertoire de publication sur le serveur sera supprimé. Voulez-vous continuer?">
+<source xml:space="preserve">Le répertoire de publication sur le serveur sera supprimé. Voulez-vous continuer?</source>
+<target xml:space="preserve">سيتم حذف منطقة النشر على الموزع. هل تستمرون؟</target>
+</trans-unit>
+<trans-unit id="111" resname="Serveur">
+<source xml:space="preserve">Serveur</source>
+<target xml:space="preserve">الموزع</target>
+</trans-unit>
+<trans-unit id="112" resname="Répertoire principal sur le serveur">
+<source xml:space="preserve">Répertoire principal sur le serveur</source>
+<target xml:space="preserve">المنطقة الرئيسية على الموزع</target>
+</trans-unit>
+<trans-unit id="113" resname="Compte utilisateur">
+<source xml:space="preserve">Compte utilisateur</source>
+<target xml:space="preserve">حساب المستخدم</target>
+</trans-unit>
+<trans-unit id="114" resname="Mot de passe">
+<source xml:space="preserve">Mot de passe</source>
+<target xml:space="preserve">كلمة المرور:</target>
+</trans-unit>
+<trans-unit id="115" resname="Mode de connexion">
+<source xml:space="preserve">Mode de connexion</source>
+<target xml:space="preserve">نوع الاتصال </target>
+</trans-unit>
+<trans-unit id="116" resname="Actif">
+<source xml:space="preserve">Actif</source>
+<target xml:space="preserve">نشيط</target>
+</trans-unit>
+<trans-unit id="117" resname="Passif">
+<source xml:space="preserve">Passif</source>
+<target xml:space="preserve">سلبي</target>
+</trans-unit>
+<trans-unit id="118" resname="actif ou passif">
+<source xml:space="preserve">actif ou passif</source>
+<target xml:space="preserve">نشيط أو سلبي</target>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/sm_undefinedPrim/mainviewXml.xul">
+<trans-unit id="119" resname="Texte">
+<source xml:space="preserve">Texte</source>
+<target xml:space="preserve">نص</target>
+</trans-unit>
+<trans-unit id="120" resname="Édition texte">
+<source xml:space="preserve">Édition texte</source>
+<target xml:space="preserve">تأليف نص</target>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/sm_folderPrim.xml">
+<trans-unit id="121" resname="Métas">
+<source xml:space="preserve">Métas</source>
+<target xml:space="preserve">ميتا</target>
+</trans-unit>
+<trans-unit id="122" resname="Métadonnées">
+<source xml:space="preserve">Métadonnées</source>
+<target xml:space="preserve">ميتا معطيات</target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

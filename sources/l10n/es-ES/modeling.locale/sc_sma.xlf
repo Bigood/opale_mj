@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="sc:sm:" source-language="fr" datatype="plaintext">
+<body>
+<group resname="/gen/modelBuilder/bs/sma_assmntUnitGmcqPrim/ssValidSgnRefs.xsl">
+<trans-unit id="1" resname="Cet item n'est pas d'un type autorisé : ">
+<source xml:space="preserve">Cet item n'est pas d'un type autorisé : </source>
+<target xml:space="preserve">Este ítem no esta de un tipo autorizado:</target>
+</trans-unit>
+</group>
+</body>
+</file>
+<file original="/gen/modelBuilder/bs/sma_assmntUnitEditPrim/formBase.xed.xml.xsl" source-language="fr" datatype="plaintext">
+<body>
+<trans-unit id="1" resname="Valeur">
+<source xml:space="preserve">Valeur</source>
+<target xml:space="preserve">Valor</target>
+</trans-unit>
+</body>
+</file>
+<file original="sc:sma:" source-language="fr" datatype="plaintext">
+<body>
+<group resname="/gen/modelBuilder/bs/sma_scormGenDeploy.xml">
+<trans-unit id="1" resname="Titre du module SCORM">
+<source xml:space="preserve">Titre du module SCORM</source>
+<target xml:space="preserve">Título del modulo SCORM</target>
+</trans-unit>
+<trans-unit id="2" resname="Code unique du module SCORM">
+<source xml:space="preserve">Code unique du module SCORM</source>
+<target xml:space="preserve">Código único del modulo SCORM</target>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/sma_assmntUnitMcqPrim/formBase.xed.xml.xsl">
+<trans-unit id="3" resname="Item">
+<source xml:space="preserve">Item</source>
+<target xml:space="preserve">Ítem</target>
+</trans-unit>
+<trans-unit id="4" resname="Coché">
+<source xml:space="preserve">Coché</source>
+<target xml:space="preserve">Marcado</target>
+</trans-unit>
+<trans-unit id="5" resname="Décoché">
+<source xml:space="preserve">Décoché</source>
+<target xml:space="preserve">Desmarcado</target>
+</trans-unit>
+<trans-unit id="6" resname="Indifférent">
+<source xml:space="preserve">Indifférent</source>
+<target xml:space="preserve">Indiferente</target>
+</trans-unit>
+<trans-unit id="7" resname="Non coché">
+<source xml:space="preserve">Non coché</source>
+<target xml:space="preserve">No marcado</target>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/sma_assmntGapInTextPrim/ssGenAttr.xsl.xsl">
+<trans-unit id="8" resname="Une option du trou '%1$s' doit contenir le texte original.">
+<source xml:space="preserve">Une option du trou '%1$s' doit contenir le texte original.</source>
+<target xml:space="preserve">Una opción del hueco '%1$s' debe contener el texto original.</target>
+<note>ATTENTION, syntaxe à respecter : Formatter</note>
+</trans-unit>
+<trans-unit id="9" resname="Le trou '%1$s' a qu'une seule option.">
+<source xml:space="preserve">Le trou '%1$s' a qu'une seule option.</source>
+<target xml:space="preserve">El hueco '%1$s' solo tiene una opción.</target>
+<note>ATTENTION, syntaxe à respecter : Formatter</note>
+</trans-unit>
+<trans-unit id="10" resname="Au moins un synonyme du trou '%1$s' n'est pas présent dans ses options.">
+<source xml:space="preserve">Au moins un synonyme du trou '%1$s' n'est pas présent dans ses options.</source>
+<target xml:space="preserve">Por lo menos un sinónimo del hueco '%1$s' no está presente en sus opciones.</target>
+<note>ATTENTION, syntaxe à respecter : Formatter</note>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/sma_assmntUnitGmcqPrim/formBase.xed.xml.xsl">
+<trans-unit id="11" resname="Sélectionné">
+<source xml:space="preserve">Sélectionné</source>
+<target xml:space="preserve">Seleccionado</target>
+</trans-unit>
+<trans-unit id="12" resname="Non sélectionné">
+<source xml:space="preserve">Non sélectionné</source>
+<target xml:space="preserve">No seleccionado</target>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/sma_assmntUnitEditPrim/formBase.xed.xml.xsl">
+<trans-unit id="13" resname="Condition">
+<source xml:space="preserve">Condition</source>
+<target xml:space="preserve">Condición</target>
+</trans-unit>
+<trans-unit id="14" resname="Valeur">
+<source xml:space="preserve">Valeur</source>
+<target xml:space="preserve">Valor</target>
+</trans-unit>
+<trans-unit id="15" resname="égal à">
+<source xml:space="preserve">égal à</source>
+<target xml:space="preserve">igual a</target>
+</trans-unit>
+<trans-unit id="16" resname="supérieur ou égal à">
+<source xml:space="preserve">supérieur ou égal à</source>
+<target xml:space="preserve">superior o igual a</target>
+</trans-unit>
+<trans-unit id="17" resname="supérieur à">
+<source xml:space="preserve">supérieur à</source>
+<target xml:space="preserve">superior a</target>
+</trans-unit>
+<trans-unit id="18" resname="inférieure ou égal à">
+<source xml:space="preserve">inférieure ou égal à</source>
+<target xml:space="preserve">inferior o igual a</target>
+</trans-unit>
+<trans-unit id="19" resname="inférieure à">
+<source xml:space="preserve">inférieure à</source>
+<target xml:space="preserve">inferior a</target>
+</trans-unit>
+<trans-unit id="20" resname="plus ou moins">
+<source xml:space="preserve">plus ou moins</source>
+<target xml:space="preserve">mas o menos</target>
+</trans-unit>
+<trans-unit id="21" resname="plus ou moins (pourcentage)">
+<source xml:space="preserve">plus ou moins (pourcentage)</source>
+<target xml:space="preserve">mas o menos (porcentaje)</target>
+</trans-unit>
+</group>
+<group resname="/gen/modelBuilder/bs/sma_scormCamUiFrame/preview/preview.html.xsl">
+<trans-unit id="22" resname="Simulateur de LMS Scorm">
+<source xml:space="preserve">Simulateur de LMS Scorm</source>
+<target xml:space="preserve">Simulador de LMS Scrom</target>
+</trans-unit>
+<trans-unit id="23" resname="Aucun contenu SCORM n'est actuellement en cours d'exécution.">
+<source xml:space="preserve">Aucun contenu SCORM n'est actuellement en cours d'exécution.</source>
+<target xml:space="preserve">Se esta ejecutando actualmente ningún contenido SCORM.</target>
+</trans-unit>
+<trans-unit id="24" resname="Aucune donnée enregistrée">
+<source xml:space="preserve">Aucune donnée enregistrée</source>
+<target xml:space="preserve">Ningún dato grabado</target>
+</trans-unit>
+<trans-unit id="25" resname="Environnement SCORM 2004">
+<source xml:space="preserve">Environnement SCORM 2004</source>
+<target xml:space="preserve">Entorno SCROM 2004</target>
+</trans-unit>
+<trans-unit id="26" resname="Environnement SCORM 1.2">
+<source xml:space="preserve">Environnement SCORM 1.2</source>
+<target xml:space="preserve">Entorno SCROM 1.2</target>
+</trans-unit>
+<trans-unit id="27" resname="Aucun contexte SCORM défini">
+<source xml:space="preserve">Aucun contexte SCORM défini</source>
+<target xml:space="preserve">Ningún contexto SCROM definido</target>
+</trans-unit>
+<trans-unit id="28" resname="Le modèle de donnée ne possède pas de fils.">
+<source xml:space="preserve">Le modèle de donnée ne possède pas de fils.</source>
+<target xml:space="preserve">EL modelo de datos no comporta ningún elemento hijo.</target>
+</trans-unit>
+<trans-unit id="29" resname="Enregistrement des données impossible. Veuillez contacter votre administrateur.">
+<source xml:space="preserve">Enregistrement des données impossible. Veuillez contacter votre administrateur.</source>
+<target xml:space="preserve">Imposible salvaguardar los datos. Por favor contacte su administrador.</target>
+</trans-unit>
+<trans-unit id="30" resname="Voir les données SCORM...">
+<source xml:space="preserve">Voir les données SCORM...</source>
+<target xml:space="preserve">Ver los datos SCORM...</target>
+</trans-unit>
+<trans-unit id="31" resname="Masquer">
+<source xml:space="preserve">Masquer</source>
+<target xml:space="preserve">Ocultar</target>
+</trans-unit>
+<trans-unit id="32" resname="Masquer le panneau scorm">
+<source xml:space="preserve">Masquer le panneau scorm</source>
+<target xml:space="preserve">Ocultar el panel scorm</target>
+</trans-unit>
+<trans-unit id="33" resname="shift-click pour ouvrir en 'popup'">
+<source xml:space="preserve">shift-click pour ouvrir en 'popup'</source>
+<target xml:space="preserve">Mayuscula-clic para abrir en un « popup »</target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

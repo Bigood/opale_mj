@@ -1,0 +1,6 @@
+K 13
+svn:externals
+V 114
+scSearch.doss http://scenari-platform.org/svn/modelet/branches/sc41/scSearch/model/sources/scSearch/scSearch.doss
+
+END

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:packMake xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:extDef sc:refUri="/custom/publication/pairFormExt.extdef" lang="fr-FR" parentLang="fr-FR">
+		<sm:localization defaultLang="fr-FR"/>
+	</sm:extDef>
+</sm:packMake>

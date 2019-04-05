@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:binaryXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/binaries/wmv/wmv.model"/>
+	<sm:axis code="zoom"/>
+	<sm:content>
+		<sm:Widget sc:refUri="/aurora/web/widg/bin/depreciated.uiwidget"/>
+		<sm:callBinaryMeta axis="info"/>
+	</sm:content>
+</sm:binaryXhtmlTransf>

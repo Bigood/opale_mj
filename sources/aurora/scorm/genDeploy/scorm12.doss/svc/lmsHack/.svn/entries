@@ -1,0 +1,41 @@
+8
+
+dir
+3237
+http://scenari-platform.org/svn/opale/tags/sc41-v3.5.0.14/model/sources/aurora/scorm/genDeploy/scorm12.doss/svc/lmsHack
+http://scenari-platform.org/svn/opale
+
+
+
+2015-01-20T21:53:07.400491Z
+3139
+sam
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+899cd45d-9604-0410-9353-cb762ee69498
+
+lmsHack.js
+file
+
+
+
+
+2015-09-01T13:58:19.000000Z
+b2f5042f098b6a87159ff60437b36528
+2015-01-20T21:53:07.400491Z
+3139
+sam
+has-props
+

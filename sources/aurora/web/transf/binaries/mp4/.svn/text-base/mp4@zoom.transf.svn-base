@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:binaryXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/binaries/mp4/mp4.model"/>
+	<sm:axis code="zoom"/>
+	<sm:content>
+		<sm:WLink widgetClass="resLnk mp4">
+			<sm:label>
+				<sm:title>
+					<sm:binaryTitle/>
+				</sm:title>
+			</sm:label>
+			<sm:labelTitle>
+				<sm:title>
+					<sm:binaryTitle suffix="￼; (nouvelle fenêtre)￼"/>
+				</sm:title>
+			</sm:labelTitle>
+			<sm:link target="newWindow" windowName="zoom">
+				<sm:behavior addLinkInHref="yes"/>
+				<sm:position>
+					<sm:centerScreen/>
+				</sm:position>
+				<sm:windowFeatures scrollbars="no"/>
+				<sm:WVideoFlv widgetClass="resVideo">
+					<sm:binaryUrl>
+						<sm:flvSize>
+							<sm:scaleFromStandardCharSize/>
+							<sm:sizeBounds maxWidthInPx="630" maxHeightInPx="630"/>
+						</sm:flvSize>
+					</sm:binaryUrl>
+					<sm:declareSize/>
+					<sm:player show="always"/>
+					<sm:stopButton cancelLoad="false"/>
+					<sm:volumeButton/>
+					<sm:timeButton/>
+					<sm:fullscreenButton/>
+					<sm:configFile format="text" src="player/mp4.txt" srcFrom="skin"/>
+				</sm:WVideoFlv>
+			</sm:link>
+		</sm:WLink>
+		<sm:callBinaryMeta axis="info"/>
+	</sm:content>
+</sm:binaryXhtmlTransf>

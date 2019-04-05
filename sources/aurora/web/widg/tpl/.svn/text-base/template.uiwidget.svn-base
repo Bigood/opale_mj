@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:openUiWidget xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" code="template" info="Fragments de post-XSL &amp; tags métas génériques à ajouter au pages web">
+	<sm:fillTemplateBuffers>
+		<sm:postXslFragment keyXsl="xhtml"><!--<comment xmlns="scenari.eu:comment:1.0" type="thread"><comment creationTime="1409216483922">Ajout d'un attribut lang sur html</comment></comment>-->&lt;xsl:overlay match="html"&gt;
+	&lt;xsl:attribute name="lang"&gt;&lt;xsl:value-of select="'￼?note=Langue%20par%20defaut%20des%20pages%20html&amp;amp;key=defaultWebLangCode;fr￼'"/&gt;&lt;/xsl:attribute&gt;
+&lt;/xsl:overlay&gt;
+
+</sm:postXslFragment>
+		<sm:postXslFragment keyXsl="xhtml"><!--<comment xmlns="scenari.eu:comment:1.0" type="thread"><comment creationTime="1409171721792" updateTime="1409216823665">Ajouter toutes les classes dédinis pas les éléments addClassToBody sur le body</comment></comment>-->&lt;xsl:overlay match="body"&gt;
+	&lt;xsl:if test="//addClassToBody"&gt;
+		&lt;xsl:attribute name="class"&gt;&lt;xsl:value-of select="concat(@class, ' ', concatExpr(//addClassToBody, @class, ' '))"/&gt;&lt;/xsl:attribute&gt;
+	&lt;/xsl:if&gt;
+&lt;/xsl:overlay&gt;
+&lt;xsl:template match="addClassToBody"/&gt;</sm:postXslFragment>
+	</sm:fillTemplateBuffers>
+	<sm:content>
+		<meta xmlns="http://www.w3.org/1999/xhtml" name="generator">
+			<addAttribute name="content">
+				<sm:wspInfo type="scenariVersionFull" prefix="SCENARI " suffix=" / "/>
+				<sm:wspInfo type="modKey" suffix=" "/>
+				<sm:wspInfo type="modVersionFull" suffix=" - http://scenari-platform.org/opale"/>
+			</addAttribute>
+		</meta>
+		<sm:Widget sc:refUri="/aurora/web/widg/tpl/revisedMeta.uiwidget"/>
+		<sm:Widget sc:refUri="/aurora/web/widg/tpl/startLinkMeta.uiwidget"/>
+	</sm:content>
+</sm:openUiWidget>

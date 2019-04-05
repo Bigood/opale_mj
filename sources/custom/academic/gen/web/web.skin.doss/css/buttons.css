@@ -1,0 +1,368 @@
+#tplLft a, #tplRgt a, #tplBtm a{
+	color:white;
+}
+
+#tplLft a:hover, #tplRgt a:hover, #tplBtm a:hover{
+	color:lightgray;
+}
+
+.playBtnSel,
+.toolsBtnSel,
+.noPrevBtn, .noNextBtn {
+	text-decoration: none;
+	display: block;
+}
+.homeBtnSel,
+.helpBtnSel {
+	/* text-decoration: none; */
+	/* height: 48px; */
+	/* width: 33px; */
+	display: block;
+	margin: 4px 8px;
+}
+.homeBtnSel {
+	float: left;
+}
+
+
+.homeBtnSel {
+}
+.btnImg {
+	height: 28px;
+}
+.playBtnSel {
+	cursor:pointer;
+
+}
+
+.playBtnSel span:before {
+  display: block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 30px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f02d";
+}
+
+
+.playBtnSel img {
+	display:none;
+}
+
+.toolsBtnSel {
+}
+.helpBtnSel {
+	background: url(../img/btn/helpSel.png) no-repeat;
+}
+
+.btnLbl{
+	display: none;
+	color: #FAFAFA;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-weight: 200;
+	}
+
+#tplCo .btnLbl{
+	color:black
+}
+
+.prevBtn,
+.nextBtn,
+.toolsBtn,
+.playBtn {
+	text-decoration: none;
+	height: 33px;
+	width: 48px;
+	display: block;
+}
+.prevBtn img,
+.nextBtn img,
+.toolsBtn img,
+.playBtn img{
+	/* height: 33px; */
+	/* width: 48px; */
+	display:none;
+}
+
+.toolsBtn .btnLbl:before {
+  display: block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 30px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f0c6";
+}
+.printBtn,
+.helpBtn,
+.homeBtn {
+	text-decoration: none;
+	display: block;
+}
+.printBtn img,
+.helpBtn img,
+.homeBtn img {
+}
+
+.printBtn,
+.helpBtn,
+.homeBtn {
+	float: left;
+	min-width: 40px;
+	margin: 4px 8px;
+}
+
+.printBtn span:before ,
+.helpBtn span:before ,
+.homeBtn span:before {
+  display: block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 30px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+.homeBtn > span:before {
+	content: "\f015";
+}
+.printBtn > span:before{
+	content: "\f02f";
+}
+
+
+.printBtn img,
+.helpBtn img,
+.homeBtn img,
+.playBtnSel img {
+	display:none;
+}
+
+
+.prevBtn,
+.nextBtn,
+.helpBtn,
+.homeBtn,
+.printBtn,
+.toolsBtn,
+.playBtn{
+	color:white;
+}
+.prevBtn img,
+.nextBtn img,
+.helpBtn img,
+.homeBtn img,
+.printBtn img,
+.toolsBtn img,
+.playBtn img{
+	border:0px;
+	/* display: inline-block; */
+	width: 30px;
+}
+.prevBtn span,
+.nextBtn span,
+.helpBtn span,
+.homeBtn span,
+.printBtn span,
+.toolsBtn span,
+.playBtn span{/* display: none; */}
+.prevBtn,
+.nextBtn,
+.noPrevBtn,
+.noNextBtn {
+	/* position: absolute; */
+	/* left:0px; */
+	min-width: 200px;
+	display: inline-block;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#94c000+1,088e00+100 */
+	background: #189100;
+	border-bottom: 2px solid #0f6b00;
+	background: #efc500;
+	border-bottom: 2px solid #c7a601;
+	background: #ec0909;
+	border-bottom: 2px solid #a50000;
+	background: #0376b0;
+	border-bottom: 2px solid #0059af;
+	border-radius: 4px;
+	height: 34px;
+	padding: 4px;
+	text-align: center;
+	vertical-align: middle;
+	transition:background ease-out .2s;
+	position: relative;
+}
+.prevBtn:hover,
+.nextBtn:hover{
+	background: #0059af;
+	border-bottom: 2px solid #002f5d;
+}
+
+.prevBtn:hover::before
+{
+	left:4px;
+}
+.nextBtn:hover::before {
+	right:4px;
+}
+/* Portrait */
+@media only screen
+  and (max-width: 480px) {
+
+.prevBtn,
+.nextBtn,
+.noPrevBtn,
+.noNextBtn {
+	min-width:120px;
+}
+}
+.prevBtn img,
+.nextBtn img,
+.noPrevBtn img,
+.noNextBtn img{
+	display:none;
+}
+.prevBtn::before, .nextBtn::before{
+	transition:right ease-out .2s, left ease-out .2s;
+	position:absolute;
+	color: white;
+	font-size: 26px;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+.prevBtn::before{
+	content: "\276e";
+	left: 10px;
+}
+.nextBtn::before{
+	content: "\276f";
+	display: inline;
+	right: 10px;
+}
+/*.prevBtn::after, .nextBtn::before{
+	content:attr(title);
+	color: white;
+	display:inline-block;
+
+	vertical-align: top;
+	font-size: 14px;
+	line-height: 34px;
+	width: 75%;
+	overflow: hidden;  white-space: nowrap;  text-overflow: ellipsis;
+}*/
+.noNextBtn,
+.noPrevBtn{
+/* bottom: 9px; */
+/* background-color: rgb(174, 222, 244); */
+opacity: 0.4;
+}
+.nextBtn,
+.noNextBtn{
+	float:right;
+	clear: both;
+}
+
+#tplTop .btnLbl{
+	display:block;
+	font-size: 14px;
+}
+.prevBtn span,
+.nextBtn span,
+.noPrevBtn .btnLbl,
+.noNextBtn .btnLbl{
+	display: inline-block;
+	color: white;
+	vertical-align: top;
+	font-size: 14px;
+	line-height: 34px;
+	width: 85%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	/* float:left; */
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-weight: 300;
+}
+.prevBtn span{
+	margin-left: 20px;
+}
+.nextBtn span{
+	margin-right: 20px;
+}
+
+.cc-button,
+#linkSp{
+	margin-left:3px;
+}
+/*****************/
+/*  Evaluation   */
+/*****************/
+.gotoEval{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 1em;
+}
+a.btnEval{
+
+    margin-right: 10px;
+    display: inline-block;
+    background: #0096db;
+    border-bottom: 2px solid #007eb9;
+    border-radius: 4px;
+    /* height: 24px; */
+    padding: 10px 14px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    color: white;
+    transition: background-color ease-out .2s;
+    text-decoration: none;
+    font-size: 15px;
+}
+a.btnEval:hover{
+background: #008ccc;
+}
+.btnEval span{
+}
+
+/*****************/
+/*    SubWin     */
+/*****************/
+.printSubWinBtn{
+	text-decoration: none;
+	height: 26px;
+	width: 27px;
+	display: block;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+}
+.printSubWinBtn img{
+	height: 26px;
+	width: 27px;
+}
+
+.printSubWinBtn{
+	color:white;
+}
+.printSubWinBtn img{
+	border:0px;
+}
+
+/*****************/
+/* informations */
+/*****************/
+.infoBtn_a {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url(../img/blocks/info.png) no-repeat top right;
+	text-decoration: none;
+	height: 33px;
+	width: 33px;
+	display: block;
+	margin: 5px 5px 0px 0px;
+	cursor: pointer;
+}
+.infoBtn_a span {
+	visibility: hidden;
+}

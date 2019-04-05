@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:packMake xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:wspDef sc:refUri="/opale/opale.wspdef" lang="es-ES">
+		<sm:welcomeSite sc:refUri="/l10n/es-ES/_res/presAdvanced.site" mainFile="index.html"/>
+		<sm:localization defaultLang="en-US">
+			<sm:modeling>
+				<sm:locale sc:refUri="/l10n/es-ES/modeling.locale"/>
+			</sm:modeling>
+			<sm:model>
+				<sm:locale sc:refUri="/l10n/es-ES/model.locale"/>
+			</sm:model>
+		</sm:localization>
+	</sm:wspDef>
+	<sm:extDef sc:refUri="/aurora/genAurora.extdef" lang="es-ES" parentLang="es-ES">
+		<sm:localization defaultLang="en-US">
+			<sm:model>
+				<sm:locale sc:refUri="/l10n/es-ES/aurora.locale"/>
+			</sm:model>
+		</sm:localization>
+	</sm:extDef>
+</sm:packMake>

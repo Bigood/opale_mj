@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:openUiTemplate xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" pageUnicityCriterion="hierarchicalContext">
+	<sm:head>
+		<sm:windowTitle>
+			<sm:rootTitle type="shortTitle"/>
+		</sm:windowTitle>
+		<sm:Widget sc:refUri="/aurora/web/widg/tpl/template.uiwidget"/>
+		<sm:meta name="author">
+			<sm:callRootModel axis="author"/>
+		</sm:meta>
+		<sm:meta name="keywords">
+			<sm:callZone key="zKeywords" format="text"/>
+		</sm:meta>
+		<sm:meta name="date">
+			<sm:callRootModel axis="date"/>
+		</sm:meta>
+		<sm:meta name="viewport">
+			<sm:fixedContent value="width=device-width, initial-scale=1"/>
+		</sm:meta>
+		<sm:styleSheet src="css/main.css" srcFrom="skin" media="all"/>
+		<sm:styleSheet src="css/skin.css" srcFrom="skin" media="all"/>
+		<sm:styleSheet src="css/print.css" srcFrom="skin" media="print"/>
+		<sm:Widget sc:refUri="/aurora/web/widg/tpl/userAgentControl.uiwidget"/>
+		<sm:callRootModel axis="genSpecific" navCtx="preserveCurrent"/>
+	</sm:head>
+	<sm:body>
+		<addClassToBody xmlns="http://www.w3.org/1999/xhtml" class="home"></addClassToBody>
+		<div xmlns="http://www.w3.org/1999/xhtml" id="root">
+			<main id="main" role="main">
+				<div id="content" tabindex="-1">
+					<sm:callMainZone format="xhtml"/>
+				</div>
+				<nav id="navigation" class="pageTurner" role="navigation" tabindex="-1">
+					<hr class="hidden" />
+					<ul>
+						<li>
+							<sm:Widget sc:refUri="/aurora/web/widg/nav/start.uiwidget"/>
+						</li>
+					</ul>
+				</nav>
+			</main>
+			<footer id="footer" role="contentinfo" tabindex="-1">
+				<hr class="hidden" />
+				<sm:callZone key="zLegal" format="xhtml"/>
+				<sm:Widget sc:refUri="/aurora/web/widg/tpl/madeWithSc.uiwidget"/>
+			</footer>
+		</div>
+		<sm:script src="js/skin.js" srcFrom="skin" type="text/JavaScript"/>
+	</sm:body>
+</sm:openUiTemplate>

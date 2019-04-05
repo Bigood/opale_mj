@@ -1,0 +1,78 @@
+8
+
+dir
+994
+http://scenari-platform.org/svn/modelet/branches/sc41/math/model/sources/math/mathjax/mathjax-svg.doss
+http://scenari-platform.org/svn/modelet
+
+
+
+2015-06-08T08:44:40.775409Z
+990
+sam
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3810ab43-6524-0410-b672-c17da5d79492
+
+LICENSE
+file
+
+
+
+
+2015-09-01T13:58:32.000000Z
+3b83ef96387f14655fc854ddc3c6bd57
+2014-08-07T16:35:53.668089Z
+901
+sam
+
+MathJax.js
+file
+
+
+
+
+2015-09-01T13:58:34.000000Z
+6e1db8da595436a0c1037e561278b733
+2014-08-07T16:35:53.668089Z
+901
+sam
+has-props
+
+extensions
+dir
+
+images
+dir
+
+jax
+dir
+
+localization
+dir
+
+mathjaxMgr.js
+file
+
+
+
+
+2015-09-01T13:58:34.000000Z
+462ce57a3401005214454a399c265f62
+2015-06-08T08:44:40.775409Z
+990
+sam
+has-props
+

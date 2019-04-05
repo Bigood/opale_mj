@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:compositionXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/academic/model/root/webRoot.model"/>
+	<sm:axis code="supcastTools"/>
+	<sm:content format="xhtml">
+		<sm:WFreeBlock>
+			<sm:choose>
+				<sm:when xpath="op:webRootM/sp:settings/sp:quest='yes' or op:webRootM/sp:settings/sp:glos='yes' or op:webRootM/sp:settings/sp:acr='yes' or op:webRootM/sp:settings/sp:ref='yes' or op:webRootM/sp:settings/sp:bib='yes' or op:webRootM/sp:settings/sp:index='yes' or op:webRootM/sp:settings/sp:credits='yes'">
+					<!--<sm:callModel xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:root axis="tools"/>
+</sm:callModel>-->
+					<sm:WLink>
+						<sm:label/>
+						<sm:link>
+							<sm:callModel>
+								<sm:root axis="tools" navCtx="newRoot"/>
+							</sm:callModel>
+						</sm:link>
+					</sm:WLink>
+				</sm:when>
+			</sm:choose>
+		</sm:WFreeBlock>
+	</sm:content>
+</sm:compositionXhtmlTransf>

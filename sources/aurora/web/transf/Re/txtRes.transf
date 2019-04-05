@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:compositionXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/academic/model/Re/txtRes.model"/>
+	<sm:content format="xhtml">
+		<sm:WSimpleBlock widgetClass="txtRes">
+			<sm:choose>
+				<sm:when xpath="op:txtResM/sp:pos='rgt'">
+					<sm:WSimpleBlock widgetClass="txt">
+						<sm:for codes="txt">
+							<sm:callSubModel/>
+						</sm:for>
+					</sm:WSimpleBlock>
+					<sm:WSimpleBlock widgetClass="img rgt">
+						<sm:for codes="img">
+							<sm:callSubModel axis="txtRes"/>
+						</sm:for>
+					</sm:WSimpleBlock>
+				</sm:when>
+				<sm:otherwise>
+					<sm:WSimpleBlock widgetClass="img lft">
+						<sm:for codes="img">
+							<sm:callSubModel axis="txtRes"/>
+						</sm:for>
+					</sm:WSimpleBlock>
+					<sm:WSimpleBlock widgetClass="txt">
+						<sm:for codes="txt">
+							<sm:callSubModel/>
+						</sm:for>
+					</sm:WSimpleBlock>
+				</sm:otherwise>
+			</sm:choose>
+		</sm:WSimpleBlock>
+	</sm:content>
+</sm:compositionXhtmlTransf>

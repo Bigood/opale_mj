@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:extDefinition xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" keyExt="OpaleRTL4strt" name="￼;Opale &quot;Lecture de droite à gauche&quot;￼" majorVersion="3" mediumVersion="5" minorVersion="014">
+	<sm:parentWspDef sc:refUri="/opale/opaleStarter.wspdef"/>
+	<sm:mainViewsOverlays>
+		<!--# Class sur lequelles seront exécutés les contrôles des caractères spéciaux (définis ci-dessous)-->
+		<sm:class sc:refUri="/academic/model/root/webRoot.model"/>
+		<sm:class sc:refUri="/academic/model/root/odRoot.model"/>
+		<sm:class sc:refUri="/academic/model/root/presRoot.model"/>
+		<sm:class sc:refUri="/academic/model/Ue/ue.model"/>
+		<sm:class sc:refUri="/academic/model/Ue/ueDiv.model"/>
+		<sm:class sc:refUri="/academic/model/Ua/courseUa.model"/>
+		<sm:class sc:refUri="/academic/model/Ua/assmntUa.model"/>
+		<sm:class sc:refUri="/academic/model/Uc/expUc.model"/>
+		<sm:class sc:refUri="/academic/model/Uc/practUc.model"/>
+		<sm:class sc:refUri="/academic/model/Uc/quiz/mcqSur.model"/>
+		<sm:class sc:refUri="/academic/model/Uc/quiz/mcqMur.model"/>
+		<sm:class sc:refUri="/academic/model/Uc/quiz/match.model"/>
+		<sm:class sc:refUri="/academic/model/Uc/quiz/ordWord.model"/>
+		<sm:class sc:refUri="/academic/model/Uc/quiz/cloze.model"/>
+		<sm:class sc:refUri="/academic/model/Uc/quiz/field.model"/>
+		<sm:class sc:refUri="/academic/model/Uc/quiz/numerical.model"/>
+		<sm:class sc:refUri="/academic/model/Uc/quiz/coQuiz.model"/>
+		<sm:class sc:refUri="/academic/model/Uc/quiz/mcgSur.model"/>
+		<sm:class sc:refUri="/academic/model/Uc/quiz/mcgMur.model"/>
+		<sm:class sc:refUri="/academic/model/Re/refs/acr.model"/>
+		<sm:class sc:refUri="/academic/model/Re/refs/glos.model"/>
+		<sm:class sc:refUri="/academic/model/Re/refs/bib.model"/>
+		<sm:class sc:refUri="/academic/model/Re/refs/ref.model"/>
+		<sm:class sc:refUri="/binaries/jpg/jpeg.model"/>
+		<sm:class sc:refUri="/binaries/gif/gif.model"/>
+		<sm:class sc:refUri="/binaries/png/png.model"/>
+		<sm:class sc:refUri="/binaries/odg/odg.model"/>
+		<sm:class sc:refUri="/binaries/mp3/mp3.model"/>
+		<sm:class sc:refUri="/binaries/oga/oga.model"/>
+		<sm:class sc:refUri="/binaries/opus/opus.model"/>
+		<sm:class sc:refUri="/binaries/webm/webm.model"/>
+		<sm:class sc:refUri="/binaries/mp4/mp4.model"/>
+		<sm:class sc:refUri="/binaries/flash/flash.model"/>
+		<sm:class sc:refUri="/binaries/flv/flv.model"/>
+		<sm:class sc:refUri="/binaries/avi/avi.model"/>
+		<sm:class sc:refUri="/binaries/mov/mov.model"/>
+		<sm:class sc:refUri="/binaries/mpg/mpg.model"/>
+		<sm:class sc:refUri="/binaries/rm/rm.model"/>
+		<sm:class sc:refUri="/binaries/wmv/wmv.model"/>
+		<sm:class sc:refUri="/academic/model/Re/eSite/eSite.model"/>
+		<sm:class sc:refUri="/binaries/eWeb/eWeb.model"/>
+		<sm:class sc:refUri="/academic/model/Re/mediaWeb/mediaWeb.model"/>
+		<sm:class sc:refUri="/academic/model/Re/gallery.model"/>
+		<sm:class sc:refUri="/math/odf/odf.model"/>
+		<sm:class sc:refUri="/math/latex/mathTex.model"/>
+		<sm:class sc:refUri="/binaries/ods/ods.model"/>
+		<sm:class sc:refUri="/binaries/doc/doc.model"/>
+		<sm:class sc:refUri="/binaries/xls/xls.model"/>
+		<sm:class sc:refUri="/binaries/odp/odp.model"/>
+		<sm:class sc:refUri="/binaries/odt/odt.model"/>
+		<sm:class sc:refUri="/binaries/pdf/pdf.model"/>
+		<sm:class sc:refUri="/binaries/rtf/rtf.model"/>
+		<sm:class sc:refUri="/binaries/zip/zip.model"/>
+		<sm:class sc:refUri="/academic/model/Re/code.model"/>
+		<sm:class sc:refUri="/academic/model/Re/applet/applet.model"/>
+		<sm:class sc:refUri="/academic/model/Re/applet/jar.model"/>
+		<sm:class sc:refUri="/binaries/srt/srt.model"/>
+		<sm:class sc:refUri="/binaries/vtt/vtt.model"/>
+	</sm:mainViewsOverlays>
+	<sm:generatorSkins>
+		<sm:generator sc:refUri="/academic/gen/quadra/paper/paper.generator">
+			<sm:skin sc:refUri="/l10n/xRTL/quadra/paper/paper.skin.odt" code="default" name="￼;Quadra &quot;Lecture de droite à gauche&quot;￼"/>
+		</sm:generator>
+		<sm:generator sc:refUri="/academic/gen/quadra/web/web.generator">
+			<sm:skin sc:refUri="/l10n/xRTL/quadra/web/web.skin.doss" code="default" name="￼;Quadra &quot;Lecture de droite à gauche&quot;￼"/>
+		</sm:generator>
+		<sm:generator sc:refUri="/academic/gen/quadra/scormMulti/scormMulti.generator">
+			<sm:skin sc:refUri="/l10n/xRTL/quadra/web/web.skin.doss" code="default" name="￼;Quadra &quot;Lecture de droite à gauche&quot;￼"/>
+		</sm:generator>
+		<sm:generator sc:refUri="/academic/gen/quadra/scormMono/scormMono.generator">
+			<sm:skin sc:refUri="/l10n/xRTL/quadra/web/web.skin.doss" code="default" name="￼;Quadra &quot;Lecture de droite à gauche&quot;￼"/>
+		</sm:generator>
+		<sm:generator sc:refUri="/academic/gen/quadra/preview/_web/shortContent/previewWebShort.generator">
+			<sm:skin sc:refUri="/l10n/xRTL/quadra/web/web.skin.doss" code="default" name="￼;Quadra &quot;Lecture de droite à gauche&quot;￼"/>
+		</sm:generator>
+		<sm:generator sc:refUri="/academic/gen/quadra/comments/web/previewWebShortComments.generator">
+			<sm:skin sc:refUri="/l10n/xRTL/quadra/web/web.skin.doss" code="default" name="￼;Quadra &quot;Lecture de droite à gauche&quot;￼"/>
+		</sm:generator>
+		<sm:generator sc:refUri="/academic/gen/quadra/preview/_web/standardContent/previewWebStandard.generator">
+			<sm:skin sc:refUri="/l10n/xRTL/quadra/web/web.skin.doss" code="default" name="￼;Quadra &quot;Lecture de droite à gauche&quot;￼"/>
+		</sm:generator>
+		<sm:generator sc:refUri="/academic/gen/quadra/comments/web/previewWebStandardComments.generator">
+			<sm:skin sc:refUri="/l10n/xRTL/quadra/web/web.skin.doss" code="default" name="￼;Quadra &quot;Lecture de droite à gauche&quot;￼"/>
+		</sm:generator>
+	</sm:generatorSkins>
+	<sm:wspUi>
+		<!--# Zone d'édition XED en RTL-->
+		<sm:freeUiOverlay targetUri="xedView:">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;so:overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:so="scenari.eu:xmlOverlay:1.0"&gt;
+	&lt;so:script&gt;
+	 	document.getElementById("xedBox").style.direction="rtl";
+	&lt;/so:script&gt;
+&lt;/so:overlay&gt;</sm:freeUiOverlay>
+	</sm:wspUi>
+	<sm:freeConfig>
+		<sm:freeWspType>
+			<!--# Controle du path des items : caracteres alphanumériques uniquement (cf http://scenari-platform.org/trac/opale/wiki/l10n.ar.doc)-->
+			<sm:freeSsOverlay>&lt;module code="validItemUri" type="com.scenari.m.bdp.module.genitem.HModuleGenItemBeanshellLoader" paramType="stream"&gt;
+		&lt;beanshell&gt;&lt;![CDATA[
+			void fillItem(eu.scenari.wsp.item.IItem pItem, java.io.InputStream pStream) throws Exception {
+		if(pStream!=null){
+			try {
+				String vUri = pItem.getSrcNode().getSrcUri();
+				String[] vTokens = vUri.split("/");
+				java.util.regex.Pattern sPatternSpace = java.util.regex.Pattern.compile("[A-Za-z0-9\\-_]");
+				java.util.regex.Pattern sPatternItem  = java.util.regex.Pattern.compile("[A-Za-z0-9\\-_\\.]");
+				
+				for (int ii = 0; ii &lt; vTokens.length; ii++){
+					if(vTokens[ii].length()&gt;0){
+						if(ii &lt; vTokens.length-1){
+							// espace
+							String vUnauthorizedChar = sPatternSpace.matcher(vTokens[ii]).replaceAll("");
+							if(vUnauthorizedChar.length()&gt;0) pItem.addContentError("charset", "￼Caractère(s) interdit(s) dans le nom de l'espace -￼ '"+vTokens[ii]+"' : "+vUnauthorizedChar, "￼Seuls les caractères alphanumériques sont autorisés.￼");
+						}else{
+							// item
+							String vUnauthorizedChar = sPatternItem.matcher(vTokens[ii]).replaceAll("");
+							if(vUnauthorizedChar.length()&gt;0) pItem.addContentError("charset", "￼Caractère(s) interdit(s) dans le nom de l'item -￼ '"+vTokens[ii]+"' : "+vUnauthorizedChar, "￼Seuls les caractères alphanumériques sont autorisés.￼");
+						}
+					}
+				}
+			} catch(Exception e) {
+				throw e;
+			}
+		}
+	}
+		]]&gt;&lt;/beanshell&gt;
+	&lt;/module&gt;</sm:freeSsOverlay>
+			<sm:freeSsOverlay regexpSgn=".*@sfile_.*">&lt;module code="enreg" type="com.scenari.m.bdp.module.save.automultires.HModuleSaveAutoMultiResLoader"&gt;&lt;genItem codeModule="validItemUri" /&gt;&lt;/module&gt;</sm:freeSsOverlay>
+			<sm:freeSsOverlay regexpSgn=".*@op_.*">&lt;module code="enreg" type="com.scenari.m.bdp.module.save.HModuleSaveLoader"&gt;&lt;genItem codeModule="validItemUri" /&gt;&lt;/module&gt;</sm:freeSsOverlay>
+		</sm:freeWspType>
+	</sm:freeConfig>
+</sm:extDefinition>

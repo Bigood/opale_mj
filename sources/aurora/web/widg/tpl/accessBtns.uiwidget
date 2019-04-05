@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:openUiWidget xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" code="accessBtns">
+	<sm:fillTemplateBuffers>
+		<sm:postXslFragment keyXsl="xhtml">&lt;xsl:template match="ul[contains(@id,'accessibility')]"&gt;
+	&lt;xsl:variable name="vHasMnu" select="//*[@id='menu']/descendant::text()[string-length(normalize-space())&amp;gt;0]"/&gt;
+	&lt;xsl:variable name="vHasNav" select="//*[@id='navigation']/descendant::text()[string-length(normalize-space())&amp;gt;0]"/&gt;
+	&lt;xsl:variable name="vHasTls" select="//*[@id='tools']/descendant::text()[string-length(normalize-space())&amp;gt;0]"/&gt;
+	&lt;xsl:variable name="vHasFoot" select="//*[@id='footer']/descendant::text()[string-length(normalize-space())&amp;gt;0]"/&gt;
+	&lt;xsl:copy&gt;
+		&lt;xsl:apply-templates select="@*"/&gt;
+		&lt;xsl:apply-overlays/&gt;
+		&lt;xsl:apply-templates select="*[contains(@class, 'Content')]"/&gt;
+		&lt;xsl:if test="$vHasMnu"&gt;
+			&lt;xsl:apply-templates select="*[contains(@class, 'Menu')]"/&gt;
+		&lt;/xsl:if&gt;
+		&lt;xsl:if test="$vHasNav"&gt;
+			&lt;xsl:apply-templates select="*[contains(@class, 'Nav')]"/&gt;
+		&lt;/xsl:if&gt;
+		&lt;xsl:if test="$vHasTls"&gt;
+			&lt;xsl:apply-templates select="*[contains(@class, 'Tools')]"/&gt;
+		&lt;/xsl:if&gt;
+		&lt;xsl:if test="$vHasFoot"&gt;
+			&lt;xsl:apply-templates select="*[contains(@class, 'Foot')]"/&gt;
+		&lt;/xsl:if&gt;
+	&lt;/xsl:copy&gt;
+&lt;/xsl:template&gt;
+</sm:postXslFragment>
+	</sm:fillTemplateBuffers>
+	<sm:content>
+		<ul xmlns="http://www.w3.org/1999/xhtml" id="accessibility">
+			<li class="waiContent">
+				<a href="#content">
+					<span>￼;contenu￼</span>
+				</a>
+			</li>
+			<li class="waiMenu">
+				<a href="#menu">
+					<span>￼;menu￼</span>
+				</a>
+			</li>
+			<li class="waiNav">
+				<a href="#navigation">
+					<span>￼;navigation￼</span>
+				</a>
+			</li>
+			<li class="waiTools">
+				<a href="#tools">
+					<span>￼;outils￼</span>
+				</a>
+			</li>
+			<li class="waiFoot">
+				<a href="#footer">
+					<span>￼;pied de page￼</span>
+				</a>
+			</li>
+		</ul>
+	</sm:content>
+</sm:openUiWidget>

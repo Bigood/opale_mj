@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 18
+opale4test.wspdef
+
+K 13
+svn:externals
+V 340
+modeling.locale http://scenari-platform.org/svn/dev-core/branches/4.1.x/Bui_Localization/ar-MA/locale/modeling/
+scenari.locale http://scenari-platform.org/svn/dev-core/branches/4.1.x/Bui_Localization/ar-MA/locale/SCENARIcore/
+framework.locale http://scenari-platform.org/svn/dev-core/branches/4.1.x/Bui_Localization/ar-MA/locale/framework/
+
+END

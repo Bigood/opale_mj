@@ -1,0 +1,4 @@
+NOTES : 
+
+=> Usage de SVG comme background-image : 
+ * bug dans chrome : https://code.google.com/p/chromium/issues/detail?id=110195 sur background-size : 100% + SVG, workaround: ajout de preserveAspectRatio="none" sur tag SVG.

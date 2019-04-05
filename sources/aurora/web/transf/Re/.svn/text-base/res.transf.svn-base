@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:compositionXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/academic/model/Re/res.model"/>
+	<sm:content format="xhtml">
+		<sm:inDataOrder>
+			<sm:for codes="txt txtRes">
+				<sm:WSimpleBlock widgetClass="rBk">
+					<sm:callSubModel/>
+				</sm:WSimpleBlock>
+			</sm:for>
+			<sm:for codes="listing">
+				<sm:WSimpleBlock widgetClass="rBk" class="listing">
+					<sm:callSubModel/>
+				</sm:WSimpleBlock>
+			</sm:for>
+			<sm:for codes="bkquote">
+				<sm:WSimpleBlock widgetClass="rBk" tagName="blockquote">
+					<sm:callSubModel/>
+				</sm:WSimpleBlock>
+			</sm:for>
+			<sm:for codes="res">
+				<sm:WSimpleBlock widgetClass="rBk" class="res">
+					<sm:callPartMeta/>
+					<sm:choose>
+						<sm:when xpath="op:resInfoM/sp:pubMode='zoom'">
+							<sm:WSimpleBlock widgetClass="zoom">
+								<sm:callSubModel axis="zoom"/>
+							</sm:WSimpleBlock>
+						</sm:when>
+						<sm:otherwise>
+							<sm:callSubModel/>
+						</sm:otherwise>
+					</sm:choose>
+				</sm:WSimpleBlock>
+			</sm:for>
+			<sm:for codes="int">
+				<sm:WSimpleBlock widgetClass="rBk" class="int">
+					<sm:callPartMeta/>
+					<sm:WSimpleBlock widgetClass="lnkDoc">
+						<sm:callSubModel axis="lnk"/>
+					</sm:WSimpleBlock>
+				</sm:WSimpleBlock>
+			</sm:for>
+			<sm:for codes="filtered">
+				<sm:choose>
+					<sm:when sc:refUri="/aurora/web/cnd/filters/include.cond">
+						<sm:callSubModel/>
+					</sm:when>
+				</sm:choose>
+			</sm:for>
+		</sm:inDataOrder>
+	</sm:content>
+</sm:compositionXhtmlTransf>

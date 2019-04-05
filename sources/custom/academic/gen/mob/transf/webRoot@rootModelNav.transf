@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:compositionXhtmlTransf info="Homepage : boutons de navigation" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/academic/model/root/webRoot.model"/>
+	<sm:axis code="rootModelNav"/>
+	<sm:content format="xhtml">
+		<sm:WLink widgetClass="firstMenuLink">
+			<sm:label>
+				<sm:title>
+					<sm:compositionTitle/>
+				</sm:title>
+				<sm:fixedString/>
+			</sm:label>
+			<sm:link target="sameWindow">
+				<sm:lookForExistingModelPage>
+					<sm:target>
+						<sm:current/>
+					</sm:target>
+					<sm:navContext>
+						<sm:currentNav/>
+					</sm:navContext>
+				</sm:lookForExistingModelPage>
+			</sm:link>
+		</sm:WLink>
+	</sm:content>
+</sm:compositionXhtmlTransf>

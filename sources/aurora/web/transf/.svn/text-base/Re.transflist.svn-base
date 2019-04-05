@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:transformerList xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:transformer sc:refUri="/aurora/web/transf/Re/altRes.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Re/eSite.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Re/code.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Re/gallery.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Re/galleryM.transf"/>
+	<sm:transformerList sc:refUri="/aurora/web/transf/Re/mediaWeb.transflist"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Re/qTxt.transf"/>
+	<sm:transformerList sc:refUri="/aurora/web/transf/Re/refs.transflist"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Re/res.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Re/sPara.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Re/sTxt.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Re/sTxt@txt.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Re/tTxt.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Re/txt.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Re/txtRes.transf"/>
+</sm:transformerList>

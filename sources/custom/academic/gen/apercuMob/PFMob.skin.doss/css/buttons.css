@@ -1,0 +1,267 @@
+#tplLft a, #tplRgt a, #tplBtm a{
+	color:white;	
+}
+
+#tplLft a:hover, #tplRgt a:hover, #tplBtm a:hover{
+	color:lightgray;	
+}
+
+.playBtnSel,
+.toolsBtnSel,
+.noPrevBtn, .noNextBtn {
+	text-decoration: none;
+	display: block;
+}
+.homeBtnSel,
+.helpBtnSel {
+	/* text-decoration: none; */
+	/* height: 48px; */
+	/* width: 33px; */
+	display: block;
+	margin: 4px 8px;
+}
+.homeBtnSel {
+	float: left;
+}
+
+
+.homeBtnSel {
+}
+.btnImg {
+	height: 28px;
+}
+.playBtnSel {
+	cursor:pointer;
+}
+.toolsBtnSel {
+}
+.helpBtnSel {
+	background: url(../img/btn/helpSel.png) no-repeat;
+}
+.noPrevBtn, .noNextBtn{
+	background-color: #969696;
+}
+.btnLbl{
+	display: none;
+	color: #FAFAFA;}
+
+#tplCo .btnLbl{
+	color:black
+}
+
+.prevBtn,
+.nextBtn,
+.toolsBtn,
+.playBtn {
+	text-decoration: none;
+	height: 33px;
+	width: 48px;
+	display: block;
+}
+.prevBtn img,
+.nextBtn img,
+.toolsBtn img,
+.playBtn img{
+	/* height: 33px; */
+	/* width: 48px; */
+}
+
+.printBtn,
+.helpBtn,
+.homeBtn {
+	text-decoration: none;
+	display: block;
+}
+.printBtn img,
+.helpBtn img,
+.homeBtn img {
+}
+
+.printBtn,
+.helpBtn,
+.homeBtn {
+	float: left;
+	margin: 4px 8px;
+}
+
+.prevBtn,
+.nextBtn,
+.helpBtn,
+.homeBtn,
+.printBtn,
+.toolsBtn,
+.playBtn{
+	color:white;
+}
+.prevBtn img,
+.nextBtn img,
+.helpBtn img,
+.homeBtn img,
+.printBtn img,
+.toolsBtn img,
+.playBtn img{
+	border:0px;
+	display: inline-block;
+	width: 30px;
+}
+.prevBtn span,
+.nextBtn span,
+.helpBtn span,
+.homeBtn span,
+.printBtn span,
+.toolsBtn span,
+.playBtn span{
+/* display: none; */
+}
+.prevBtn,
+.nextBtn,
+.noPrevBtn,
+.noNextBtn {
+	/* position: absolute; */
+	/* left:0px; */
+	min-width: 200px;
+	display: inline-block;
+	background-color: #0096DB;
+	border-radius: 4px;
+	height: 34px;
+	padding: 4px;
+	text-align: center;
+	vertical-align: middle;
+
+	position: relative;  
+}
+
+/* Portrait */
+@media only screen 
+  and (max-width: 480px) {
+
+.prevBtn,
+.nextBtn,
+.noPrevBtn,
+.noNextBtn {
+	min-width:120px;
+}
+}
+.prevBtn img,
+.nextBtn img,
+.noPrevBtn img,
+.noNextBtn img{
+	display:none;
+}
+.prevBtn::before, .nextBtn::after{
+	position:absolute;
+	color: white;
+	font-size: 26px;
+}
+.prevBtn::before{
+	content: "\276e";
+	left: 10px;
+}
+.nextBtn::after{
+	content: "\276f";
+	right: 10px;
+}
+.prevBtn::after, .nextBtn::before{
+	content:attr(title);
+	color: white;
+	display:inline-block;
+
+	vertical-align: top;
+	font-size: 14px;
+	line-height: 34px;
+	width: 75%;
+	overflow: hidden;  white-space: nowrap;  text-overflow: ellipsis;
+}
+.prevBtn,
+.noPrevBtn{
+/* bottom: 9px; */
+background-color: rgb(174, 222, 244);
+}
+.nextBtn,
+.noNextBtn{
+	float:right;
+	clear: both;
+}
+
+#tplTop .btnLbl{
+	display:block;
+	font-size: 14px;
+}
+.noPrevBtn .btnLbl,
+.noNextBtn .btnLbl{
+	display:block;
+	color: white;
+	vertical-align: top;
+	font-size: 14px;
+	line-height: 34px;
+	/* float:left; */
+}
+.cc-button,
+#linkSp{
+	margin-left:3px;
+}
+/*****************/
+/*  Evaluation   */
+/*****************/
+.gotoEval{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 1em;
+}
+a.btnEval{
+	background: url(../img/deco/assmntUaMnu.png) no-repeat left;
+	height: 33px;
+	display: inline;
+	padding-left: 25px;	
+	color: #4e6899;
+}
+a.btnEval:hover{
+	-moz-opacity:0.6;
+	filter:Alpha(opacity=60);
+	opacity:0.6; 
+}
+.btnEval span{
+}
+
+/*****************/
+/*    SubWin     */
+/*****************/
+.printSubWinBtn{
+	text-decoration: none;
+	height: 26px;
+	width: 27px;
+	display: block;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+}
+.printSubWinBtn img{
+	height: 26px;
+	width: 27px;
+}
+
+.printSubWinBtn{
+	color:white;
+}
+.printSubWinBtn img{
+	border:0px;
+}
+
+/*****************/
+/* informations */
+/*****************/
+.infoBtn_a {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url(../img/blocks/info.png) no-repeat top right;
+	text-decoration: none;
+	height: 33px;
+	width: 33px;
+	display: block;
+	margin: 5px 5px 0px 0px;
+	cursor: pointer;
+}
+.infoBtn_a span {
+	visibility: hidden;
+}

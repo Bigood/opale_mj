@@ -1,0 +1,90 @@
+8
+
+dir
+994
+http://scenari-platform.org/svn/modelet/branches/sc41/math/model/sources/math/mathjax/mathjax-svg.doss/jax/output/SVG/fonts/TeX
+http://scenari-platform.org/svn/modelet
+
+
+
+2014-08-07T16:35:53.668089Z
+901
+sam
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3810ab43-6524-0410-b672-c17da5d79492
+
+AMS
+dir
+
+Caligraphic
+dir
+
+Fraktur
+dir
+
+Main
+dir
+
+Math
+dir
+
+SansSerif
+dir
+
+Script
+dir
+
+Size1
+dir
+
+Size2
+dir
+
+Size3
+dir
+
+Size4
+dir
+
+Typewriter
+dir
+
+fontdata-extra.js
+file
+
+
+
+
+2015-09-01T13:58:33.000000Z
+75015924a0ca3641a8112ad151fb7331
+2014-08-07T16:35:53.668089Z
+901
+sam
+has-props
+
+fontdata.js
+file
+
+
+
+
+2015-09-01T13:58:33.000000Z
+63ea7e6d2c2b6056628a1f3023c00292
+2014-08-07T16:35:53.668089Z
+901
+sam
+has-props
+

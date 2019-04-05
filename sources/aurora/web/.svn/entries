@@ -1,0 +1,126 @@
+8
+
+dir
+3237
+http://scenari-platform.org/svn/opale/tags/sc41-v3.5.0.14/model/sources/aurora/web
+http://scenari-platform.org/svn/opale
+
+
+
+2015-03-23T16:31:40.957706Z
+3155
+sam
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+899cd45d-9604-0410-9353-cb762ee69498
+
+_mcqWebTransf-sc41
+dir
+
+_mcqWebTransf-sc41.transflist
+file
+
+
+
+
+2015-09-01T13:58:22.000000Z
+95ebf15b0fcef22f51e80fde551f0409
+2014-09-30T08:21:44.475035Z
+2955
+sam
+
+auroraW.generator
+file
+
+
+
+
+2015-09-01T13:58:20.000000Z
+7def081909776181b9039fcb35299b26
+2014-11-20T08:48:35.463857Z
+3099
+sam
+
+auroraW.png
+file
+
+
+
+
+2015-09-01T13:58:20.000000Z
+daa3788cfc7e90f016a6b41780580af9
+2014-09-17T23:22:57.609273Z
+2863
+sam
+has-props
+
+auroraW.skin.doss
+dir
+
+auroraW.skin.txt
+file
+
+
+
+
+2015-09-01T13:58:20.000000Z
+14cb5f4907f78d1f5e5f7de927b7569d
+2014-08-28T12:47:48.163773Z
+2783
+sam
+has-props
+
+auroraW.uiframe
+file
+
+
+
+
+2015-09-01T13:58:20.000000Z
+c65edb5815cca9233e15ec83b3a26f4c
+2014-09-16T14:48:53.927437Z
+2860
+sam
+
+cnd
+dir
+
+frame
+dir
+
+svc
+dir
+
+templates
+dir
+
+transf
+dir
+
+transf.transflist
+file
+
+
+
+
+2015-09-01T13:58:20.000000Z
+8d2f434ae6eb83e0eec51b2acc4a7a16
+2014-09-24T20:01:10.476077Z
+2907
+sam
+
+widg
+dir
+

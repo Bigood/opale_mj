@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:openUiWidget xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" code="scormMgr">
+	<sm:widgetPublishFiles sc:refUri="/aurora/scorm/widg/scormMgr.doss"/>
+	<sm:fillTemplateBuffers>
+		<sm:standardLibrary codeLib="PaLib"/>
+		<sm:standardLibrary codeLib="DynUiMgr"/>
+		<sm:postXslFragment keyXsl="xhtml">&lt;xsl:overlay match="body"&gt;
+	&lt;xsl:value-of select="execute(java:append($vBufJs, 'scormMgr.init();'))"/&gt;
+&lt;/xsl:overlay&gt;</sm:postXslFragment>
+		<sm:linkScript path="scormMgr.js" pathFrom="localPublishFiles" sortKey="ZZ"/>
+	</sm:fillTemplateBuffers>
+	<sm:content>
+		<script xmlns="http://www.w3.org/1999/xhtml" type="text/JavaScript">
+			<sm:callModel>
+				<sm:root axis="initScormMgr"/>
+			</sm:callModel>
+		</script>
+		<addClassToBody xmlns="http://www.w3.org/1999/xhtml" class="scorm"></addClassToBody>
+	</sm:content>
+</sm:openUiWidget>

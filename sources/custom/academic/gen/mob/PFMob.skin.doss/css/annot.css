@@ -1,0 +1,58 @@
+#titleRoot{
+	right: 83px;
+}
+#annotBtn{
+	background: url(../img/annot/btn/emptyTop.png) bottom no-repeat;
+	position: absolute;
+	right: 50px;
+	display: block;
+	height: 50px;
+	text-decoration: none;
+	width: 33px;
+	text-align: left;
+}
+#annotBtn span {
+	display: none;
+}
+
+.annotBtn,
+.annotBtnOn{
+	background: url(../img/annot/btn/annot.png) bottom no-repeat;
+	position: absolute;
+	width: 33px;
+	height: 50px;
+}
+.annotBtn:hover,
+.annotBtnOn:hover{
+	background: url(../img/annot/btn/annotOver.png) bottom no-repeat;
+}
+a.annotBtnOn{
+	background: url(../img/annot/btn/annotSel.png) bottom no-repeat;
+}
+
+.annotAnchorOn{
+	border: 1px dotted gray;
+}
+
+.annotField{
+	color: #191970;
+	white-space: pre;
+	width: 100%;
+	border: 1px dotted gray;
+	height: 16px;
+}
+.annotFieldFrm{
+	padding:0px;	
+	display: block;
+	background: url(../img/annot/annot.gif) no-repeat;
+	padding-left: 25px;
+	position: relative;
+	margin: 5px;
+	background-position:5px;
+}
+.annotFilled{
+	background-color: #FFF8DC;
+}
+
+
+

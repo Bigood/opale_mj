@@ -1,0 +1,40 @@
+8
+
+dir
+27194
+http://scenari-platform.org/svn/dev-core/branches/4.1.x/Bui_Localization/es-ES/locale/framework
+http://scenari-platform.org/svn/dev-core
+
+
+
+2013-11-26T14:12:39.622441Z
+23569
+locautocommit
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+664c09a5-c2e8-0310-a46e-977ea7ea760f
+
+framework.xulrunner.xlf
+file
+
+
+
+
+2015-09-01T13:58:54.000000Z
+e8cd25dc89ba3b4356f6943d95c2d087
+2013-11-26T14:12:39.622441Z
+23569
+locautocommit
+

@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+                      "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title>Opale Starter - مساعد- ذاكرة</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <link rel="stylesheet" type="text/css" href="../wdgt/scImgMgr/scImgMgr.css">
+  <script type="text/JavaScript">
+/*0*/ var scServices = {};
+/*1*/ scServices["scLoad"] = {loadFromRoot:function(pUrl){window.location.href="../"+pUrl;}, getPathFromRoot:function(pPath){return "../"+pPath;}, getUrlFromRoot:function(pHref){if(!this.fRootOffset) this.fRootOffset = scCoLib.hrefBase().length-17; return pHref.substring(this.fRootOffset);},getRootUrl:function(){if(!this.fRootUrl) this.fRootUrl = scCoLib.hrefBase().substring(0,scCoLib.hrefBase().length-18); return this.fRootUrl;}};
+</script>
+  <script type="text/JavaScript" src="../lib-sm/scCoLib.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scTiLib.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scPaLib.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scSiLib.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scTooltipMgr.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scDynUiMgr.js"></script>
+  <script type="text/JavaScript" src="../wdgt/scImgMgr/scImgMgr.js"></script>
+  <script type="text/JavaScript">
+
+scImgMgr.registerAnimation("des:div.screenSeqFra",{auto:false,loop:false,counter:true});
+
+scImgMgr.registerZoom("des:a.imgZoom",{titlePath:"anc:.caption/des:.caption_ti"});
+
+scImgMgr.registerZoom("des:a.screenZoom",{mag:1,titlePath:"anc:.caption/des:.caption_ti"});
+
+scImgMgr.setPathPgeFra("ide:tplPage");
+scImgMgr.setLocalize(false);
+
+</script>
+  <script type="text/javascript">var uiFontSize = {
+ onLoad: function(){
+ try{
+ if(parent.ut && parent.ut.defaultFontSize) document.body.style.fontSize = parent.ut.defaultFontSize;
+ }catch(e){}
+ }
+}
+scOnLoads[scOnLoads.length] = uiFontSize;
+
+</script>
+  <link type="text/css" rel="stylesheet" href="../skin/css/pres.css">
+  <link type="text/css" rel="stylesheet" href="../skin/css/main.css">
+ </head>
+ <body>
+  <div id="tplPage" class="wspUi"><div id="tplTitle"><div id="tplTitleLogo"><img src="../res/logoOpale3.png" alt width="48" height="48"></div><span id="tplTitleMain">Opale Starter</span><span id="tplTitlesub">إنشاء محتويات تربوية تفسيرية</span></div><div id="tplTabs"><div id="tplTabCo"><div id="tplTabCoScroll"><div class="infoblock"><h1 class="infoblock_ti"> وحدة</h1><div class="infoblock_co"><div class="text "><p class="txt_p ">تتكون الوحدة من أقسام تتوافق مع مقاطع مختلفة للوثيقة.</p></div></div></div><div class="infoblock"><h1 class="infoblock_ti"> قسم</h1><div class="infoblock_co"><div class="text "><p class="txt_p "><span class="txt_ico_tim "><img src="../res/division_icon.png" alt width="17" height="16"></span> <code class="txt_term_tl "></code>&nbsp;: يتكون القسم من </p><ul class="txt_il "><li class="txt_ili "><p class="txt_p "> <span class="txt_ico_tim "><img src="../res/grain_contenu_icon.png" alt width="12" height="16"></span> <code class="txt_term_tl "></code></p><p class="txt_p ">أجزاء من المحتوى تسهم في عرض وبنينة المعلزمة</p></li><li class="txt_ili "><p class="txt_p ">أنشطة تربوية تفاعلية (تمارين) مثل&nbsp;:</p><ul class="txt_il "><li class="txt_ili "><p class="txt_p "><span class="txt_ico_tim "><img src="../res/qcu.png" alt width="14" height="15"></span> سؤال باختيار واحد</p></li><li class="txt_ili "><p class="txt_p "><span class="txt_ico_tim "><img src="../res/qcm.png" alt width="15" height="14"></span> سؤال متعدد الاختيارات</p></li></ul></li></ul><p class="txt_p ">يتم توضيح نوع المعلومة المعروضة في علامات تربوية مكيفة (معلومة ، تنبيه ، تذكير ، أساسي ، مثال </p><p class="txt_p ">داخل جزء من المحتزى ، يمكن تجميع المعلومة بمقاطع معنونة</p></div></div></div><div class="infoblock"><h1 class="infoblock_ti">موارد</h1><div class="infoblock_co"><div class="text "><p class="txt_p "><span class="txt_vName_el ">Opale Starter</span>يمنحكم إمكانية استدخال مجموعة من الموارد الرقمية في محتوياتكمم </p><p class="txt_p ">يقصد بالموارد الأشياء التالية</p></div></div></div></div></div><div id="tplTabBar"><a href="presentation.html" target="_self" class=" tabSel_no"><span> تقديـــــــــــــم </span></a><span class=" tabSel_yes"><span> مساعد- ذاكرة </span></span><a href="nvtes.html" target="_self" class=" tabSel_no"><span> مستــجــــــدات </span></a><a href="compatibilite.html" target="_self" class=" tabSel_no"><span> أكـــــثـــــــر ؟ </span></a><a href="Opale_Starter.html" target="_self" class=" tabSel_no"><span>بخصوص</span></a></div></div></div>
+  <script type="text/javascript">scImgMgr.init();scImgMgr.setDisplayRoot(sc$("tplPage"));</script>
+ </body>
+</html>

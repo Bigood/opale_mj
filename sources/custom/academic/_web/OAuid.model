@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:dataFormPrim name="￼;Identifiant unique de l'objet d'apprentissage￼" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:help quickHelp="￼;Entrez ici un identifiant unique, qui permettra à PairForm d'attacher des messages sur ce grain￼"/>
+	<sm:identification targetNamespace="utc.fr:ics/opale3" targetPrefix="op" code="OAuid" itemExtension="xml"/>
+	<sm:structure>
+		<sm:field code="OAuid" name="￼;Identifiant￼" occurence="zeroOrOne">
+			<sm:string/>
+		</sm:field>
+	</sm:structure>
+	<sm:storage/>
+	<sm:authoring>
+		<sm:formEditor indentXml="true">
+			<sm:xmlEditor sc:refUri="/custom/academic/_web/OAuid.xed"/>
+		</sm:formEditor>
+	</sm:authoring>
+</sm:dataFormPrim>

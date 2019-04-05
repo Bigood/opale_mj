@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:compositionXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/academic/model/root/webRoot.model"/>
+	<sm:axis code="tools"/>
+	<sm:navigation>
+		<sm:choose>
+			<sm:when xpath="op:webRootM/sp:settings/sp:quest='yes' or op:webRootM/sp:settings/sp:glos='yes' or op:webRootM/sp:settings/sp:acr='yes' or op:webRootM/sp:settings/sp:ref='yes' or op:webRootM/sp:settings/sp:bib='yes' or op:webRootM/sp:settings/sp:index='yes' or op:webRootM/sp:settings/sp:credits='yes'">
+				<sm:folder>
+					<sm:title>
+						<sm:fixedTitle value="￼;Outils￼"/>
+					</sm:title>
+					<sm:outlineClasses>
+						<sm:fixedString value="tools"/>
+					</sm:outlineClasses>
+					<sm:description>
+						<sm:WFreeBlock>￼;Outils transverses du module￼</sm:WFreeBlock>
+					</sm:description>
+					<sm:choose>
+						<sm:when xpath="op:webRootM/sp:settings/sp:quest='yes'">
+							<sm:page template="tools">
+								<sm:title>
+									<sm:fixedTitle value="￼;Questions de synthèse￼"/>
+								</sm:title>
+								<sm:outlineClasses>
+									<sm:fixedString value="synth"/>
+								</sm:outlineClasses>
+								<sm:mainZone format="xhtml">
+									<sm:Widget sc:refUri="/aurora/web/widg/refs/synthFilterEmpty.uiwidget"/>
+									<sm:WHeadingBlock widgetClass="hBk" class="article synth" tagName="section">
+										<sm:title>
+											<sm:fixedTitle value="￼;Questions de synthèse￼"/>
+										</sm:title>
+										<sm:for codes="ue">
+											<sm:callSubModel axis="synth"/>
+										</sm:for>
+									</sm:WHeadingBlock>
+								</sm:mainZone>
+							</sm:page>
+						</sm:when>
+					</sm:choose>
+					<sm:choose>
+						<sm:when xpath="op:webRootM/sp:settings/sp:glos='yes'">
+							<sm:page template="tools" step="1">
+								<sm:title>
+									<sm:fixedTitle value="￼;Glossaire￼"/>
+								</sm:title>
+								<sm:outlineClasses>
+									<sm:fixedString value="glos"/>
+								</sm:outlineClasses>
+								<sm:mainZone format="xhtml">
+									<sm:WHeadingBlock widgetClass="hBk" class="article glos" tagName="section">
+										<sm:title>
+											<sm:fixedTitle value="￼;Glossaire￼"/>
+										</sm:title>
+										<sm:Widget sc:refUri="/aurora/web/widg/refs/glos.uiwidget"/>
+									</sm:WHeadingBlock>
+								</sm:mainZone>
+							</sm:page>
+						</sm:when>
+					</sm:choose>
+					<sm:choose>
+						<sm:when xpath="op:webRootM/sp:settings/sp:acr='yes'">
+							<sm:page template="tools" step="1">
+								<sm:title>
+									<sm:fixedTitle value="￼;Abréviations￼"/>
+								</sm:title>
+								<sm:outlineClasses>
+									<sm:fixedString value="acr"/>
+								</sm:outlineClasses>
+								<sm:mainZone format="xhtml">
+									<sm:WHeadingBlock widgetClass="hBk" class="article acr" tagName="section">
+										<sm:title>
+											<sm:fixedTitle value="￼;Abréviations￼"/>
+										</sm:title>
+										<sm:Widget sc:refUri="/aurora/web/widg/refs/acr.uiwidget"/>
+									</sm:WHeadingBlock>
+								</sm:mainZone>
+							</sm:page>
+						</sm:when>
+					</sm:choose>
+					<sm:choose>
+						<sm:when xpath="op:webRootM/sp:settings/sp:ref='yes'">
+							<sm:page template="tools" step="1">
+								<sm:title>
+									<sm:fixedTitle value="￼;Références￼"/>
+								</sm:title>
+								<sm:outlineClasses>
+									<sm:fixedString value="ref"/>
+								</sm:outlineClasses>
+								<sm:mainZone format="xhtml">
+									<sm:WHeadingBlock widgetClass="hBk" class="article ref" tagName="section">
+										<sm:title>
+											<sm:fixedTitle value="￼;Références￼"/>
+										</sm:title>
+										<sm:Widget sc:refUri="/aurora/web/widg/refs/ref.uiwidget"/>
+									</sm:WHeadingBlock>
+								</sm:mainZone>
+							</sm:page>
+						</sm:when>
+					</sm:choose>
+					<sm:choose>
+						<sm:when xpath="op:webRootM/sp:settings/sp:bib='yes'">
+							<sm:page template="tools" step="1">
+								<sm:title>
+									<sm:fixedTitle value="￼;Bibliographie￼"/>
+								</sm:title>
+								<sm:outlineClasses>
+									<sm:fixedString value="bib"/>
+								</sm:outlineClasses>
+								<sm:mainZone format="xhtml">
+									<sm:Widget sc:refUri="/aurora/web/widg/refs/bibMgr.uiwidget">
+										<sm:xhtmlContentZone key="co">
+											<sm:WHeadingBlock widgetClass="hBk" class="article bib" tagName="section">
+												<sm:title>
+													<sm:fixedTitle value="￼;Bibliographie￼"/>
+												</sm:title>
+												<sm:Widget sc:refUri="/aurora/web/widg/refs/bib.uiwidget"/>
+											</sm:WHeadingBlock>
+										</sm:xhtmlContentZone>
+									</sm:Widget>
+									<sm:Widget sc:refUri="/aurora/web/widg/refs/bibMgr.uiwidget">
+										<sm:xhtmlContentZone key="co">
+											<sm:WHeadingBlock widgetClass="hBk" class="article web" tagName="section">
+												<sm:title>
+													<sm:fixedTitle value="￼;Webographie￼"/>
+												</sm:title>
+												<sm:Widget sc:refUri="/aurora/web/widg/refs/web.uiwidget"/>
+											</sm:WHeadingBlock>
+										</sm:xhtmlContentZone>
+									</sm:Widget>
+								</sm:mainZone>
+							</sm:page>
+						</sm:when>
+					</sm:choose>
+					<sm:choose>
+						<sm:when xpath="op:webRootM/sp:settings/sp:index='yes'">
+							<sm:page template="tools" step="1">
+								<sm:title>
+									<sm:fixedTitle value="￼;Index des mots-clés￼"/>
+								</sm:title>
+								<sm:outlineClasses>
+									<sm:fixedString value="index"/>
+								</sm:outlineClasses>
+								<sm:mainZone format="xhtml">
+									<sm:WHeadingBlock widgetClass="hBk" class="article index" tagName="section">
+										<sm:title>
+											<sm:fixedTitle value="￼;Index des mots-clés￼"/>
+										</sm:title>
+										<sm:Widget sc:refUri="/aurora/web/widg/refs/keywords.uiwidget"/>
+									</sm:WHeadingBlock>
+								</sm:mainZone>
+							</sm:page>
+						</sm:when>
+					</sm:choose>
+					<sm:choose>
+						<sm:when xpath="op:webRootM/sp:settings/sp:credits='yes'">
+							<sm:page template="tools">
+								<sm:title>
+									<sm:fixedTitle value="￼;Crédits￼"/>
+								</sm:title>
+								<sm:outlineClasses>
+									<sm:fixedString value="credits"/>
+								</sm:outlineClasses>
+								<sm:mainZone format="xhtml">
+									<sm:Widget sc:refUri="/aurora/web/widg/refs/creditsFilterEmpty.uiwidget"/>
+									<sm:WHeadingBlock widgetClass="hBk" class="article credits" tagName="section">
+										<sm:title>
+											<sm:fixedTitle value="￼;Crédits￼"/>
+										</sm:title>
+										<sm:for codes="ue">
+											<sm:callSubModel axis="credits"/>
+										</sm:for>
+									</sm:WHeadingBlock>
+								</sm:mainZone>
+							</sm:page>
+						</sm:when>
+					</sm:choose>
+				</sm:folder>
+			</sm:when>
+		</sm:choose>
+	</sm:navigation>
+</sm:compositionXhtmlTransf>

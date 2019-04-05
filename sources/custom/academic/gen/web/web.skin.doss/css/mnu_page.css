@@ -1,0 +1,227 @@
+/* Outline Menu CSS */
+.mnuFra {
+	margin: 10px;
+	/* bottom: 198px; */
+	/* left: 0; */
+	/* position: absolute; */
+	/* top: 0px; */
+	/* width: 233px; */
+}
+.mnuSrlUpFra{
+	position:absolute;
+	display: none;
+	top:0;
+	left:0;
+	width:100%;
+	height:12px;
+}
+.mnuSrlDwnFra{
+	display: none;
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:12px;
+}
+.mnuSrlUpBtn span,
+.mnuSrlDwnBtn span{
+	display: none;
+}
+.mnuSrlUpBtn{
+	position:absolute;
+	top:2px;
+	left:0;
+	width:100%;
+	height:8px;
+	background: url(../img/mnu/srlUp.png) no-repeat center center;
+}
+.mnuSrlDwnBtn{
+	position:absolute;
+	bottom:2px;
+	left:0;
+	width:100%;
+	height:8px;
+	background: url(../img/mnu/srlDwn.png) no-repeat center center;
+}
+.btnOff .mnuSrlUpBtn ,
+.btnOff .mnuSrlDwnBtn {
+	-moz-opacity:0.3;
+	filter:Alpha(opacity=30);
+	opacity:0.3;
+}
+ul.mnu {
+	/* position: absolute; */
+	bottom: 13px;
+	left: 0;
+	top: 12px;
+	width: 226px;
+	margin:0;
+	padding: 0px 0px 0px 5px;
+	list-style-type:none;
+	list-style-image:none;
+}
+ul.mnu_static{
+	overflow:auto;
+}
+ul.mnu ul{
+	list-style: none;
+	margin: 2px 0 0;
+	padding: 0 0 0 14px;
+}
+ul.mnu div.mnuLbl{
+	position: relative;
+	/* padding-left: 27px; */
+	min-height: 20px;
+}
+ul.mnu .mnu_i{
+	min-height: 20px;
+	color: rgb(85,85,85);
+	text-decoration: none;
+	display: inline-block;
+	/* margin-left: 4px; */
+}
+ul.mnu .mnu_b > .mnu_i {
+	margin-left: 16px;
+}
+
+ul.mnu div.mnu_sel_yes span.mnu_i{
+	display: inline-block;
+	/* background-color: #5b6f94; */
+	/* color: white; */
+	font-weight: 600;
+	/* margin-left: 12px; */
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+ul.mnu .mnu_sch{
+	display: block;
+	padding: 2px 10px 2px 2px;
+}
+ul.mnu a.mnu_tgle_o,ul.mnu a.mnu_tgle_c{
+	background-position: left top;
+	background-repeat: no-repeat;
+	height: 18px;
+	left: 0px;
+	position: absolute;
+	top: 2px;
+	text-decoration: none;
+	color: #0059af;
+}
+ul.mnu a.mnu_tgle_c:before {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 14px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f078";
+  transform: rotate(-90deg);
+  transition:transform ease-out .2s;
+}
+ul.mnu a.mnu_tgle_o:before {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 14px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f078";
+  transition:transform ease-out .2s;
+}
+ul.mnu_static div.mnu_b{
+	background-image: url(../img/mnu/mnuOp.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+ul.mnu_static div.mnu_b_c{
+	background-image: url(../img/mnu/mnuCl.gif);
+}
+ul.mnu a.mnu_tgle_o span,ul.mnu a.mnu_tgle_c span{
+	display:none;
+}
+ul.mnu div.mnu_intro::before, 
+ul.mnu div.mnu_obj::before, 
+ul.mnu div.mnu_conclu::before,
+ul.mnu div.mnu_vidUc::before,
+ul.mnu div.mnu_practUc::before,
+ul.mnu div.mnu_trainUc::before,
+ul.mnu div.mnu_coQuiz::before,
+ul.mnu div.mnu_assmntUa::before,
+ul.mnu div.mnu_quest::before {
+  display: inline;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 14px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f05a";
+  margin-right: 4px;
+  color: #6d6d6d;
+}
+ul.mnu div.mnu_expUc .mnu_i > span:before {
+  display: inline;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 12px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f0f6";
+  margin-right: 5px;
+}
+ul.mnu div.mnu_vidUc::before {
+	content: "\f14a";
+	/*background: url(../img/deco/vidUcMnu.png) no-repeat center left !important;*/
+}
+ul.mnu div.mnu_practUc::before {
+	content: "\f14b";
+	/*background: url(../img/deco/practUcMnu.png) no-repeat center left !important;*/
+}
+ul.mnu div.mnu_trainUc::before {
+	content: "\f14b";
+	/*background: url(../img/deco/trainUcMnu.png) no-repeat center left !important;*/
+}
+ul.mnu div.mnu_coQuiz::before {
+	content: "\f14b";
+	/*background: url(../img/deco/coQuizMnu.png) no-repeat center left !important;*/
+}
+ul.mnu div.mnu_assmntUa::before {
+	content: "\f14b";
+	/*background: url(../img/deco/assmntUaMnu.png) no-repeat center left !important;*/
+}
+ul.mnu div.mnu_quest::before {
+	content: "\f14b";
+	/*background: url(../img/deco/questMnu.png) no-repeat center left !important;*/
+}
+ul.mnu div.mnu_conclu::before {content: "\f14a";}
+ul.mnu div.mnu_obj::before {content: "\f005";}
+
+.mnuBlock{
+	/* position: absolute; */
+	width:233px;
+	top:12px;
+	left:0px;
+	/* bottom:210px; */
+}
+
+/* === SMALL & TOUCH screens ================================================ */
+div.tplFra_touch ul.mnu{
+	position:static;
+	top:auto;
+	bottom:auto;
+	left:auto;
+	right:auto;
+	font-size:11pt;
+}
+div.tplFra_touch ul.mnu li{
+	padding:1px 0;
+}
+div.tplFra_touch ul.mnu .mnu_sch{
+	min-height:25px;
+}
+div.tplFra_touch ul.mnu a.mnu_tgle_o,
+div.tplFra_touch ul.mnu a.mnu_tgle_c{
+	top:5px;
+}
+
+

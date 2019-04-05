@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:binaryXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/math/latex/mathTex.model"/>
+	<sm:content>
+		<sm:WCaptionBlock widgetClass="resInFlow" class="latex" tagName="figure" position="bottom">
+			<sm:caption>
+				<sm:WFreeBlock>
+					<span xmlns="http://www.w3.org/1999/xhtml" class="title">
+						<sm:title>
+							<sm:binaryMeta/>
+						</sm:title>
+					</span>
+				</sm:WFreeBlock>
+			</sm:caption>
+			<sm:content>
+				<sm:WFreeBlock>
+					<mathjax xmlns="http://www.w3.org/1999/xhtml"></mathjax>\[<sm:Widget sc:refUri="/aurora/web/transf/binaries/latex/getLatex.uiwidget"/>\]</sm:WFreeBlock>
+			</sm:content>
+		</sm:WCaptionBlock>
+	</sm:content>
+</sm:binaryXhtmlTransf>

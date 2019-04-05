@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:binaryXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/binaries/oga/oga.model"/>
+	<sm:axis code="lnk"/>
+	<sm:content>
+		<sm:WLink widgetClass="dwnLnk oga">
+			<sm:label>
+				<sm:title>
+					<sm:binaryTitle/>
+					<sm:binaryFileName/>
+				</sm:title>
+				<sm:callModel>
+					<sm:current axis="metrics"/>
+				</sm:callModel>
+			</sm:label>
+			<sm:labelTitle>
+				<sm:title>
+					<sm:binaryTitle suffix="￼; (nouvelle fenêtre)￼"/>
+				</sm:title>
+			</sm:labelTitle>
+			<sm:link target="newWindow">
+				<sm:binaryUrl/>
+			</sm:link>
+		</sm:WLink>
+	</sm:content>
+</sm:binaryXhtmlTransf>

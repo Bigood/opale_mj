@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/scorm/svc
+END
+markedPages.uiservice
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/scorm/svc/markedPages.uiservice
+END
+lmsHack.uiservice
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/scorm/svc/lmsHack.uiservice
+END
+scormConf.uiservice
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/scorm/svc/scormConf.uiservice
+END
+scorm.uiservice
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/opale/!svn/ver/3176/tags/sc41-v3.5.0.14/model/sources/aurora/scorm/svc/scorm.uiservice
+END

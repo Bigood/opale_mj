@@ -1,0 +1,79 @@
+8
+
+dir
+3237
+http://scenari-platform.org/svn/opale/tags/sc41-v3.5.0.14/model/sources/l10n/pt-BR
+http://scenari-platform.org/svn/opale
+
+
+
+2015-04-01T14:49:41.848110Z
+3161
+sam
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+899cd45d-9604-0410-9353-cb762ee69498
+
+dict
+dir
+
+framework.locale
+dir
+
+model.locale
+dir
+
+modelStarter.locale
+dir
+
+opale.appmake
+file
+
+
+
+
+2015-09-01T13:58:38.000000Z
+bbe6b84018d5b3d61cf193d9af74bf9f
+2015-04-01T14:49:41.848110Z
+3161
+sam
+
+opale.packmake
+file
+
+
+
+
+2015-09-01T13:58:38.000000Z
+2975b766e8b5fb4f7388e2471e6e5fea
+2014-09-24T07:27:53.307761Z
+2901
+chl
+
+opaleStarter.packmake
+file
+
+
+
+
+2015-09-01T13:58:37.000000Z
+8b3a0a2f103e694e9e989a4a3bf36719
+2010-10-21T11:37:33.074998Z
+1992
+stp
+
+scenari.locale
+dir
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:extDefinition xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" keyExt="OpaleGenAurora" name="￼;Générateur Web Aurora￼" majorVersion="3" mediumVersion="5" minorVersion="014">
+	<sm:parentWspDef sc:refUri="/opale/opale.wspdef"/>
+	<sm:mainViewsOverlays>
+		<sm:class sc:refUri="/academic/model/root/webRoot.model">
+			<sm:insertGenBoxes position="afterGenBox" refIdInView="genWeb">
+				<sm:genBox idInView="genAurora">
+					<sm:generator sc:refUri="/aurora/web/auroraW.generator"/>
+				</sm:genBox>
+			</sm:insertGenBoxes>
+			<sm:insertGenBoxes position="afterGenBox" refIdInView="genScormMono">
+				<sm:genBox idInView="genAuroraScormMono">
+					<sm:generator sc:refUri="/aurora/scorm/auroraS.generator"/>
+					<sm:deployment idInView="packScorm12" sc:refUri="/aurora/scorm/genDeploy/packScorm12.genDeploy"/>
+					<sm:deployment idInView="packScorm2k4" sc:refUri="/aurora/scorm/genDeploy/packScorm2k4.genDeploy"/>
+				</sm:genBox>
+			</sm:insertGenBoxes>
+		</sm:class>
+	</sm:mainViewsOverlays>
+</sm:extDefinition>

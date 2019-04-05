@@ -1,0 +1,41 @@
+8
+
+dir
+994
+http://scenari-platform.org/svn/modelet/branches/sc41/math/model/sources/math/mathjax/mathjax-svg.doss/jax/output/SVG/fonts/TeX/Math/BoldItalic
+http://scenari-platform.org/svn/modelet
+
+
+
+2014-08-07T16:35:53.668089Z
+901
+sam
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3810ab43-6524-0410-b672-c17da5d79492
+
+Main.js
+file
+
+
+
+
+2015-09-01T13:58:33.000000Z
+102725f5f20f50e6663e0f7040bf8750
+2014-08-07T16:35:53.668089Z
+901
+sam
+has-props
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:formulaCond code="include" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:orGroup>
+		<sm:andGroup>
+			<sm:condition sc:refUri="/aurora/web/cnd/filters/conds/isShortPub.cond"/>
+			<sm:condition sc:refUri="/aurora/web/cnd/filters/conds/includeInShort.cond"/>
+		</sm:andGroup>
+		<sm:andGroup>
+			<sm:condition sc:refUri="/aurora/web/cnd/filters/conds/isStandardPub.cond"/>
+			<sm:condition sc:refUri="/aurora/web/cnd/filters/conds/includeInStandard.cond"/>
+		</sm:andGroup>
+	</sm:orGroup>
+</sm:formulaCond>

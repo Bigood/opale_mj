@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:transformerList xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:transformer sc:refUri="/aurora/web/transf/Ua/assmntUa.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Ua/assmntUa@index.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Ua/assmntUa@nav.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Ua/assmntUa@quiz.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Ua/assmntUa@result.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Ua/assmntUa@score.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Ua/assmntUa@switch.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Ua/courseUa.transf"/>
+	<sm:transformer sc:refUri="/aurora/web/transf/Ua/courseUa@nav.transf"/>
+</sm:transformerList>

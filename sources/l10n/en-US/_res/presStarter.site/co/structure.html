@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+                      "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title>Opale Starter - Quick help</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <link rel="stylesheet" type="text/css" href="../wdgt/scImgMgr/scImgMgr.css">
+  <script type="text/JavaScript">
+/*0*/ var scServices = {};
+/*1*/ scServices["scLoad"] = {loadFromRoot:function(pUrl){window.location.href="../"+pUrl;}, getPathFromRoot:function(pPath){return "../"+pPath;}, getUrlFromRoot:function(pHref){if(!this.fRootOffset) this.fRootOffset = scCoLib.hrefBase().length-17; return pHref.substring(this.fRootOffset);},getRootUrl:function(){if(!this.fRootUrl) this.fRootUrl = scCoLib.hrefBase().substring(0,scCoLib.hrefBase().length-18); return this.fRootUrl;}};
+</script>
+  <script type="text/JavaScript" src="../lib-sm/scCoLib.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scTiLib.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scPaLib.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scSiLib.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scTooltipMgr.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scDynUiMgr.js"></script>
+  <script type="text/JavaScript" src="../wdgt/scImgMgr/scImgMgr.js"></script>
+  <script type="text/JavaScript">
+
+scImgMgr.registerAnimation("des:div.screenSeqFra",{auto:false,loop:false,counter:true});
+
+scImgMgr.registerZoom("des:a.imgZoom",{titlePath:"anc:.caption/des:.caption_ti"});
+
+scImgMgr.registerZoom("des:a.screenZoom",{mag:1,titlePath:"anc:.caption/des:.caption_ti"});
+
+scImgMgr.setPathPgeFra("ide:tplPage");
+scImgMgr.setLocalize(false);
+
+</script>
+  <script type="text/javascript">var uiFontSize = {
+ onLoad: function(){
+ try{
+ if(parent.ut && parent.ut.defaultFontSize) document.body.style.fontSize = parent.ut.defaultFontSize;
+ }catch(e){}
+ }
+}
+scOnLoads[scOnLoads.length] = uiFontSize;
+
+</script>
+  <link type="text/css" rel="stylesheet" href="../skin/css/pres.css">
+  <link type="text/css" rel="stylesheet" href="../skin/css/main.css">
+ </head>
+ <body>
+  <div id="tplPage" class="wspUi"><div id="tplTitle"><div id="tplTitleLogo"><img src="../res/logoOpale3.png" alt width="48" height="48"></div><span id="tplTitleMain">Opale Starter</span><span id="tplTitlesub">&quot;Academic&quot; pedagogical content creation</span></div><div id="tplTabs"><div id="tplTabCo"><div id="tplTabCoScroll"><div class="infoblock"><h1 class="infoblock_ti">Module</h1><div class="infoblock_co"><div class="text "><p class="txt_p ">An Opale <span class="txt_ico_tim "><img src="../res/module_icon.png" alt width="17" height="15"></span> <code class="txt_term_tl ">Module</code> is composed of <span class="txt_ico_tim "><img src="../res/division_icon.png" alt width="17" height="16"></span> <code class="txt_term_tl ">Divisions</code> which represent the different parts of your document.</p></div></div></div><div class="infoblock"><h1 class="infoblock_ti">Division</h1><div class="infoblock_co"><div class="text "><p class="txt_p ">A <span class="txt_ico_tim "><img src="../res/division_icon.png" alt width="17" height="16"></span> <code class="txt_term_tl ">Division</code>  can contain:</p><ul class="txt_il "><li class="txt_ili "><p class="txt_p "> <span class="txt_ico_tim "><img src="../res/grain_contenu_icon.png" alt width="12" height="16"></span> <code class="txt_term_tl ">Content elements</code> to present and structure information;</p></li><li class="txt_ili "><p class="txt_p "> Interactive quizzes, namely:</p><ul class="txt_il "><li class="txt_ili "><p class="txt_p "><span class="txt_ico_tim "><img src="../res/qcu.png" alt width="14" height="15"></span> <code class="txt_term_tl ">Single choice question</code>,</p></li><li class="txt_ili "><p class="txt_p "><span class="txt_ico_tim "><img src="../res/qcm.png" alt width="15" height="14"></span> <code class="txt_term_tl ">Multiple choice question</code>.</p></li></ul></li></ul><p class="txt_p ">The type of information delivered in your course is explicitly specified by  <cite class="txt_alt_is ">pedagogical blocks</cite> (<code class="txt_term_tl ">Information</code>, <code class="txt_term_tl ">Warning</code>, <code class="txt_term_tl ">Reminder</code>, <code class="txt_term_tl ">Fundamental</code>, <code class="txt_term_tl ">Example</code>,...).</p><p class="txt_p ">Into a <code class="txt_term_tl ">Content element</code>, the information can be grouped into as many titled <code class="txt_term_tl ">Parts</code> as you like.</p></div></div></div><div class="infoblock"><h1 class="infoblock_ti">Resources</h1><div class="infoblock_co"><div class="text "><p class="txt_p "><span class="txt_vName_el ">Opale Starter</span> allows you to insert various multimedia resources into your content, namely:</p><ul class="txt_sl "><li class="txt_m "><span> images (<span class="txt_ico_tim "><img src="../res/png.png" alt width="21" height="15"></span> <code class="txt_term_tl ">png</code>, <span class="txt_ico_tim "><img src="../res/jpg.png" alt width="21" height="15"></span> <code class="txt_term_tl ">jpg</code>, <span class="txt_ico_tim "><img src="../res/gif.png" alt width="21" height="15"></span> <code class="txt_term_tl ">gif</code>),</span></li><li class="txt_m "><span> videos ( <span class="txt_ico_tim "><img src="../res/mp4.png" alt width="23" height="14"></span> <code class="txt_term_tl ">mp4</code>, <span class="txt_ico_tim "><img src="../res/webm.png" alt width="23" height="14"></span> <code class="txt_term_tl ">WebM</code>,...) and subtitling files ( <span class="txt_ico_tim "><img src="../res/srt.png" alt width="18" height="12"></span> <code class="txt_term_tl ">srt</code>, <span class="txt_ico_tim "><img src="../res/webvtt.png" alt width="19" height="12"></span> <code class="txt_term_tl ">WebVTT</code>),</span></li><li class="txt_m "><span>audio files (<span class="txt_ico_tim "><img src="../res/mp3.png" alt width="21" height="15"></span> <code class="txt_term_tl ">mp3</code>, <span class="txt_ico_tim "><img src="../res/mp3.png" alt width="21" height="15"></span> <code class="txt_term_tl ">Ogg</code>, <span class="txt_ico_tim "><img src="../res/son-opus_icon.png" alt width="25" height="18"></span> <code class="txt_term_tl ">opus</code>),</span></li><li class="txt_m "><span><span class="txt_ico_tim "><img src="../res/flash.png" alt width="21" height="14"></span> <code class="txt_term_tl ">Flash animations</code>,</span></li><li class="txt_m "><span><span class="txt_ico_tim "><img src="../res/ods.png" alt width="21" height="15"></span> <code class="txt_term_tl ">ods tables</code>,</span></li><li class="txt_m "><span> <span class="txt_ico_tim "><img src="../res/odg.png" alt width="21" height="15"></span> <code class="txt_term_tl ">odg graphs</code>,</span></li><li class="txt_m "><span> mathematical formulae (<span class="txt_ico_tim "><img src="../res/odf.png" alt width="21" height="15"></span> <code class="txt_term_tl ">odf equations</code>),</span></li><li class="txt_m "><span>usual office documents (<span class="txt_ico_tim "><img src="../res/doc.png" alt width="21" height="14"></span> <code class="txt_term_tl ">Word</code>, <span class="txt_ico_tim "><img src="../res/xls.png" alt width="21" height="14"></span> <code class="txt_term_tl ">Excel</code>, <span class="txt_ico_tim "><img src="../res/ppt.png" alt width="21" height="14"></span> <code class="txt_term_tl ">PowerPoint</code>, <span class="txt_ico_tim "><img src="../res/odt.png" alt width="21" height="15"></span> <code class="txt_term_tl ">odt text</code>, <span class="txt_ico_tim "><img src="../res/odp.png" alt width="21" height="15"></span> <code class="txt_term_tl ">odp slideshow</code>,   <span class="txt_ico_tim "><img src="../res/pdf.png" alt width="21" height="14"></span> <code class="txt_term_tl ">pdf</code>, <span class="txt_ico_tim "><img src="../res/zip.png" alt width="21" height="14"></span> <code class="txt_term_tl ">zip</code>).</span></li></ul></div></div></div></div></div><div id="tplTabBar"><a href="presentation.html" target="_self" class=" tabSel_no"><span>Presentation</span></a><span class=" tabSel_yes"><span>Quick help</span></span><a href="nvtes.html" target="_self" class=" tabSel_no"><span>New features</span></a><a href="compatibilite.html" target="_self" class=" tabSel_no"><span>More?</span></a><a href="Opale_Starter.html" target="_self" class=" tabSel_no"><span>About...</span></a></div></div></div>
+  <script type="text/javascript">scImgMgr.init();scImgMgr.setDisplayRoot(sc$("tplPage"));</script>
+ </body>
+</html>

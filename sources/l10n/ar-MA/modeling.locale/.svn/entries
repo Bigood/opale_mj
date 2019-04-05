@@ -1,0 +1,52 @@
+8
+
+dir
+27194
+http://scenari-platform.org/svn/dev-core/branches/4.1.x/Bui_Localization/ar-MA/locale/modeling
+http://scenari-platform.org/svn/dev-core
+
+
+
+2014-10-31T04:39:55.240186Z
+25729
+locautocommit
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+664c09a5-c2e8-0310-a46e-977ea7ea760f
+
+sc_sm.xlf
+file
+
+
+
+
+2015-09-01T13:58:53.000000Z
+20bdd15e1cef25568643f51d7c49e6a5
+2014-10-31T04:39:55.240186Z
+25729
+locautocommit
+
+sc_sma.xlf
+file
+
+
+
+
+2015-09-01T13:58:53.000000Z
+bc98a0aa8b3894c39320bfeb8c3bb06f
+2014-10-31T04:39:55.240186Z
+25729
+locautocommit
+

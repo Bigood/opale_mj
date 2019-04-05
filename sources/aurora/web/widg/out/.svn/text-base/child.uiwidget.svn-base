@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:outlineUiWidget xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling" code="child">
+	<sm:scope>
+		<sm:directChildren/>
+	</sm:scope>
+	<sm:treeContent>
+		<nav xmlns="http://www.w3.org/1999/xhtml" class="subPageSelector" role="navigation">
+			<sm:outline>
+				<sm:classes>
+					<sm:selected prefix="sel_" onContainer="no" onRoot="no" onEntry="yes" onList="no" onChildContainers="no"/>
+					<sm:ownerClasses onEntry="yes"/>
+				</sm:classes>
+			</sm:outline>
+		</nav>
+	</sm:treeContent>
+</sm:outlineUiWidget>

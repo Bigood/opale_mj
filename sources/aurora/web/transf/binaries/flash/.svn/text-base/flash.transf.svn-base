@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:binaryXhtmlTransf xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sm="http://www.utc.fr/ics/scenari/v3/modeling">
+	<sm:model sc:refUri="/binaries/flash/flash.model"/>
+	<sm:fullTitleText>
+		<sm:callBinaryMeta/>
+	</sm:fullTitleText>
+	<sm:shortTitleText>
+		<sm:callBinaryMeta/>
+	</sm:shortTitleText>
+	<sm:content>
+		<sm:WCaptionBlock widgetClass="resInFlow" class="flash" tagName="figure" position="bottom">
+			<sm:caption>
+				<sm:callBinaryMeta axis="figcaption"/>
+				<sm:chooseOnBinary>
+					<sm:binary>
+						<sm:swfSize>
+							<sm:scaleFromStandardCharSize/>
+						</sm:swfSize>
+					</sm:binary>
+					<sm:whenSize widthOver="genProp('bin.size-int',630)*1.1" heightOver="genProp('bin.size-int',630)*1.1">
+						<sm:WFreeBlock>
+							<resZoom xmlns="http://www.w3.org/1999/xhtml">
+								<sm:WLink widgetClass="zoom">
+									<sm:label>
+										<sm:fixedString>￼;[Zoom...]￼</sm:fixedString>
+									</sm:label>
+									<sm:labelTitle>
+										<sm:fixedString>￼;Zoom (nouvelle fenêtre)...￼</sm:fixedString>
+									</sm:labelTitle>
+									<sm:link target="newWindow" windowName="zoom">
+										<sm:behavior addLinkInHref="yes"/>
+										<sm:position>
+											<sm:centerScreen/>
+										</sm:position>
+										<sm:windowFeatures scrollbars="no"/>
+										<sm:WFlash>
+											<sm:binaryUrl>
+												<sm:swfSize>
+													<sm:scaleFromStandardCharSize/>
+												</sm:swfSize>
+											</sm:binaryUrl>
+											<sm:declareSize maxWidth="1200" maxHeight="900"/>
+											<sm:param name="wmode">
+												<sm:fixedValue value="transparent"/>
+											</sm:param>
+										</sm:WFlash>
+									</sm:link>
+								</sm:WLink>
+							</resZoom>
+						</sm:WFreeBlock>
+					</sm:whenSize>
+				</sm:chooseOnBinary>
+			</sm:caption>
+			<sm:content>
+				<sm:callModel>
+					<sm:current axis="view"/>
+				</sm:callModel>
+			</sm:content>
+		</sm:WCaptionBlock>
+	</sm:content>
+</sm:binaryXhtmlTransf>
